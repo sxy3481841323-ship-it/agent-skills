@@ -101,6 +101,14 @@ class SyncTests(unittest.TestCase):
         self.assertTrue(result.startswith("Existing workspace rule"))
         self.assertEqual(result.count("<!-- shared-agent-skills:start -->"), 1)
 
+    def test_parent_rule_points_into_its_shared_child_directory(self):
+        parent = self.root / "workspace"
+        SYNC.install_workspace_rule(parent)
+        result = (parent / "AGENTS.md").read_text()
+        self.assertIn("python3 ./agent-skills/sync_skills.py", result)
+        self.assertIn("./agent-skills/AGENTS.md", result)
+        self.assertNotIn("../agent-skills", result)
+
 
 if __name__ == "__main__":
     unittest.main()

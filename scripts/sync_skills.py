@@ -125,6 +125,13 @@ def sync_one(source, target_root, *, dry_run=False, update=False, importing=Fals
 
 def install_workspace_rule(workspace, dry_run=False):
     rule = (ROOT / "PROJECT_RULES.md").read_text()
+    # This AGENTS.md lives above the projects, rather than inside one of them.
+    rule = rule.replace("../agent-skills", "./agent-skills")
+    rule = rule.replace("本机位置为与本项目平级的", "本机位置为本目录下的")
+    rule = rule.replace(
+        "## 跨项目共享技能规则（所有 AI 必读）\n",
+        "## 跨项目共享技能规则（所有 AI 必读）\n\n以下路径均以本文件所在的项目共同父目录为准；具体业务约束仍读取各项目自己的 AGENTS.md。\n",
+    )
     path = workspace / "AGENTS.md"
     old = path.read_text() if path.is_file() else ""
     pattern = r"<!-- shared-agent-skills:start -->.*?<!-- shared-agent-skills:end -->"
