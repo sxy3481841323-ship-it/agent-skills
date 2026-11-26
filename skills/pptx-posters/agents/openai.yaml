@@ -1,0 +1,4 @@
+interface:
+  display_name: "pptx-posters"
+  short_description: "Pptx Posters creative workflow guidance"
+  default_prompt: "Use $pptx-posters for the requested task, following the current project rules."

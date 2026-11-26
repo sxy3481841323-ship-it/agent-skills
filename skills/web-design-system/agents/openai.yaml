@@ -1,0 +1,4 @@
+interface:
+  display_name: "web-design-system"
+  short_description: "Web Design System creative workflow guidance"
+  default_prompt: "Use $web-design-system for the requested task, following the current project rules."

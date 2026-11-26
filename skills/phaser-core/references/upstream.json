@@ -1,0 +1,22 @@
+{
+  "name": "phaser-core",
+  "source_repository": "https://github.com/sxy3481841323-ship-it/ai-pulse-radar",
+  "source_commit": "dfb016e0c3e1c8f76b58b5e74c98faa68980b387",
+  "source_path": ".agents/skills/phaser-core",
+  "original_frontmatter": {
+    "name": "phaser-core",
+    "description": "Sets up and debugs Phaser 4 games (and pinned Phaser 3.90): Game config, Scene lifecycle, the loader, scene transitions and Phaser 3 to 4 migration. Use when code imports phaser, or on a black screen, assets undefined in create, or a HUD scene behind the game. Not for colliders (`phaser-arcade-physics`), HUD layout (`game-ui-ux`) or PixiJS (`pixijs-rendering`)."
+  },
+  "project_snapshots": [
+    {
+      "project": "ai-pulse-radar",
+      "commit": "dfb016e0c3e1c8f76b58b5e74c98faa68980b387",
+      "metadata_name": "phaser-core",
+      "sha256": "bf03dae45e690dfa78f255a0580ff8b331c81232bf1fba45ea6e431bd0796e7c"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

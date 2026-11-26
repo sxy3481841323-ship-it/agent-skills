@@ -1,0 +1,4 @@
+interface:
+  display_name: "antialgorithm"
+  short_description: "Antialgorithm creative workflow guidance"
+  default_prompt: "Use $antialgorithm for the requested task, following the current project rules."

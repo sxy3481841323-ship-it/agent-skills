@@ -1,0 +1,45 @@
+{
+  "name": "design-theme-guide",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/design-theme-guide",
+  "original_frontmatter": {
+    "name": "design-theme-guide",
+    "description": "Design-token register: colour, typography, spacing and radius tokens with light and dark values, contrast ratio and WCAG level. Use for design system documentation.",
+    "category": "business",
+    "risk": "safe",
+    "source": "self",
+    "source_type": "self",
+    "date_added": "2026-09-27",
+    "author": "WHOISABHISHEKADHIKARI",
+    "tags": [
+      "sme",
+      "brand",
+      "design-system",
+      "design-tokens",
+      "theme",
+      "colour",
+      "typography",
+      "spacing",
+      "wcag",
+      "accessibility",
+      "contrast",
+      "css",
+      "csv",
+      "sql",
+      "notion"
+    ],
+    "tools": [],
+    "source_repo": "WHOISABHISHEKADHIKARI/sme-ops-system-builder"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "27c843ef811d43bff0ddc0cdd00bbd08d2767819"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

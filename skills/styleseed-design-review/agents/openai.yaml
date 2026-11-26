@@ -1,0 +1,4 @@
+interface:
+  display_name: "styleseed-design-review"
+  short_description: "Styleseed Design Review creative workflow guidance"
+  default_prompt: "Use $styleseed-design-review for the requested task, following the current project rules."

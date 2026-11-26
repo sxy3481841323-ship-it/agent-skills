@@ -1,0 +1,4 @@
+interface:
+  display_name: "animejs-animation"
+  short_description: "Animejs Animation creative workflow guidance"
+  default_prompt: "Use $animejs-animation for the requested task, following the current project rules."

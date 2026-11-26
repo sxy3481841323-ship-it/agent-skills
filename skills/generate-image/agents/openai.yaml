@@ -1,0 +1,4 @@
+interface:
+  display_name: "generate-image"
+  short_description: "Generate Image creative workflow guidance"
+  default_prompt: "Use $generate-image for the requested task, following the current project rules."

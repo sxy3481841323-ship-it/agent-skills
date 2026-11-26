@@ -1,0 +1,4 @@
+interface:
+  display_name: "scroll-experience"
+  short_description: "Scroll Experience creative workflow guidance"
+  default_prompt: "Use $scroll-experience for the requested task, following the current project rules."

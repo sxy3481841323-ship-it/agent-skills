@@ -1,0 +1,4 @@
+interface:
+  display_name: "web-project-brainstorming"
+  short_description: "Web Project Brainstorming creative workflow guidance"
+  default_prompt: "Use $web-project-brainstorming for the requested task, following the current project rules."

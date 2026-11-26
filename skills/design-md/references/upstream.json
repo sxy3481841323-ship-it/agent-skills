@@ -1,0 +1,23 @@
+{
+  "name": "design-md",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/design-md",
+  "original_frontmatter": {
+    "name": "design-md",
+    "description": "Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files",
+    "risk": "safe",
+    "source": "https://github.com/google-labs-code/stitch-skills/tree/main/skills/design-md",
+    "date_added": "2026-02-27"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "0f550e51d5fd9d4ab13332c50c7b33669e810342"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

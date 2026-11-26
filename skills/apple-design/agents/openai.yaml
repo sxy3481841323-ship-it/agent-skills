@@ -1,0 +1,4 @@
+interface:
+  display_name: "apple-design"
+  short_description: "Apple Design creative workflow guidance"
+  default_prompt: "Use $apple-design for the requested task, following the current project rules."

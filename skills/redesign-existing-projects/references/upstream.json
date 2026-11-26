@@ -1,0 +1,39 @@
+{
+  "name": "redesign-existing-projects",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/redesign-existing-projects",
+  "original_frontmatter": {
+    "name": "redesign-existing-projects",
+    "description": "Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.",
+    "category": "frontend",
+    "risk": "safe",
+    "source": "community",
+    "source_repo": "Leonxlnx/taste-skill",
+    "source_type": "community",
+    "date_added": "2026-04-17",
+    "author": "Leonxlnx",
+    "tags": [
+      "frontend",
+      "redesign",
+      "design-audit",
+      "ui"
+    ],
+    "tools": [
+      "claude",
+      "cursor",
+      "codex",
+      "antigravity"
+    ]
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "d5dca37d3a1ff7a720d0ca191c94f85dcff69e32"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

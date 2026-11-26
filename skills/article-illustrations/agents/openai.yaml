@@ -1,0 +1,4 @@
+interface:
+  display_name: "article-illustrations"
+  short_description: "Article Illustrations creative workflow guidance"
+  default_prompt: "Use $article-illustrations for the requested task, following the current project rules."

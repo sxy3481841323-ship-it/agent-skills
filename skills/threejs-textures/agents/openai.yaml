@@ -1,0 +1,4 @@
+interface:
+  display_name: "threejs-textures"
+  short_description: "Threejs Textures creative workflow guidance"
+  default_prompt: "Use $threejs-textures for the requested task, following the current project rules."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "improve-animations"
+  short_description: "Improve Animations creative workflow guidance"
+  default_prompt: "Use $improve-animations for the requested task, following the current project rules."

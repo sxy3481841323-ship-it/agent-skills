@@ -1,0 +1,62 @@
+{
+  "name": "better-typography",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/better-typography",
+  "original_frontmatter": {
+    "name": "better-typography",
+    "description": "Sets and reviews how text renders, from the type scale and spacing to font features, wrapping, truncation and punctuation.",
+    "category": "design",
+    "risk": "critical",
+    "source": "https://github.com/jakubkrehel/skills",
+    "source_repo": "jakubkrehel/skills",
+    "source_type": "community",
+    "license": "MIT",
+    "license_source": "https://github.com/jakubkrehel/skills/blob/60bf140e43c98b248e6594487384ec967e89d98a/LICENSE",
+    "author": "jakubkrehel",
+    "upstream_commit": "60bf140e43c98b248e6594487384ec967e89d98a",
+    "date_added": "2026-11-06"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "6a067e906e1346e640a0cda6ed37c5fb793104e4"
+    },
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "cbc7aed90a308ca3cb3b704f730e9382bd321576"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "git_blob_sha": "3baec7d2a846fd811bfa3bf0d41d37de931ad9f0"
+    },
+    {
+      "path": "choosing-fonts.md",
+      "git_blob_sha": "f20acea6fc5ef4e9692234e28bb67a255efb0589"
+    },
+    {
+      "path": "css-cheat-sheet.md",
+      "git_blob_sha": "e79e12d59c5addb3ec049b777f279e86118069b1"
+    },
+    {
+      "path": "details-and-accessibility.md",
+      "git_blob_sha": "bf12e53d65e5e0f07eb67c2dbcf00713754d247c"
+    },
+    {
+      "path": "spacing-and-sizing.md",
+      "git_blob_sha": "a6523cb8f72ba0781b6be5768053f8043132f349"
+    },
+    {
+      "path": "variable-fonts-and-opentype.md",
+      "git_blob_sha": "5fa1b72c55a21a20d635b900fc20680946cc63cf"
+    },
+    {
+      "path": "wrapping-and-punctuation.md",
+      "git_blob_sha": "4a17017136190ab98647654f6877e8f5aa83e967"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "design-orchestration"
+  short_description: "Design Orchestration creative workflow guidance"
+  default_prompt: "Use $design-orchestration for the requested task, following the current project rules."

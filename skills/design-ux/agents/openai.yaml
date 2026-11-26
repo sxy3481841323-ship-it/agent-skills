@@ -1,0 +1,4 @@
+interface:
+  display_name: "design-ux"
+  short_description: "Design Ux creative workflow guidance"
+  default_prompt: "Use $design-ux for the requested task, following the current project rules."

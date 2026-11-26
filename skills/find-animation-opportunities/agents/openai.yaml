@@ -1,0 +1,4 @@
+interface:
+  display_name: "find-animation-opportunities"
+  short_description: "Find Animation Opportunities creative workflow guidance"
+  default_prompt: "Use $find-animation-opportunities for the requested task, following the current project rules."

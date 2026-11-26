@@ -1,0 +1,4 @@
+interface:
+  display_name: "impeccable"
+  short_description: "Impeccable creative workflow guidance"
+  default_prompt: "Use $impeccable for the requested task, following the current project rules."

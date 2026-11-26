@@ -1,0 +1,4 @@
+interface:
+  display_name: "threejs-animation"
+  short_description: "Threejs Animation creative workflow guidance"
+  default_prompt: "Use $threejs-animation for the requested task, following the current project rules."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "design-md"
+  short_description: "Design Md creative workflow guidance"
+  default_prompt: "Use $design-md for the requested task, following the current project rules."

@@ -1,0 +1,42 @@
+{
+  "name": "unity-ai-game-creator",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/unity-ai-game-creator",
+  "original_frontmatter": {
+    "name": "unity-ai-game-creator",
+    "description": "Transform raw game ideas into complete Unity projects with AI-powered asset generation, scene blueprints, music/SFX prompts, and step-by-step development procedures using Unity 6+ and modern AI tools.",
+    "category": "game-development",
+    "risk": "safe",
+    "source": "community",
+    "source_type": "community",
+    "date_added": "2026-05-08",
+    "author": "Mann-Makhecha",
+    "tags": [
+      "unity",
+      "game-development",
+      "ai-generation",
+      "asset-pipeline",
+      "scene-design",
+      "music-generation",
+      "game-design-document"
+    ],
+    "tools": [
+      "claude",
+      "cursor",
+      "gemini",
+      "codex",
+      "antigravity"
+    ]
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "c92f3c594f1310c9c7b2a65787ee183a2846e1d0"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

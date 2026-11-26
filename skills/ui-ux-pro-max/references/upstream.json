@@ -1,0 +1,28 @@
+{
+  "name": "ui-ux-pro-max",
+  "source_repository": "https://github.com/sxy3481841323-ship-it/bruce-happiness-club",
+  "source_commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+  "source_path": ".agents/skills/ui-ux-pro-max",
+  "original_frontmatter": {
+    "name": "ui-ux-pro-max",
+    "description": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 80 searchable styles (51 active), 194 product palettes and reasoning profiles, 74 font pairings, 141 UX guidelines, 105 icons, 17 GSAP presets, 25 chart types, and 22 stacks."
+  },
+  "project_snapshots": [
+    {
+      "project": "ai-pulse-radar",
+      "commit": "dfb016e0c3e1c8f76b58b5e74c98faa68980b387",
+      "metadata_name": "ui-ux-pro-max",
+      "sha256": "d99f9475eaff0522549bc71843b6b2a8563253329d99ad7c0236275a039c2659"
+    },
+    {
+      "project": "bruce-happiness-club",
+      "commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+      "metadata_name": "ui-ux-pro-max",
+      "sha256": "d99f9475eaff0522549bc71843b6b2a8563253329d99ad7c0236275a039c2659"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

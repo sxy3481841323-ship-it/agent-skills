@@ -1,0 +1,4 @@
+interface:
+  display_name: "redesign-existing-projects"
+  short_description: "Redesign Existing Projects creative workflow guidance"
+  default_prompt: "Use $redesign-existing-projects for the requested task, following the current project rules."

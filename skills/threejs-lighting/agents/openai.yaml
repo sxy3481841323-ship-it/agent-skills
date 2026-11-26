@@ -1,0 +1,4 @@
+interface:
+  display_name: "threejs-lighting"
+  short_description: "Threejs Lighting creative workflow guidance"
+  default_prompt: "Use $threejs-lighting for the requested task, following the current project rules."

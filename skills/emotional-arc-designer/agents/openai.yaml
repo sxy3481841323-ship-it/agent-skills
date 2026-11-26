@@ -1,0 +1,4 @@
+interface:
+  display_name: "emotional-arc-designer"
+  short_description: "Emotional Arc Designer creative workflow guidance"
+  default_prompt: "Use $emotional-arc-designer for the requested task, following the current project rules."

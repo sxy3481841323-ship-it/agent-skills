@@ -1,0 +1,4 @@
+interface:
+  display_name: "spline-3d-integration"
+  short_description: "Spline 3D Integration creative workflow guidance"
+  default_prompt: "Use $spline-3d-integration for the requested task, following the current project rules."

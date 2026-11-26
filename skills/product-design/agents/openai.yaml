@@ -1,0 +1,4 @@
+interface:
+  display_name: "product-design"
+  short_description: "Product Design creative workflow guidance"
+  default_prompt: "Use $product-design for the requested task, following the current project rules."

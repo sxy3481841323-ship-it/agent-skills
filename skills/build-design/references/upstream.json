@@ -1,0 +1,42 @@
+{
+  "name": "build-design",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/build-design",
+  "original_frontmatter": {
+    "name": "build-design",
+    "description": "Builds UI from a Figma file or a design image so it matches the design, using the project's existing tokens and components.",
+    "category": "design",
+    "risk": "critical",
+    "source": "https://github.com/jakubkrehel/skills",
+    "source_repo": "jakubkrehel/skills",
+    "source_type": "community",
+    "license": "MIT",
+    "license_source": "https://github.com/jakubkrehel/skills/blob/60bf140e43c98b248e6594487384ec967e89d98a/LICENSE",
+    "author": "jakubkrehel",
+    "upstream_commit": "60bf140e43c98b248e6594487384ec967e89d98a",
+    "date_added": "2026-11-06"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "6a067e906e1346e640a0cda6ed37c5fb793104e4"
+    },
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "e5c34709ef77c2e220961d93b358a8566da1498f"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "git_blob_sha": "06bbec881b75bd5c47fda012203e248c7d6cdd87"
+    },
+    {
+      "path": "figma.md",
+      "git_blob_sha": "e622e5acc3821d6837adb92cfa34b0596d4a5dc0"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

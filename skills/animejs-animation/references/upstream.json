@@ -1,0 +1,23 @@
+{
+  "name": "animejs-animation",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/animejs-animation",
+  "original_frontmatter": {
+    "name": "animejs-animation",
+    "description": "Advanced JavaScript animation library skill for creating complex, high-performance web animations.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-07"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "9455d8476996818a6763944ba47b81090cf546f0"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

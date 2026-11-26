@@ -1,0 +1,4 @@
+interface:
+  display_name: "design-spells"
+  short_description: "Design Spells creative workflow guidance"
+  default_prompt: "Use $design-spells for the requested task, following the current project rules."

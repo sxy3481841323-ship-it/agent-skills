@@ -1,0 +1,27 @@
+{
+  "name": "interactive-portfolio",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/interactive-portfolio",
+  "original_frontmatter": {
+    "name": "interactive-portfolio",
+    "description": "Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, designer portfolios, creative portfolios, and portfolios that convert visitors into opportunities.",
+    "risk": "critical",
+    "source": "vibeship-spawner-skills (Apache 2.0)",
+    "date_added": "2026-02-27"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "d0c9ad7b5b02da2f65040f882ae7a3cb36cbf496"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "git_blob_sha": "59af33ac774c84a46a4c96caabef0e50bc34ab78"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

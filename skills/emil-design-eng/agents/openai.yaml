@@ -1,0 +1,4 @@
+interface:
+  display_name: "emil-design-eng"
+  short_description: "Emil Design Eng creative workflow guidance"
+  default_prompt: "Use $emil-design-eng for the requested task, following the current project rules."

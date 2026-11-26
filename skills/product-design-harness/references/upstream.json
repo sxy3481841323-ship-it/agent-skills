@@ -1,0 +1,395 @@
+{
+  "name": "product-design-harness",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/product-design-harness",
+  "original_frontmatter": {
+    "name": "product-design-harness",
+    "description": "Use when a product direction, feature, workflow, experiment, launch, feedback signal, automation, or scale decision needs judgment before execution or the next iteration.",
+    "license": "MIT",
+    "license_source": "https://github.com/cis2042/ux3-product-design-harness/blob/7f9f724c5e31813d1c35767f9f454fe9a1e96891/skills/product-design-harness/LICENSE",
+    "category": "product",
+    "risk": "safe",
+    "source": "https://github.com/cis2042/ux3-product-design-harness/tree/7f9f724c5e31813d1c35767f9f454fe9a1e96891/skills/product-design-harness",
+    "source_repo": "cis2042/ux3-product-design-harness",
+    "source_type": "community",
+    "date_added": "2026-10-23",
+    "author": "cis2042",
+    "tags": [
+      "product-design",
+      "decision-making",
+      "evidence",
+      "handoff"
+    ]
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "43eff4d76f3a65a94a2d4dfc71ab3b1dd56d3fba"
+    },
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "3664ca0d8c5cf7656a68b788c670eaa81a771a6e"
+    },
+    {
+      "path": "resources/agents/README.md",
+      "git_blob_sha": "f3c57264ee9fe47b7904a8f369d1b1c139455551"
+    },
+    {
+      "path": "resources/agents/business-flow-reviewer.md",
+      "git_blob_sha": "e71d3d9037c101a523abdeb71ad254d0516fb56c"
+    },
+    {
+      "path": "resources/agents/claim-analyst.md",
+      "git_blob_sha": "ed60dd97524ab0a3ab2834204e48fa99d7706647"
+    },
+    {
+      "path": "resources/agents/council-facilitator.md",
+      "git_blob_sha": "47705ba2fa68cbdac236aaa37076deb3c26e566c"
+    },
+    {
+      "path": "resources/agents/evidence-flow-reviewer.md",
+      "git_blob_sha": "a1ca6a7cefb491021811ca1a7209b7de629b6692"
+    },
+    {
+      "path": "resources/agents/registry.json",
+      "git_blob_sha": "3e97520312a2687b15874669bad7506dae4206e2"
+    },
+    {
+      "path": "resources/agents/uncertainty-reviewer.md",
+      "git_blob_sha": "29a85aab1ca678dcde44bafc30f4675718713565"
+    },
+    {
+      "path": "resources/agents/user-flow-reviewer.md",
+      "git_blob_sha": "f26728419ab454c95bc1700668f2ae0ff4e14d91"
+    },
+    {
+      "path": "resources/assets/decision-gate.svg",
+      "git_blob_sha": "2c2ca8885ea4469737334d9f18fcf8716871c7af"
+    },
+    {
+      "path": "resources/assets/harness-sequence.svg",
+      "git_blob_sha": "2c2d2ca6126c44a9130efd4371eaae3645d5e00e"
+    },
+    {
+      "path": "resources/docs/ADOPTION.md",
+      "git_blob_sha": "3bfad0488d581eb1ba48571ff3b0b1879e9c4667"
+    },
+    {
+      "path": "resources/docs/ANTI-PATTERNS.md",
+      "git_blob_sha": "f9cd3a422406a213f86ecc1102f5bbcff3874d2b"
+    },
+    {
+      "path": "resources/docs/CLAIMS.md",
+      "git_blob_sha": "5ed8e20279179addc2086b5e385a4fdf10139a55"
+    },
+    {
+      "path": "resources/docs/CODING-HARNESS-COMPARISON.md",
+      "git_blob_sha": "73dfd78d9ac196003cba60919537da5f86960dbf"
+    },
+    {
+      "path": "resources/docs/CONTRACTS.md",
+      "git_blob_sha": "2c225290ba515e0510a3980b4c7c45bf12f085e8"
+    },
+    {
+      "path": "resources/docs/COUNCIL.md",
+      "git_blob_sha": "26dabe418999e267be03cc2a507496c7288c47a6"
+    },
+    {
+      "path": "resources/docs/DECISION-RULES.md",
+      "git_blob_sha": "d78ae4e60c65c2769407a7ea8819a27520115c5f"
+    },
+    {
+      "path": "resources/docs/GLOSSARY.md",
+      "git_blob_sha": "f54f2d19ed4504cc46dd2fbd1c4ba348c7179d9a"
+    },
+    {
+      "path": "resources/docs/HARNESS.md",
+      "git_blob_sha": "683ff34969003f758e65e992d507c5a06a09a747"
+    },
+    {
+      "path": "resources/docs/LEARNING-LOOP.md",
+      "git_blob_sha": "61b8a8310eeae58f93df1b9b9cff561f35061305"
+    },
+    {
+      "path": "resources/docs/LIVE-CODING.md",
+      "git_blob_sha": "bf1c5b0d0732111fe556c371867dd791186f9a82"
+    },
+    {
+      "path": "resources/docs/MULTI-AGENT-ALIGNMENT.md",
+      "git_blob_sha": "790c3310a88117781db91fff3f5d4f4c194f2a79"
+    },
+    {
+      "path": "resources/docs/OPERATING-PROTOCOL.md",
+      "git_blob_sha": "9110bf7693180a6ab60c5ed5f16d01ba272de525"
+    },
+    {
+      "path": "resources/docs/ORCHESTRATION.md",
+      "git_blob_sha": "553f06271dda1bf20f5651a568dceae463f4a9a3"
+    },
+    {
+      "path": "resources/docs/PRINCIPLES.md",
+      "git_blob_sha": "7536db368f19f4e578d097b84317180e2879f16c"
+    },
+    {
+      "path": "resources/docs/README.md",
+      "git_blob_sha": "3596f5806c7ebf4d1802663ccac5ae4f7cf681bb"
+    },
+    {
+      "path": "resources/docs/UNCERTAINTY.md",
+      "git_blob_sha": "6f1b4202f7423e7ed89e589ddcbd407dc61f6528"
+    },
+    {
+      "path": "resources/docs/UX3.md",
+      "git_blob_sha": "eab901fb59e920c1e1ce691a32c9bda8299448c7"
+    },
+    {
+      "path": "resources/docs/rfcs/0001-override-protocol.md",
+      "git_blob_sha": "ab0668483d59c7fa6fc47b4f837a8754f34b7621"
+    },
+    {
+      "path": "resources/examples/README.md",
+      "git_blob_sha": "cbc8163c11d20ea1df6a426ddc43b09923a8b0c0"
+    },
+    {
+      "path": "resources/examples/evidence-response.json",
+      "git_blob_sha": "0f50660bb72dd4b78c8b603cfe36512750cdcd57"
+    },
+    {
+      "path": "resources/examples/feature-gate-review.md",
+      "git_blob_sha": "5fcf0e73266d6aaa4c69a5b67957433627e30903"
+    },
+    {
+      "path": "resources/examples/human-decision.json",
+      "git_blob_sha": "608c2458969df7bdb2258c41c569edb9d73755d0"
+    },
+    {
+      "path": "resources/examples/live-coding-context-pack.json",
+      "git_blob_sha": "174b643f64d7e5271f76fc44b63c76aa0184d3ea"
+    },
+    {
+      "path": "resources/examples/live-coding-product-brief.json",
+      "git_blob_sha": "e8aace270dbda7ab2bb6b8176c814233c61d79cb"
+    },
+    {
+      "path": "resources/examples/live-coding-review.json",
+      "git_blob_sha": "6158b8cbca236ab35178bdc007c59a84feee2dc2"
+    },
+    {
+      "path": "resources/examples/quick-context-pack.json",
+      "git_blob_sha": "2927ff1af36d4de92d686241c2bd2f082c2f61f7"
+    },
+    {
+      "path": "resources/examples/quick-gate-review.json",
+      "git_blob_sha": "edc38260a13e8388426edfac4b591087c960d4e7"
+    },
+    {
+      "path": "resources/examples/quick-gate-review.md",
+      "git_blob_sha": "9707368bc57d80a4b1376f0bce1c805e4c5b562a"
+    },
+    {
+      "path": "resources/examples/red-team-review.json",
+      "git_blob_sha": "46dce680aec7a87fcf7e78757440a8646be2c7d5"
+    },
+    {
+      "path": "resources/examples/standard-gate-review.json",
+      "git_blob_sha": "1dccfe2cc00352cb4fcbecd6fcbe90f1d2d42b5b"
+    },
+    {
+      "path": "resources/examples/stop-reframe-review.json",
+      "git_blob_sha": "6b0183692ce0e605a1821530ef51ba8cc306ed08"
+    },
+    {
+      "path": "resources/examples/stop-reframe-review.md",
+      "git_blob_sha": "c942b0e416dcc46803f221068b8606dc3ec0bd76"
+    },
+    {
+      "path": "resources/examples/ux3-council-input.json",
+      "git_blob_sha": "6530199d72a7a28acbf383c9547f0591d9d174c0"
+    },
+    {
+      "path": "resources/examples/ux3-council-review.json",
+      "git_blob_sha": "752edb52d2d63b66629cce7082bf160a34dd6041"
+    },
+    {
+      "path": "resources/examples/ux3-council-review.md",
+      "git_blob_sha": "f9a4e6cf5d115ac7be98928c6f8b5a721768d241"
+    },
+    {
+      "path": "resources/examples/verdict-override.json",
+      "git_blob_sha": "4c1eb2e35a1afa61ff11778be810c703f379b2db"
+    },
+    {
+      "path": "resources/examples/verdict-override.md",
+      "git_blob_sha": "6950b9a5d4b430697664c363d3ce6c6f5347dfdf"
+    },
+    {
+      "path": "resources/knowledge/ontology.json",
+      "git_blob_sha": "0a5f1c5ba9bd9698cddd56e7e94272617bd487b2"
+    },
+    {
+      "path": "resources/knowledge/rules.json",
+      "git_blob_sha": "6680d885a74c83028628434efc790fddce6a24ed"
+    },
+    {
+      "path": "resources/knowledge/source-chapters.json",
+      "git_blob_sha": "3beba068479521a168f77754b92a80d989cce1cd"
+    },
+    {
+      "path": "resources/prompts/README.md",
+      "git_blob_sha": "042366872f7f33d8ea9e8fbee349fc68b6e22b07"
+    },
+    {
+      "path": "resources/prompts/claim-analysis.md",
+      "git_blob_sha": "3da2b5ba8edd1ea6bb0e40779f4915a2a41ac5be"
+    },
+    {
+      "path": "resources/prompts/gate-review.md",
+      "git_blob_sha": "d401017d8302bfe81b07942cbce3754b55b084b0"
+    },
+    {
+      "path": "resources/prompts/intake.md",
+      "git_blob_sha": "32e315823f1c1beb058065aacc66e7c59486d3e2"
+    },
+    {
+      "path": "resources/prompts/mode-selector.md",
+      "git_blob_sha": "75b9055f18a6c2684850ad1b91bf108f5f8c3156"
+    },
+    {
+      "path": "resources/prompts/red-team.md",
+      "git_blob_sha": "35f694182619b5da79d3829253855c5d3ec3a13b"
+    },
+    {
+      "path": "resources/prompts/start-review.md",
+      "git_blob_sha": "68e20f316c468fc7cf11795cba0f83fe808cb339"
+    },
+    {
+      "path": "resources/prompts/ux3-council.md",
+      "git_blob_sha": "236810f9ed0d806154709b6667a190032d8f4156"
+    },
+    {
+      "path": "resources/requirements-dev.txt",
+      "git_blob_sha": "3ee1ea1a4270a73d0a83859fefca415177450121"
+    },
+    {
+      "path": "resources/schemas/README.md",
+      "git_blob_sha": "5e04deb02e1d635cc89d5c86606b564529032b91"
+    },
+    {
+      "path": "resources/schemas/actor-boundary.schema.json",
+      "git_blob_sha": "220846240349a830b5903a632e6281d8860d5150"
+    },
+    {
+      "path": "resources/schemas/claim-analysis.schema.json",
+      "git_blob_sha": "5b4bc6007822b7bfe88d435d0911c854c2a3dab1"
+    },
+    {
+      "path": "resources/schemas/claim.schema.json",
+      "git_blob_sha": "ab26408b4bee82f70ba1eb7db06acc6eecaef50c"
+    },
+    {
+      "path": "resources/schemas/context-pack.schema.json",
+      "git_blob_sha": "11022f8b8b0a0f835245dc716711e76568424c27"
+    },
+    {
+      "path": "resources/schemas/council-input.schema.json",
+      "git_blob_sha": "b448e208bc10c68a8d0a00eddea4d65effcbef4d"
+    },
+    {
+      "path": "resources/schemas/decision-rule.schema.json",
+      "git_blob_sha": "693ffde326bdb139ef0b9b1773a3eef4915f1afb"
+    },
+    {
+      "path": "resources/schemas/evidence-request.schema.json",
+      "git_blob_sha": "9e3b7cea4590ae801ed5d7275362f860307f5c22"
+    },
+    {
+      "path": "resources/schemas/evidence-response.schema.json",
+      "git_blob_sha": "31801bca1f9f4f31eb4deca0a7228f3297749865"
+    },
+    {
+      "path": "resources/schemas/evidence.schema.json",
+      "git_blob_sha": "690cabe4a1f9779b567926e0c89d8e5e246f7792"
+    },
+    {
+      "path": "resources/schemas/human-decision.schema.json",
+      "git_blob_sha": "23fa40417bbecf23514231c317a146863dff7c0f"
+    },
+    {
+      "path": "resources/schemas/ontology.schema.json",
+      "git_blob_sha": "6d085d804baa6ab0fd60bd510fbafa786b7c47b0"
+    },
+    {
+      "path": "resources/schemas/product-brief.schema.json",
+      "git_blob_sha": "f7b3f601455d259da9aff1b3679fb043b586224c"
+    },
+    {
+      "path": "resources/schemas/red-team-review.schema.json",
+      "git_blob_sha": "55013991bb4d7c302f47f899f56bf942ea6de1a2"
+    },
+    {
+      "path": "resources/schemas/review-result.schema.json",
+      "git_blob_sha": "076c054bebead2e93f453d730f282968be86fffa"
+    },
+    {
+      "path": "resources/schemas/reviewer-verdict.schema.json",
+      "git_blob_sha": "8324407e6a27bf27df95b84ec633991b3fb296cd"
+    },
+    {
+      "path": "resources/schemas/session-config.schema.json",
+      "git_blob_sha": "08e856f9f68808ac09a6669b5d4558a7f58140f1"
+    },
+    {
+      "path": "resources/schemas/uncertainty-review.schema.json",
+      "git_blob_sha": "e1ef6092a53df2f8cccf662df226f08700daa039"
+    },
+    {
+      "path": "resources/schemas/verdict-override.schema.json",
+      "git_blob_sha": "d5c73153768a7e56c563aa2c5bc16307a38dbcae"
+    },
+    {
+      "path": "resources/scripts/check_override.py",
+      "git_blob_sha": "542bea3f4efee020f3c4f408b013688e5e032ef2"
+    },
+    {
+      "path": "resources/scripts/check_review.py",
+      "git_blob_sha": "690d38f171aa151b038517e4052c1faffc0cf5ba"
+    },
+    {
+      "path": "resources/scripts/jev_gate.py",
+      "git_blob_sha": "64e598d49d8604762e202680dcb1ab6f06d2cfe3"
+    },
+    {
+      "path": "resources/templates/README.md",
+      "git_blob_sha": "98a4992fdf4b2b3bf8046a3032aa4ae77b033719"
+    },
+    {
+      "path": "resources/templates/context-pack.md",
+      "git_blob_sha": "b82294a6cb1c9a0432047a5cec09ac2a81bdf869"
+    },
+    {
+      "path": "resources/templates/decision-log.md",
+      "git_blob_sha": "da533242596665ecf02ebfaca4313bf36f1d9ef5"
+    },
+    {
+      "path": "resources/templates/gate-review.md",
+      "git_blob_sha": "9aa11919a328b0e0eca6433ad2065e4160ba1c50"
+    },
+    {
+      "path": "resources/templates/override-ledger.md",
+      "git_blob_sha": "c5052ded6130b17b94dcda2d0a816c9e064be7b3"
+    },
+    {
+      "path": "resources/templates/product-brief.md",
+      "git_blob_sha": "1c21c3670b1d237c87b47c34d5e2f4be83876a10"
+    },
+    {
+      "path": "resources/templates/ux3-council-review.md",
+      "git_blob_sha": "a4b6062d3c66c622f5dcf0ae177c94bd92d6e247"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

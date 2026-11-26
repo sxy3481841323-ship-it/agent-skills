@@ -1,0 +1,4 @@
+interface:
+  display_name: "threejs-loaders"
+  short_description: "Threejs Loaders creative workflow guidance"
+  default_prompt: "Use $threejs-loaders for the requested task, following the current project rules."

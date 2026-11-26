@@ -1,0 +1,4 @@
+interface:
+  display_name: "scientific-schematics"
+  short_description: "Scientific Schematics creative workflow guidance"
+  default_prompt: "Use $scientific-schematics for the requested task, following the current project rules."

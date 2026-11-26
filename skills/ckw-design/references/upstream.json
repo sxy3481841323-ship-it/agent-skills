@@ -1,0 +1,42 @@
+{
+  "name": "ckw-design",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/ckw-design",
+  "original_frontmatter": {
+    "name": "ckw-design",
+    "description": "Frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, color, type, or polish.",
+    "risk": "safe",
+    "source": "community",
+    "source_type": "community",
+    "source_repo": "connerkward/ckw-design-skill",
+    "date_added": "2026-06-16",
+    "author": "Conner K Ward",
+    "license": "MIT",
+    "tags": [
+      "design",
+      "frontend",
+      "ui",
+      "css",
+      "typography",
+      "responsive"
+    ],
+    "tools": [
+      "claude-code",
+      "antigravity",
+      "cursor",
+      "gemini-cli",
+      "codex-cli"
+    ]
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "795825a2baaf39c7cab0c28d095c9a53397d7bda"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "algorithmic-art"
+  short_description: "Algorithmic Art creative workflow guidance"
+  default_prompt: "Use $algorithmic-art for the requested task, following the current project rules."

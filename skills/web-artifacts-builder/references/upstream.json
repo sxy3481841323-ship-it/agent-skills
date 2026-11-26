@@ -1,0 +1,37 @@
+{
+  "name": "web-artifacts-builder",
+  "source_repository": "https://github.com/anthropics/skills",
+  "source_commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+  "source_path": "skills/web-artifacts-builder",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "git_blob_sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+    },
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "8b39b19f259b4216ecb07574741dd8eaa9863a07"
+    },
+    {
+      "path": "scripts/bundle-artifact.sh",
+      "git_blob_sha": "c13d229e0523623a23f979771ccf99ac149c8bfb"
+    },
+    {
+      "path": "scripts/init-artifact.sh",
+      "git_blob_sha": "7d1022d88bec529f00ef385e10ed6084601d710b"
+    },
+    {
+      "path": "scripts/shadcn-components.tar.gz",
+      "git_blob_sha": "cdbe7cdd1e724a7c9840387e17a6a7f26d3477e1"
+    }
+  ],
+  "original_frontmatter": {
+    "name": "web-artifacts-builder",
+    "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+    "license": "Complete terms in LICENSE.txt"
+  },
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

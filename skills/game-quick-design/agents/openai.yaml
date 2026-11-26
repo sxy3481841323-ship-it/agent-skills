@@ -1,0 +1,4 @@
+interface:
+  display_name: "game-quick-design"
+  short_description: "Game Quick Design creative workflow guidance"
+  default_prompt: "Use $game-quick-design for the requested task, following the current project rules."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "threejs-fundamentals"
+  short_description: "Threejs Fundamentals creative workflow guidance"
+  default_prompt: "Use $threejs-fundamentals for the requested task, following the current project rules."

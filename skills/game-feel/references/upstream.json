@@ -1,0 +1,28 @@
+{
+  "name": "game-feel",
+  "source_repository": "https://github.com/sxy3481841323-ship-it/bruce-happiness-club",
+  "source_commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+  "source_path": ".agents/skills/game-feel",
+  "original_frontmatter": {
+    "name": "game-feel",
+    "description": "Adds engine-neutral juice to a working mechanic: trauma-based screen shake, hit-stop, eased tweens, squash and stretch, and knockback. Use when the game feels flat, weightless or not punchy, or hits and jumps should feel satisfying. Not for coyote time (`platformer`), input buffering (`input-systems`), camera follow (`camera-systems`) or HUD layout (`game-ui-ux`)."
+  },
+  "project_snapshots": [
+    {
+      "project": "ai-pulse-radar",
+      "commit": "dfb016e0c3e1c8f76b58b5e74c98faa68980b387",
+      "metadata_name": "game-feel",
+      "sha256": "a3591662e732f1540887570f584bd18778f4f728708afa013a33e20bcc949a06"
+    },
+    {
+      "project": "bruce-happiness-club",
+      "commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+      "metadata_name": "game-feel",
+      "sha256": "a3591662e732f1540887570f584bd18778f4f728708afa013a33e20bcc949a06"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

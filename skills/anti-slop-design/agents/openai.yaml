@@ -1,0 +1,4 @@
+interface:
+  display_name: "anti-slop-design"
+  short_description: "Anti Slop Design creative workflow guidance"
+  default_prompt: "Use $anti-slop-design for the requested task, following the current project rules."

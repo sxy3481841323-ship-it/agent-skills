@@ -1,0 +1,4 @@
+interface:
+  display_name: "ui-from-screenshot"
+  short_description: "Ui From Screenshot creative workflow guidance"
+  default_prompt: "Use $ui-from-screenshot for the requested task, following the current project rules."

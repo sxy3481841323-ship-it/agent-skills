@@ -1,0 +1,4 @@
+interface:
+  display_name: "dialogue-systems"
+  short_description: "Dialogue Systems creative workflow guidance"
+  default_prompt: "Use $dialogue-systems for the requested task, following the current project rules."

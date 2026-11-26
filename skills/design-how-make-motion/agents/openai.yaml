@@ -1,0 +1,4 @@
+interface:
+  display_name: "design-how-make-motion"
+  short_description: "Design How Make Motion creative workflow guidance"
+  default_prompt: "Use $design-how-make-motion for the requested task, following the current project rules."

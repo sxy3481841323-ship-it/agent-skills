@@ -1,0 +1,109 @@
+{
+  "name": "design-how-make-logo",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/design-how-make-logo",
+  "original_frontmatter": {
+    "name": "design-how-make-logo",
+    "description": "Develop original mark and wordmark directions from a brief, compare legibility and similarity, and prepare a reviewed asset package.",
+    "category": "design",
+    "risk": "critical",
+    "source": "https://github.com/arla6ka/design.how/tree/1ce5304466db2ba47a7a7524603e86df77c702bd/skills/make-logo",
+    "source_repo": "arla6ka/design.how",
+    "source_type": "community",
+    "license": "MIT",
+    "license_source": "https://github.com/arla6ka/design.how/blob/1ce5304466db2ba47a7a7524603e86df77c702bd/LICENSE",
+    "author": "Arlan Marat",
+    "date_added": "2026-11-19"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "ba2177fe013ec4103fd066284825424fba97c312"
+    },
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "76b2303a19508989226dad44e2e8eaa303bb8094"
+    },
+    {
+      "path": "references/building.md",
+      "git_blob_sha": "1a3e3594b0c74858eca7706af637f03d668697e4"
+    },
+    {
+      "path": "references/distance.md",
+      "git_blob_sha": "abd3f24b0dee404aadeec88c5bf5d13b99fc38ec"
+    },
+    {
+      "path": "references/logo-book.md",
+      "git_blob_sha": "4d5cc9656fe23a45f40201610147e8c81976a2ca"
+    },
+    {
+      "path": "references/measuring.md",
+      "git_blob_sha": "c5a72c216324b61d5df05755de7a86f470514e31"
+    },
+    {
+      "path": "references/sources.md",
+      "git_blob_sha": "7179292b82a2ca1d17ea6a1127049dac48ac4c33"
+    },
+    {
+      "path": "scripts/build_logo.py",
+      "git_blob_sha": "1191b5ba028b529e68c333824f9455107f802836"
+    },
+    {
+      "path": "scripts/calibrate.py",
+      "git_blob_sha": "75da023f9cd90002b0ac643d680fe982859aa5a9"
+    },
+    {
+      "path": "scripts/calibration.json",
+      "git_blob_sha": "1a04df879d09536f3f963546145d1327b6747740"
+    },
+    {
+      "path": "scripts/check_logo.py",
+      "git_blob_sha": "9d6c1b5a5bf3618e80bb2398cfee7e4604160109"
+    },
+    {
+      "path": "scripts/distance.py",
+      "git_blob_sha": "96bc9f356973b0655cb1048d4e500a392784dd1c"
+    },
+    {
+      "path": "scripts/fetch_arena.mjs",
+      "git_blob_sha": "bd0f8823bc49cac8c71a7db6e4ebfd6c919a235d"
+    },
+    {
+      "path": "scripts/fetch_photos.mjs",
+      "git_blob_sha": "4918147b905586422ce2754e29aaba9e33857951"
+    },
+    {
+      "path": "scripts/fonts.py",
+      "git_blob_sha": "83a64370fc79871ae77172663cbcd4569a1b5849"
+    },
+    {
+      "path": "scripts/logo_book.py",
+      "git_blob_sha": "06f84522850061a54cc879a6f3fedd53e9d5021f"
+    },
+    {
+      "path": "scripts/logolib.py",
+      "git_blob_sha": "1f9dc668af512e028f5c9ddabb53e18d7d2f03df"
+    },
+    {
+      "path": "scripts/measure_logo.py",
+      "git_blob_sha": "27ac58d96af9f1ca3437d616763d650fc1398df7"
+    },
+    {
+      "path": "scripts/package_logo.py",
+      "git_blob_sha": "bb550c4409afba818044d281785303c7a3e756e2"
+    },
+    {
+      "path": "scripts/render_book.mjs",
+      "git_blob_sha": "2b40b0aedf4271417de6d1cf293569dbe6b1a766"
+    },
+    {
+      "path": "scripts/trace_ref.py",
+      "git_blob_sha": "49af1de58318045d7c65f469d0e3d0253fcc8e00"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

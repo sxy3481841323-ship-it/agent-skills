@@ -1,0 +1,4 @@
+interface:
+  display_name: "animation-vocabulary"
+  short_description: "Animation Vocabulary creative workflow guidance"
+  default_prompt: "Use $animation-vocabulary for the requested task, following the current project rules."

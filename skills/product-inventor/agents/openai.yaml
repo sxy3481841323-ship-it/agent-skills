@@ -1,0 +1,4 @@
+interface:
+  display_name: "product-inventor"
+  short_description: "Product Inventor creative workflow guidance"
+  default_prompt: "Use $product-inventor for the requested task, following the current project rules."

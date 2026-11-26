@@ -1,0 +1,4 @@
+interface:
+  display_name: "stitch-ui-design"
+  short_description: "Stitch Ui Design creative workflow guidance"
+  default_prompt: "Use $stitch-ui-design for the requested task, following the current project rules."

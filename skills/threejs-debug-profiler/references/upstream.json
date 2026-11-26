@@ -1,0 +1,22 @@
+{
+  "name": "threejs-debug-profiler",
+  "source_repository": "https://github.com/sxy3481841323-ship-it/bruce-happiness-club",
+  "source_commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+  "source_path": ".agents/skills/threejs-debug-profiler",
+  "original_frontmatter": {
+    "name": "threejs-debug-profiler",
+    "description": "Debug and profile Three.js browser games: blank canvases, render and runtime bugs, asset and audio loading, animation, resize, mobile input, plus performance profiling of draw calls, triangles, textures, memory, shader and post-processing cost, and bundle size."
+  },
+  "project_snapshots": [
+    {
+      "project": "bruce-happiness-club",
+      "commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+      "metadata_name": "threejs-debug-profiler",
+      "sha256": "1cf28e596eec23a88d310cb9ca3b652aebb3e70f889202ddd5988f591ff243bf"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

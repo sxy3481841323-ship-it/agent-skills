@@ -1,0 +1,4 @@
+interface:
+  display_name: "theme-factory"
+  short_description: "Theme Factory creative workflow guidance"
+  default_prompt: "Use $theme-factory for the requested task, following the current project rules."

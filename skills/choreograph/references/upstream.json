@@ -1,0 +1,22 @@
+{
+  "name": "choreograph",
+  "source_repository": "https://github.com/sxy3481841323-ship-it/bruce-happiness-club",
+  "source_commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+  "source_path": ".agents/skills/choreograph",
+  "original_frontmatter": {
+    "name": "choreograph",
+    "description": "Coordinate several elements that animate together — decide what moves, in what order, how much they overlap, and what stays still — so a group reads as one intentional motion instead of a pile of separate animations. Use when building or fixing a staggered list, a hero entrance, a view swap inside a container, a multi-step flow, an element leaving while its siblings close the gap, a morph between rich states, or any interaction with several moving parts (icon + background + lines, panel + content, items flying into a target). Triggers on — stagger, sequence, choreography, \"one after another\", crossfade, AnimatePresence mode, hero entrance, multi-step, useAnimate, \"feels mechanical\", \"too much going on\", \"feels slow to open\"."
+  },
+  "project_snapshots": [
+    {
+      "project": "bruce-happiness-club",
+      "commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+      "metadata_name": "choreograph",
+      "sha256": "0a6802bb2fd5a3993842d48332b8ab56ae5bab369ffa8700f85f6fcff56b8478"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

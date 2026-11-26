@@ -1,0 +1,4 @@
+interface:
+  display_name: "web-artifacts-builder"
+  short_description: "Web Artifacts Builder creative workflow guidance"
+  default_prompt: "Use $web-artifacts-builder for the requested task, following the current project rules."

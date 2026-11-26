@@ -1,0 +1,130 @@
+{
+  "name": "scientific-slides",
+  "source_repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "source_commit": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+  "source_path": "skills/scientific-slides",
+  "original_frontmatter": {
+    "name": "scientific-slides",
+    "description": "Builds slide decks and presentations for research talks. Used for making PowerPoint slides, conference presentations, seminar talks, research presentations, thesis defense slides, or any scientific talk. Provides slide structure, design templates, timing guidance, and visual validation. Works with PowerPoint and LaTeX Beamer.",
+    "allowed-tools": "Read Write Edit Bash",
+    "license": "MIT license",
+    "compatibility": "Python 3.12+; requests for OpenRouter generation, Pillow for image PDFs, PyMuPDF for rendering, pypdf and python-pptx for validation and template editing. Generation needs network and OPENROUTER_API_KEY. Beamer needs TeX Live/MiKTeX; programmatic PPTX needs Node.js and PptxGenJS; rendering PPTX for review needs LibreOffice.",
+    "metadata": {
+      "version": "1.12",
+      "last-reviewed": "2026-10-01",
+      "skill-author": "K-Dense Inc.",
+      "openclaw": {
+        "primaryEnv": "OPENROUTER_API_KEY",
+        "envVars": [
+          {
+            "name": "OPENROUTER_API_KEY",
+            "required": false,
+            "description": "OpenRouter API key for the skill's LLM-powered steps."
+          }
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "54587177e2de11324f23f5985ff9d152fb998e03"
+    },
+    {
+      "path": "assets/beamer_template_conference.tex",
+      "git_blob_sha": "f74218424a3a3e5c3780099ef08542b642c55def"
+    },
+    {
+      "path": "assets/beamer_template_defense.tex",
+      "git_blob_sha": "866ad2e6b30b7f66f6f7e1ef9df3c2337ef08329"
+    },
+    {
+      "path": "assets/beamer_template_seminar.tex",
+      "git_blob_sha": "88c79186fe59afe287984fb9537df46b6f500fd4"
+    },
+    {
+      "path": "assets/powerpoint_design_guide.md",
+      "git_blob_sha": "f60b8c97f5f9ff148d130d73b7faf6ff8dea81eb"
+    },
+    {
+      "path": "assets/timing_guidelines.md",
+      "git_blob_sha": "c5111677b11017aa6ff8a030ecd32b074ce72398"
+    },
+    {
+      "path": "references/beamer_guide.md",
+      "git_blob_sha": "be42bddb676118f981ffbb3f29084e61d9473aec"
+    },
+    {
+      "path": "references/common_pitfalls.md",
+      "git_blob_sha": "950b3a35fc8af9af120f8929545e15f603a3d551"
+    },
+    {
+      "path": "references/data_visualization_slides.md",
+      "git_blob_sha": "98d27dd4195202f8928197bfd6979cee44bd3e0b"
+    },
+    {
+      "path": "references/presentation_structure.md",
+      "git_blob_sha": "38c719d1132b16af296db67e3583255b52353d11"
+    },
+    {
+      "path": "references/presentation_workflow.md",
+      "git_blob_sha": "4b83dd8e6a56ed5def294d648f8f1d24fae33949"
+    },
+    {
+      "path": "references/prompt_writing.md",
+      "git_blob_sha": "e0999af19312c2dbdda2d5bb385c8e6f494fb4c1"
+    },
+    {
+      "path": "references/script_reference.md",
+      "git_blob_sha": "af53f95a563950afcee4551ac6a975b5f1b169ec"
+    },
+    {
+      "path": "references/slide_capabilities.md",
+      "git_blob_sha": "122b73d934a6cf9034e866470f9352da2c1ee4f9"
+    },
+    {
+      "path": "references/slide_design_principles.md",
+      "git_blob_sha": "6ec50a23b32cab128b63240edee9e442f3c0c93a"
+    },
+    {
+      "path": "references/talk_types_guide.md",
+      "git_blob_sha": "ad0bc895810111f942010c29d86ec0f9f427b150"
+    },
+    {
+      "path": "references/visual_review_workflow.md",
+      "git_blob_sha": "45d8dc6b5849e2ea439b6a56029feacbcde888f7"
+    },
+    {
+      "path": "scripts/generate_schematic.py",
+      "git_blob_sha": "10aacec40261d1dfb4c51c406e1d12590ab865bb"
+    },
+    {
+      "path": "scripts/generate_schematic_ai.py",
+      "git_blob_sha": "a7f586678624e23fb70b271188b70fa539d8fc99"
+    },
+    {
+      "path": "scripts/generate_slide_image.py",
+      "git_blob_sha": "95d672b420fd1ef16c8c6aab27d1d0750ddb26e0"
+    },
+    {
+      "path": "scripts/generate_slide_image_ai.py",
+      "git_blob_sha": "ad9760179769bce510b52cb2cd314315f4570f21"
+    },
+    {
+      "path": "scripts/pdf_to_images.py",
+      "git_blob_sha": "280acd9e7ac849dc7df3ae62ba9f1e7c711afca8"
+    },
+    {
+      "path": "scripts/slides_to_pdf.py",
+      "git_blob_sha": "0e40a8ff6f62b246b6e99cd4ced1fa67f588fa7b"
+    },
+    {
+      "path": "scripts/validate_presentation.py",
+      "git_blob_sha": "0eee38811ec4efde971c133bc08b650bb7691bad"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

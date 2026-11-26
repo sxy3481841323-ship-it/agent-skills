@@ -1,0 +1,4 @@
+interface:
+  display_name: "threejs-asset-pipeline"
+  short_description: "Threejs Asset Pipeline creative workflow guidance"
+  default_prompt: "Use $threejs-asset-pipeline for the requested task, following the current project rules."

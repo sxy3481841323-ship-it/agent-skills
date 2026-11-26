@@ -1,0 +1,228 @@
+{
+  "name": "design-it",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/design-it",
+  "original_frontmatter": {
+    "name": "design-it",
+    "description": "Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI components requesting a specific aesthetic.",
+    "category": "frontend",
+    "risk": "safe",
+    "source": "self",
+    "source_type": "self",
+    "date_added": "2026-06-17",
+    "author": "community",
+    "tags": [
+      "design",
+      "ui",
+      "frontend"
+    ],
+    "tools": [
+      "claude",
+      "cursor",
+      "gemini"
+    ]
+  },
+  "files": [
+    {
+      "path": "3d-ui/SKILL.md",
+      "git_blob_sha": "1451bd38ec65e4c1e833cbea10e0c6d62b917bc8"
+    },
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "bff918c6c6d9019dd50f25566546848afabe010a"
+    },
+    {
+      "path": "ai-native-ui/SKILL.md",
+      "git_blob_sha": "c24ba72c6c39812188b04afcd15801fab1a583e1"
+    },
+    {
+      "path": "aurora-ui/SKILL.md",
+      "git_blob_sha": "8cdd9769eee6f529debbea156c6cc94f55025301"
+    },
+    {
+      "path": "bento-ui/SKILL.md",
+      "git_blob_sha": "c74ebe6b14c4b39ba1fa0cb5f002d7c3d3ee0e7a"
+    },
+    {
+      "path": "brutalism/SKILL.md",
+      "git_blob_sha": "9168a1d4b1f05e0a057b6b08add5da3b8ec96fe5"
+    },
+    {
+      "path": "brutalist-typography/SKILL.md",
+      "git_blob_sha": "bb865eae9b1e27da7d4df1a63e859372d49c02ef"
+    },
+    {
+      "path": "card-based-design/SKILL.md",
+      "git_blob_sha": "827600d8b726899bb72aae7c8ca26f042b47a655"
+    },
+    {
+      "path": "claymorphism/SKILL.md",
+      "git_blob_sha": "4f5e06ba9a0ea83bdff32be0e56940af565bc3d9"
+    },
+    {
+      "path": "color-blocking/SKILL.md",
+      "git_blob_sha": "c7e26eacef40b43c1a306ff117035270dc86139c"
+    },
+    {
+      "path": "command-center-ui/SKILL.md",
+      "git_blob_sha": "8c3e1b67d657b9976e3ef9dc3fa736e41dd65c4a"
+    },
+    {
+      "path": "cyber-y2k/SKILL.md",
+      "git_blob_sha": "f8eb3660080fd6c6889a5c67a685017d8481d554"
+    },
+    {
+      "path": "cyberpunk-ui/SKILL.md",
+      "git_blob_sha": "323465fa5f75dcaa637dc99d81e55c65632bfdff"
+    },
+    {
+      "path": "dark-mode/SKILL.md",
+      "git_blob_sha": "92497a71825bdca36f31640cc09b3618efe838ed"
+    },
+    {
+      "path": "dashboard-design/SKILL.md",
+      "git_blob_sha": "9a74fa8ff9f00572c403b7db957248d16933965d"
+    },
+    {
+      "path": "data-dense-design/SKILL.md",
+      "git_blob_sha": "9845e2491e4274d5cb7fd719f0e737659a0ed33a"
+    },
+    {
+      "path": "duotone-design/SKILL.md",
+      "git_blob_sha": "ce3936dc0ab99201700ca957359a8c1e5d112977"
+    },
+    {
+      "path": "editorial-design/SKILL.md",
+      "git_blob_sha": "513129cbe11caff71318b252866422db5dab4ec4"
+    },
+    {
+      "path": "flat-design-2/SKILL.md",
+      "git_blob_sha": "7383d711aeeeb41f0c4ef783d0c8043e26ec964a"
+    },
+    {
+      "path": "flat-design/SKILL.md",
+      "git_blob_sha": "e5ccce02e5ec7a5c75e0c2fa4f7f59daa0384aae"
+    },
+    {
+      "path": "floating-ui/SKILL.md",
+      "git_blob_sha": "7058bdbb3627adbfad38b2eb55a48a0815f35e0d"
+    },
+    {
+      "path": "frutiger-aero/SKILL.md",
+      "git_blob_sha": "418cc03808a52731bcb61dbbdc1486b7af7b62f3"
+    },
+    {
+      "path": "glassmorphism/SKILL.md",
+      "git_blob_sha": "86a57e86701c4def92725b165c511784bcd3f41c"
+    },
+    {
+      "path": "gradient-design/SKILL.md",
+      "git_blob_sha": "b5500e742bad50bc72b5b78851e94e0f5de68272"
+    },
+    {
+      "path": "high-contrast/SKILL.md",
+      "git_blob_sha": "05e4d451b22b421993692fdd60a792d9bb0cd1d2"
+    },
+    {
+      "path": "holographic-ui/SKILL.md",
+      "git_blob_sha": "47860515465821ea65da72ecb0b68b09378086fa"
+    },
+    {
+      "path": "isometric-design/SKILL.md",
+      "git_blob_sha": "8f9333e77be95e06810a273438d813f0a9292d40"
+    },
+    {
+      "path": "layered-design/SKILL.md",
+      "git_blob_sha": "35480fa87a9d93feec993067b5be759e0ef923aa"
+    },
+    {
+      "path": "material-design/SKILL.md",
+      "git_blob_sha": "849fc5f5dd9bada5bdc6d7dff42c4dfed5085aec"
+    },
+    {
+      "path": "maximalism/SKILL.md",
+      "git_blob_sha": "0b024226296f3acd9635117e0e76a6fec6b7b543"
+    },
+    {
+      "path": "minimalism/SKILL.md",
+      "git_blob_sha": "c356ff1e2722397ea7eab70ffcb2c4ef633a3f02"
+    },
+    {
+      "path": "monochromatic-ui/SKILL.md",
+      "git_blob_sha": "b26bbc310588d9b4943984a8226051e389d14cac"
+    },
+    {
+      "path": "neo-brutalism/SKILL.md",
+      "git_blob_sha": "6c1800ef9f462575d37e041dc0c9f727621bed02"
+    },
+    {
+      "path": "neumorphism/SKILL.md",
+      "git_blob_sha": "ee977eff161eeccf25fea0fc2a5d68fc9da27a22"
+    },
+    {
+      "path": "retro-design/SKILL.md",
+      "git_blob_sha": "b18b8c71c661d20b47c615e1493c72cb5ca0a0e9"
+    },
+    {
+      "path": "retro-futurism/SKILL.md",
+      "git_blob_sha": "19151f692476a7cd3a87f05ce0093ce33bd44a93"
+    },
+    {
+      "path": "sci-fi-interface/SKILL.md",
+      "git_blob_sha": "8cc722cc7af99b260a51b618551132ef5f0a3e7a"
+    },
+    {
+      "path": "skeuomorphism/SKILL.md",
+      "git_blob_sha": "8b304e78af85280855aa9f9e19cebb92b0b3f695"
+    },
+    {
+      "path": "soft-pastel/SKILL.md",
+      "git_blob_sha": "8a020d27bbe8441e1bcf190c2e01ed8f59057722"
+    },
+    {
+      "path": "spatial-computing-ui/SKILL.md",
+      "git_blob_sha": "90cc854753619107fc11d2636778d9e790998479"
+    },
+    {
+      "path": "spatial-design/SKILL.md",
+      "git_blob_sha": "1d7e2be1c8f50b33f8ce1ad05533fc4a661b388f"
+    },
+    {
+      "path": "swiss-design/SKILL.md",
+      "git_blob_sha": "9249ab1b0748fd50c35a5e9bb8da277139ac63dd"
+    },
+    {
+      "path": "synthwave/SKILL.md",
+      "git_blob_sha": "4a3443d5df009a95e1d49b24e840e82033a8f13e"
+    },
+    {
+      "path": "tile-design/SKILL.md",
+      "git_blob_sha": "49f38e39c47109df3a6fcbd431cd1943f88f7d6a"
+    },
+    {
+      "path": "typography-first/SKILL.md",
+      "git_blob_sha": "2afaa292323842b98819f4462b6c1490054de335"
+    },
+    {
+      "path": "vaporwave/SKILL.md",
+      "git_blob_sha": "ad40e81b89dac8df32803a90719d5f516b1a8c95"
+    },
+    {
+      "path": "vibrant-maximalism/SKILL.md",
+      "git_blob_sha": "5e06c4dcc03c2fcfc50e939f911826a55ed2a651"
+    },
+    {
+      "path": "widget-based-design/SKILL.md",
+      "git_blob_sha": "447052f6f67e2dcfda990e2749dbe2aa7633cb84"
+    },
+    {
+      "path": "y2k-design/SKILL.md",
+      "git_blob_sha": "471c43663457b32d21708a038a025b1773b2e125"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "threejs-materials"
+  short_description: "Threejs Materials creative workflow guidance"
+  default_prompt: "Use $threejs-materials for the requested task, following the current project rules."

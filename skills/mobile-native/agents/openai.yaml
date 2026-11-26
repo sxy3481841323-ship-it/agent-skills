@@ -1,0 +1,4 @@
+interface:
+  display_name: "mobile-native"
+  short_description: "Mobile Native creative workflow guidance"
+  default_prompt: "Use $mobile-native for the requested task, following the current project rules."

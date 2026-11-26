@@ -1,0 +1,4 @@
+interface:
+  display_name: "latex-posters"
+  short_description: "Latex Posters creative workflow guidance"
+  default_prompt: "Use $latex-posters for the requested task, following the current project rules."

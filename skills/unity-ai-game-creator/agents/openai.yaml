@@ -1,0 +1,4 @@
+interface:
+  display_name: "unity-ai-game-creator"
+  short_description: "Unity Ai Game Creator creative workflow guidance"
+  default_prompt: "Use $unity-ai-game-creator for the requested task, following the current project rules."

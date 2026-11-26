@@ -1,0 +1,38 @@
+{
+  "name": "ad-creative",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/ad-creative",
+  "original_frontmatter": {
+    "name": "ad-creative",
+    "description": "Create, iterate, and scale paid ad creative for Google Ads, Meta, LinkedIn, TikTok, and similar platforms. Use when generating headlines, descriptions, primary text, or large sets of ad variations for testing and performance optimization.",
+    "risk": "critical",
+    "source": "https://github.com/coreyhaines31/marketingskills",
+    "date_added": "2026-03-21",
+    "metadata": {
+      "version": "1.1.0"
+    }
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "21b68647acf602bc6ea828d28317e781bc3492fd"
+    },
+    {
+      "path": "evals/evals.json",
+      "git_blob_sha": "162caaf451a45b95af102c5f15b14605e33488b9"
+    },
+    {
+      "path": "references/generative-tools.md",
+      "git_blob_sha": "f55816079a230c11e471e3bf67534b65332bb79e"
+    },
+    {
+      "path": "references/platform-specs.md",
+      "git_blob_sha": "d7bb9c03971a77784c787a31988d9f4a7be95eec"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

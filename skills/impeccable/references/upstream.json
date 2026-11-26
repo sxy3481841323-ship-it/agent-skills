@@ -1,0 +1,32 @@
+{
+  "name": "impeccable",
+  "source_repository": "https://github.com/sxy3481841323-ship-it/bruce-happiness-club",
+  "source_commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+  "source_path": ".agents/skills/impeccable",
+  "original_frontmatter": {
+    "name": "impeccable",
+    "description": "Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md).",
+    "version": "4.10.0",
+    "user-invocable": true,
+    "argument-hint": "[shape · audit|critique · animate|bolder|colorize|delight|layout|overdrive|quieter|typeset · adapt|clarify|distill · harden|onboard|optimize|polish · init|document|extract|live|generate] [target]",
+    "license": "Apache 2.0"
+  },
+  "project_snapshots": [
+    {
+      "project": "ai-pulse-radar",
+      "commit": "dfb016e0c3e1c8f76b58b5e74c98faa68980b387",
+      "metadata_name": "impeccable",
+      "sha256": "100b6f87922805c3b5d5c33c26dc520a1846ec6414237a4a5b6ac1706efcd100"
+    },
+    {
+      "project": "bruce-happiness-club",
+      "commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+      "metadata_name": "impeccable",
+      "sha256": "100b6f87922805c3b5d5c33c26dc520a1846ec6414237a4a5b6ac1706efcd100"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

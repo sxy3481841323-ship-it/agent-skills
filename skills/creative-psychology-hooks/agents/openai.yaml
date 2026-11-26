@@ -1,0 +1,4 @@
+interface:
+  display_name: "creative-psychology-hooks"
+  short_description: "Creative Psychology Hooks creative workflow guidance"
+  default_prompt: "Use $creative-psychology-hooks for the requested task, following the current project rules."

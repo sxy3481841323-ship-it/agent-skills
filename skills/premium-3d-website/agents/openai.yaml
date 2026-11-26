@@ -1,0 +1,4 @@
+interface:
+  display_name: "premium-3d-website"
+  short_description: "Premium 3D Website creative workflow guidance"
+  default_prompt: "Use $premium-3d-website for the requested task, following the current project rules."

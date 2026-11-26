@@ -1,0 +1,109 @@
+{
+  "name": "design-how-make-font",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/design-how-make-font",
+  "original_frontmatter": {
+    "name": "design-how-make-font",
+    "description": "Fit a modifiable open typeface to aggregate reference measurements, then verify glyph coverage, spacing and web distribution.",
+    "category": "design",
+    "risk": "critical",
+    "source": "https://github.com/arla6ka/design.how/tree/1ce5304466db2ba47a7a7524603e86df77c702bd/skills/make-font",
+    "source_repo": "arla6ka/design.how",
+    "source_type": "community",
+    "license": "MIT",
+    "license_source": "https://github.com/arla6ka/design.how/blob/1ce5304466db2ba47a7a7524603e86df77c702bd/LICENSE",
+    "author": "Arlan Marat",
+    "date_added": "2026-11-19"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "ba2177fe013ec4103fd066284825424fba97c312"
+    },
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "d6ae3c1f15ca4a1cc360f4d1cb75760346fc0446"
+    },
+    {
+      "path": "references/checks.md",
+      "git_blob_sha": "8120b5f31ba7000b5b95d043e2c50b8886658418"
+    },
+    {
+      "path": "references/fitting.md",
+      "git_blob_sha": "a03f5da5925c9006d85e9607453c9ff339d814b9"
+    },
+    {
+      "path": "references/font-book.md",
+      "git_blob_sha": "3f1264ed9c1037ac9b0a9ff69593e1fa4aa37eee"
+    },
+    {
+      "path": "references/foundation.md",
+      "git_blob_sha": "edbe2a54ed87cc02f3c1f07a53362e7dd175b358"
+    },
+    {
+      "path": "references/licensing.md",
+      "git_blob_sha": "a99ca1bbf937a3c960cfd56be85b0e6af08828fa"
+    },
+    {
+      "path": "references/measuring.md",
+      "git_blob_sha": "068fa9cf4ecc0550dcebc7cf6a5b2bc4a013e87e"
+    },
+    {
+      "path": "references/spacing.md",
+      "git_blob_sha": "05350436207637dce5458c63334bfe0efb0e680b"
+    },
+    {
+      "path": "scripts/book.css",
+      "git_blob_sha": "dffc7258e6787e15544190cf2c1d63fafe8e0726"
+    },
+    {
+      "path": "scripts/check_font.py",
+      "git_blob_sha": "8f65a8332bfe98f3f65836a094b7c418acef1b81"
+    },
+    {
+      "path": "scripts/find_foundation.py",
+      "git_blob_sha": "adda67a0b8400432118dda5bebbafd3a49ab5f69"
+    },
+    {
+      "path": "scripts/fit_font.py",
+      "git_blob_sha": "c8943d72e07e8804a3b234bd048e130e61d063f8"
+    },
+    {
+      "path": "scripts/font_book.py",
+      "git_blob_sha": "a6cce9b2ccb04de725f4616e137c09bcc26ff24d"
+    },
+    {
+      "path": "scripts/fontlib.py",
+      "git_blob_sha": "cd282dc92fd95fabc38af2f648de85e6822d128a"
+    },
+    {
+      "path": "scripts/make_targets.py",
+      "git_blob_sha": "153339290fb07f11b137f9c5d0904f3b6be00f45"
+    },
+    {
+      "path": "scripts/measure_font.py",
+      "git_blob_sha": "d33a4cc6c6c1d92d087465485c30478443fb0fbd"
+    },
+    {
+      "path": "scripts/measure_image.py",
+      "git_blob_sha": "04b442761147836c56e9e707f9a7b1375ee1459c"
+    },
+    {
+      "path": "scripts/package.py",
+      "git_blob_sha": "837e13801e5182e1e4b45cfed039fd9640e619ee"
+    },
+    {
+      "path": "scripts/render_book.mjs",
+      "git_blob_sha": "ec6ecd232f00df99077e99f39bc5c9d9987e584a"
+    },
+    {
+      "path": "scripts/space_font.py",
+      "git_blob_sha": "b3e321bd3b9bf6ea831d745009a331b06850fb92"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

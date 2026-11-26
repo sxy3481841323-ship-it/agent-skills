@@ -1,0 +1,32 @@
+{
+  "name": "design-philosophy",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/design-philosophy",
+  "original_frontmatter": {
+    "name": "design-philosophy",
+    "description": "Visual philosophy and art-direction for frontend. Use when creating high-concept work, campaigns, or when the user asks for a visual philosophy, manifesto, or unmistakable art-like aesthetic.",
+    "risk": "none",
+    "source": "https://github.com/connerkward/ckw-design-skill/tree/main/design-philosophy",
+    "source_repo": "connerkward/ckw-design-skill",
+    "source_type": "community",
+    "date_added": "2026-07-01",
+    "license": "MIT",
+    "license_source": "https://github.com/connerkward/ckw-design-skill/blob/main/LICENSE",
+    "author": "Conner K Ward"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "9ec663b97c11439a7af1e3311529e2ef430a41d2"
+    },
+    {
+      "path": "reference.md",
+      "git_blob_sha": "61d0dc3888f523b359d93e9d37261a362491dac0"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

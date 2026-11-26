@@ -1,0 +1,58 @@
+{
+  "name": "ui-design",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/ui-design",
+  "original_frontmatter": {
+    "name": "ui-design",
+    "description": "Mandatory for any product's screens, a builder's too, and any mock, prototype or artifact that shows them: its design system, colour, type, components; judging the look.",
+    "risk": "safe",
+    "source": "https://github.com/phuryn/product-engineering",
+    "source_repo": "phuryn/product-engineering",
+    "source_type": "official",
+    "license": "MIT",
+    "license_source": "https://github.com/phuryn/product-engineering/blob/8ebb50bb1b28dc9e8bc669199493e6020b808cc6/LICENSE.md",
+    "author": "Pawel Huryn",
+    "upstream_commit": "8ebb50bb1b28dc9e8bc669199493e6020b808cc6",
+    "date_added": "2026-11-21",
+    "category": "development"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "f6eca502b7f3fd6a3f0b024e4c98a3dcf5611cee"
+    },
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "662d9f554c284253c508d7f2904ee3fd3b55c8e2"
+    },
+    {
+      "path": "receipts.md",
+      "git_blob_sha": "72eadf597519443d35810aca5558cdaa41155bdb"
+    },
+    {
+      "path": "references/collections.md",
+      "git_blob_sha": "dd97963a346739a77dce06aee7eda8655bebb15f"
+    },
+    {
+      "path": "references/method.md",
+      "git_blob_sha": "e18f2d7719b024498991ae7dfa6a2059afa94aa2"
+    },
+    {
+      "path": "references/review.md",
+      "git_blob_sha": "6504c37b3ee6db023dfe97b4a9e42156bad40e4e"
+    },
+    {
+      "path": "references/screens.md",
+      "git_blob_sha": "968ba5f325af5a52295caf2a39c8bae8b55db437"
+    },
+    {
+      "path": "scripts/color.py",
+      "git_blob_sha": "38aacbd1c7f76fcf1c71918ab6230055bf50ff00"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

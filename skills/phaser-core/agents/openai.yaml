@@ -1,0 +1,4 @@
+interface:
+  display_name: "phaser-core"
+  short_description: "Phaser Core creative workflow guidance"
+  default_prompt: "Use $phaser-core for the requested task, following the current project rules."

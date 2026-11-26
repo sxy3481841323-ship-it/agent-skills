@@ -1,0 +1,4 @@
+interface:
+  display_name: "mobile-design"
+  short_description: "Mobile Design creative workflow guidance"
+  default_prompt: "Use $mobile-design for the requested task, following the current project rules."

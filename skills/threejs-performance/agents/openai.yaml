@@ -1,0 +1,4 @@
+interface:
+  display_name: "threejs-performance"
+  short_description: "Threejs Performance creative workflow guidance"
+  default_prompt: "Use $threejs-performance for the requested task, following the current project rules."

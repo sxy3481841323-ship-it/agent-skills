@@ -1,0 +1,4 @@
+interface:
+  display_name: "scientific-slides"
+  short_description: "Scientific Slides creative workflow guidance"
+  default_prompt: "Use $scientific-slides for the requested task, following the current project rules."

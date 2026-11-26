@@ -1,0 +1,45 @@
+{
+  "name": "slack-gif-creator",
+  "source_repository": "https://github.com/anthropics/skills",
+  "source_commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+  "source_path": "skills/slack-gif-creator",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "git_blob_sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+    },
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "16660d8ceb77af47986bba1c9176c2ff3f287a91"
+    },
+    {
+      "path": "core/easing.py",
+      "git_blob_sha": "772fa830235dac37ba995ee66778111f59c2ee31"
+    },
+    {
+      "path": "core/frame_composer.py",
+      "git_blob_sha": "1afe434811bd4a8a1bdb4df7961147f2c9afd130"
+    },
+    {
+      "path": "core/gif_builder.py",
+      "git_blob_sha": "5759f144fe3cef50f3dfd3b8911e612e80099cea"
+    },
+    {
+      "path": "core/validators.py",
+      "git_blob_sha": "a6f5bdf28ddd0a9613f2e076e37d940e03ad997c"
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob_sha": "8bc4493e9163cb513d4be38ab9fe5c1ff763e0d7"
+    }
+  ],
+  "original_frontmatter": {
+    "name": "slack-gif-creator",
+    "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+    "license": "Complete terms in LICENSE.txt"
+  },
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

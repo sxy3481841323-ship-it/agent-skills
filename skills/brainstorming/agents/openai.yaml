@@ -1,0 +1,4 @@
+interface:
+  display_name: "brainstorming"
+  short_description: "Brainstorming creative workflow guidance"
+  default_prompt: "Use $brainstorming for the requested task, following the current project rules."

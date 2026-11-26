@@ -1,0 +1,4 @@
+interface:
+  display_name: "design-philosophy"
+  short_description: "Design Philosophy creative workflow guidance"
+  default_prompt: "Use $design-philosophy for the requested task, following the current project rules."

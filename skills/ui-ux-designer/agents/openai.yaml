@@ -1,0 +1,4 @@
+interface:
+  display_name: "ui-ux-designer"
+  short_description: "Ui Ux Designer creative workflow guidance"
+  default_prompt: "Use $ui-ux-designer for the requested task, following the current project rules."

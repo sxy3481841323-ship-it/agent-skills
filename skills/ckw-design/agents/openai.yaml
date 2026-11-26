@@ -1,0 +1,4 @@
+interface:
+  display_name: "ckw-design"
+  short_description: "Ckw Design creative workflow guidance"
+  default_prompt: "Use $ckw-design for the requested task, following the current project rules."

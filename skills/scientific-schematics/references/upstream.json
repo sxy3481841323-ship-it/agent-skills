@@ -1,0 +1,58 @@
+{
+  "name": "scientific-schematics",
+  "source_repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "source_commit": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+  "source_path": "skills/scientific-schematics",
+  "original_frontmatter": {
+    "name": "scientific-schematics",
+    "description": "Generates scientific diagram drafts using Nano Banana 2 AI with smart iterative refinement. Uses Gemini 3.7 Flash for quality review. Refines when the review requests improvement, with at most two generations. Specialized in neural network architectures, system diagrams, flowcharts, biological pathways, and complex scientific visualizations.",
+    "allowed-tools": "Read Write Edit Bash",
+    "license": "MIT license",
+    "compatibility": "Requires Python 3.10+ with requests, network access, and an OpenRouter API key.",
+    "metadata": {
+      "version": "1.10",
+      "last-reviewed": "2026-09-30",
+      "skill-author": "K-Dense Inc.",
+      "openclaw": {
+        "primaryEnv": "OPENROUTER_API_KEY",
+        "envVars": [
+          {
+            "name": "OPENROUTER_API_KEY",
+            "required": false,
+            "description": "OpenRouter API key for the skill's LLM-powered steps."
+          }
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "5f2ff1b3f73818b05c649438e71f50961d01f2eb"
+    },
+    {
+      "path": "references/best_practices.md",
+      "git_blob_sha": "86d326e4afb010ec2aa11d2d6c29bdc4c881d8dd"
+    },
+    {
+      "path": "references/iterative_refinement.md",
+      "git_blob_sha": "ff238a91286a2975109c498a849c6a066bf6d0af"
+    },
+    {
+      "path": "scripts/example_usage.sh",
+      "git_blob_sha": "b321f6861f0308a3a88cad7a923681ba2d9bd28c"
+    },
+    {
+      "path": "scripts/generate_schematic.py",
+      "git_blob_sha": "10aacec40261d1dfb4c51c406e1d12590ab865bb"
+    },
+    {
+      "path": "scripts/generate_schematic_ai.py",
+      "git_blob_sha": "a7f586678624e23fb70b271188b70fa539d8fc99"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "latex-posters",
+  "source_repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "source_commit": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+  "source_path": "skills/latex-posters",
+  "original_frontmatter": {
+    "name": "latex-posters",
+    "description": "Creates research posters in LaTeX using beamerposter, tikzposter, or baposter. Use for conference posters, academic presentations, multi-column scientific layouts, figure integration, typography, compilation, and PDF preflight.",
+    "allowed-tools": "Read Write Edit Bash",
+    "compatibility": "Requires a LaTeX distribution with the selected poster class and Poppler for PDF checks. Optional AI schematics require Python 3.10+, requests, network access, and OPENROUTER_API_KEY. baposter needs a separately supplied class file.",
+    "metadata": {
+      "version": "1.10",
+      "last-reviewed": "2026-09-30",
+      "skill-author": "K-Dense Inc.",
+      "openclaw": {
+        "primaryEnv": "OPENROUTER_API_KEY",
+        "envVars": [
+          {
+            "name": "OPENROUTER_API_KEY",
+            "required": false,
+            "description": "OpenRouter API key for optional schematic generation and review."
+          }
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "b4e21b6ef09013a494efbeb04c2bfdc1597a74a8"
+    },
+    {
+      "path": "assets/baposter_template.tex",
+      "git_blob_sha": "b6b8bc3ab8d90b11c96963f3395b46abbd688f57"
+    },
+    {
+      "path": "assets/beamerposter_template.tex",
+      "git_blob_sha": "f31ba109c4c9470565d88c81a22e466fb4544b6d"
+    },
+    {
+      "path": "assets/poster_quality_checklist.md",
+      "git_blob_sha": "f729a1092c6680e13fd0474e8f748b6c415bd992"
+    },
+    {
+      "path": "assets/tikzposter_template.tex",
+      "git_blob_sha": "ab8e0fddee3d65ed9d7738b468ab5bba02e5b6ac"
+    },
+    {
+      "path": "references/README.md",
+      "git_blob_sha": "61e715d3a44082d4eff5b17e799e01e6c735af6b"
+    },
+    {
+      "path": "references/ai_graphics_for_posters.md",
+      "git_blob_sha": "a01f9b8a8e9b464e5821e487f17f81bbc93c0ac7"
+    },
+    {
+      "path": "references/compilation_and_quality_control.md",
+      "git_blob_sha": "139146f3ee25603be1954790c6299c80de5a04fc"
+    },
+    {
+      "path": "references/latex_poster_packages.md",
+      "git_blob_sha": "7c425099094ecc957ea8067b69a443f5a53fe30a"
+    },
+    {
+      "path": "references/latex_poster_reference.md",
+      "git_blob_sha": "ccc6dba4f0d9c9a3917f18d395be2c44a2293dd6"
+    },
+    {
+      "path": "references/poster_content_guide.md",
+      "git_blob_sha": "6f81c99f23c8d6b65e1a5ca88b25c30596d2d26c"
+    },
+    {
+      "path": "references/poster_design_principles.md",
+      "git_blob_sha": "9fe3c9caa7c6c08cf151672a289b799b70cfe4d9"
+    },
+    {
+      "path": "references/poster_layout_design.md",
+      "git_blob_sha": "7aaa7fafcd33ac380322d12c6f9c9f3f68667a50"
+    },
+    {
+      "path": "references/poster_patterns_and_presentation.md",
+      "git_blob_sha": "e8c31b6107128117205049dadb9ac7f4141102d5"
+    },
+    {
+      "path": "scripts/generate_schematic.py",
+      "git_blob_sha": "10aacec40261d1dfb4c51c406e1d12590ab865bb"
+    },
+    {
+      "path": "scripts/generate_schematic_ai.py",
+      "git_blob_sha": "a7f586678624e23fb70b271188b70fa539d8fc99"
+    },
+    {
+      "path": "scripts/review_poster.sh",
+      "git_blob_sha": "d53898f462ee952dae045b91325c3ba8d7d51b9d"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ui-design"
+  short_description: "Ui Design creative workflow guidance"
+  default_prompt: "Use $ui-design for the requested task, following the current project rules."

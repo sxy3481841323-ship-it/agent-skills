@@ -1,0 +1,951 @@
+{
+  "repository": "https://github.com/sxy3481841323-ship-it/agent-skills",
+  "skills": [
+    {
+      "name": "3d-web-experience",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Use when building or debugging web 3D scenes, product configurators or portfolios with Three.js, React Three Fiber or Spline; review assets, loading, controls, fallbacks and performance.",
+      "skill_md": "skills/3d-web-experience/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/3d-web-experience/SKILL.md"
+    },
+    {
+      "name": "ad-creative",
+      "aliases": [],
+      "category": "创意发散与产品构思",
+      "description": "Create, iterate, and scale paid ad creative for Google Ads, Meta, LinkedIn, TikTok, and similar platforms. Use when generating headlines, descriptions, primary text, or large sets of ad variations for testing and performance optimization.",
+      "skill_md": "skills/ad-creative/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/ad-creative/SKILL.md"
+    },
+    {
+      "name": "algorithmic-art",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "skill_md": "skills/algorithmic-art/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/algorithmic-art/SKILL.md"
+    },
+    {
+      "name": "animate",
+      "aliases": [],
+      "category": "动效、手势与空间叙事",
+      "description": "Build an animation from scratch, making the decisions in the order that determines whether it feels right — should it animate at all, what purpose, which tool, which properties, which curve and duration, how it interrupts, how it exits. Writes the implementation. Use when asked to animate something, add motion, make a component feel alive, or build a transition. For critiquing existing motion use review-animations; for auditing a whole codebase use improve-animations.",
+      "skill_md": "skills/animate/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/animate/SKILL.md"
+    },
+    {
+      "name": "animation-performance",
+      "aliases": [],
+      "category": "动效、手势与空间叙事",
+      "description": "Keep web animations inside the frame budget — animate composite-only properties, keep motion off the main thread when the page is busy, and find the cause when an animation drops frames. Use when an animation is janky, choppy, stutters, or drops frames; when choosing which property to animate; when deciding between CSS and JS animation on performance grounds; or when reaching for `will-change` or GPU layers. For choosing easing, duration, or whether to animate at all use animate; for reviewing motion as a whole use review-animations.",
+      "skill_md": "skills/animation-performance/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/animation-performance/SKILL.md"
+    },
+    {
+      "name": "animation-vocabulary",
+      "aliases": [],
+      "category": "动效、手势与空间叙事",
+      "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in; \"the iOS rubber-band scroll\" → Rubber-banding). Use when the user asks \"what's it called when…\", or describes a motion effect without knowing its name and wants the right word to prompt an AI or designer with. For naming an effect, not designing or building one.",
+      "skill_md": "skills/animation-vocabulary/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/animation-vocabulary/SKILL.md"
+    },
+    {
+      "name": "animejs-animation",
+      "aliases": [],
+      "category": "动效、手势与空间叙事",
+      "description": "Advanced JavaScript animation library skill for creating complex, high-performance web animations.",
+      "skill_md": "skills/animejs-animation/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/animejs-animation/SKILL.md"
+    },
+    {
+      "name": "anti-slop-design",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Autonomous Principal Design Technologist. Cures vibe-coded software from AI frontend slop using curated token archetypes and 7-axis quality gating.",
+      "skill_md": "skills/anti-slop-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/anti-slop-design/SKILL.md"
+    },
+    {
+      "name": "antialgorithm",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Stops the safe, average, comfortable pick that AI reaches for first. Use when a creative choice is left open to the agent: ideas, names, story, game mechanics, visual style, color, poster or page layout, app or web interface design, composition, slogans, titles, taglines, creative copy. Not for code identifiers, bug fixes, choices the user already made, or texts whose form the user's standing rules already set, such as a README, a store page, a commit message, release notes or license text. Also use when the user says \"too generic\", \"boring\", \"typical AI\", \"too safe\", \"cliche\", \"average\", \"seen it before\".",
+      "skill_md": "skills/antialgorithm/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/antialgorithm/SKILL.md"
+    },
+    {
+      "name": "antigravity-design-expert",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.",
+      "skill_md": "skills/antigravity-design-expert/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/antigravity-design-expert/SKILL.md"
+    },
+    {
+      "name": "apple-design",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Apply Apple-inspired interface and motion principles to gestures, typography, depth, feedback, and accessibility on the web.",
+      "skill_md": "skills/apple-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/apple-design/SKILL.md"
+    },
+    {
+      "name": "article-illustrations",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Generate hand-drawn 16:9 article illustrations with the Grav character IP, sparse annotations, and absurd but clear visual metaphors.",
+      "skill_md": "skills/article-illustrations/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/article-illustrations/SKILL.md"
+    },
+    {
+      "name": "audio-design",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Engine-neutral game audio technique: bus layout, volume sliders in decibels, loudness, ducking music under dialogue, adaptive music and SFX variation, with Godot, Unity and FMOD/Wwise mappings. Use when mixing a game, making music react to combat, fixing repetitive footsteps or beat sync, or a mix that clips or pumps. Not for the Godot audio API (`godot-audio`).",
+      "skill_md": "skills/audio-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/audio-design/SKILL.md"
+    },
+    {
+      "name": "better-colors",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Builds and checks color systems by generating palettes, naming semantic tokens, converting between formats and measuring contrast.",
+      "skill_md": "skills/better-colors/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/better-colors/SKILL.md"
+    },
+    {
+      "name": "better-typography",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Sets and reviews how text renders, from the type scale and spacing to font features, wrapping, truncation and punctuation.",
+      "skill_md": "skills/better-typography/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/better-typography/SKILL.md"
+    },
+    {
+      "name": "brainstorming",
+      "aliases": [],
+      "category": "创意发散与产品构思",
+      "description": "Use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration.",
+      "skill_md": "skills/brainstorming/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/brainstorming/SKILL.md"
+    },
+    {
+      "name": "brand-guidelines",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Apply Anthropic official brand colors and typography only when the user explicitly requests the Anthropic look. 用于明确指定 Anthropic 品牌风格的设计。",
+      "skill_md": "skills/brand-guidelines/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/brand-guidelines/SKILL.md"
+    },
+    {
+      "name": "brand-perception-psychologist",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Audit visual, verbal, and behavioral brand signals and propose alignment changes when market perception differs from the intended position.",
+      "skill_md": "skills/brand-perception-psychologist/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/brand-perception-psychologist/SKILL.md"
+    },
+    {
+      "name": "brand-vibes",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Apply a company's design language to a site from 66 brand profiles, or extract a brand's DNA into semantic tokens for Tailwind, CSS variables or shadcn.",
+      "skill_md": "skills/brand-vibes/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/brand-vibes/SKILL.md"
+    },
+    {
+      "name": "break-ui",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Try to break a piece of UI by feeding it worst-case data — long names, unbreakable emails, one-letter names, missing fields, huge counts, zero items, long labels, non-Latin text, emoji, extreme numbers — then render it behind a \"Demo data / Worst case\" toggle and report everything that broke, with the fix for each. Use when the user asks to stress-test, break, or find edge cases in a component or screen, or to \"try the worst case\". For visual design critique use emil-design-eng; for motion use review-animations.",
+      "skill_md": "skills/break-ui/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/break-ui/SKILL.md"
+    },
+    {
+      "name": "build-design",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Builds UI from a Figma file or a design image so it matches the design, using the project's existing tokens and components.",
+      "skill_md": "skills/build-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/build-design/SKILL.md"
+    },
+    {
+      "name": "camera-systems",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Builds and tunes game cameras, engine-neutral with Godot and Cinemachine 3 mappings: 2D follow with deadzone and look-ahead, third-person orbit, first-person look and split-screen. Use when the camera lags, jitters while following, shows past the level edge, clips through walls or changes with frame rate. Not for shake (`game-feel`) or physics timestep jitter (`physics-tuning`).",
+      "skill_md": "skills/camera-systems/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/camera-systems/SKILL.md"
+    },
+    {
+      "name": "canvas-design",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "skill_md": "skills/canvas-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/canvas-design/SKILL.md"
+    },
+    {
+      "name": "choreograph",
+      "aliases": [],
+      "category": "动效、手势与空间叙事",
+      "description": "Coordinate several elements that animate together — decide what moves, in what order, how much they overlap, and what stays still — so a group reads as one intentional motion instead of a pile of separate animations. Use when building or fixing a staggered list, a hero entrance, a view swap inside a container, a multi-step flow, an element leaving while its siblings close the gap, a morph between rich states, or any interaction with several moving parts (icon + background + lines, panel + content, items flying into a target). Triggers on — stagger, sequence, choreography, \"one after another\", crossfade, AnimatePresence mode, hero entrance, multi-step, useAnimate, \"feels mechanical\", \"too much going on\", \"feels slow to open\".",
+      "skill_md": "skills/choreograph/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/choreograph/SKILL.md"
+    },
+    {
+      "name": "ckw-design",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, color, type, or polish.",
+      "skill_md": "skills/ckw-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/ckw-design/SKILL.md"
+    },
+    {
+      "name": "creative-psychology-hooks",
+      "aliases": [],
+      "category": "创意发散与产品构思",
+      "description": "Generate and grade ad hooks, angles and video openers with a creative psychology framework when paid social ideas need a clear mechanism instead of generic brainstorming.",
+      "skill_md": "skills/creative-psychology-hooks/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/creative-psychology-hooks/SKILL.md"
+    },
+    {
+      "name": "design-how-make-font",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Fit a modifiable open typeface to aggregate reference measurements, then verify glyph coverage, spacing and web distribution.",
+      "skill_md": "skills/design-how-make-font/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-how-make-font/SKILL.md"
+    },
+    {
+      "name": "design-how-make-logo",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Develop original mark and wordmark directions from a brief, compare legibility and similarity, and prepare a reviewed asset package.",
+      "skill_md": "skills/design-how-make-logo/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-how-make-logo/SKILL.md"
+    },
+    {
+      "name": "design-how-make-motion",
+      "aliases": [],
+      "category": "动效、手势与空间叙事",
+      "description": "Turn an approved product story into a short motion video with a timing sheet, review cuts and measured export checks.",
+      "skill_md": "skills/design-how-make-motion/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-how-make-motion/SKILL.md"
+    },
+    {
+      "name": "design-it",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI components requesting a specific aesthetic.",
+      "skill_md": "skills/design-it/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-it/SKILL.md"
+    },
+    {
+      "name": "design-md",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files",
+      "skill_md": "skills/design-md/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-md/SKILL.md"
+    },
+    {
+      "name": "design-orchestration",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order.",
+      "skill_md": "skills/design-orchestration/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-orchestration/SKILL.md"
+    },
+    {
+      "name": "design-philosophy",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Visual philosophy and art-direction for frontend. Use when creating high-concept work, campaigns, or when the user asks for a visual philosophy, manifesto, or unmistakable art-like aesthetic.",
+      "skill_md": "skills/design-philosophy/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-philosophy/SKILL.md"
+    },
+    {
+      "name": "design-spatial",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Design — spatial composition",
+      "skill_md": "skills/design-spatial/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-spatial/SKILL.md"
+    },
+    {
+      "name": "design-spells",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Curated micro-interactions and design details that add \"magic\" and personality to websites and apps.",
+      "skill_md": "skills/design-spells/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-spells/SKILL.md"
+    },
+    {
+      "name": "design-system",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Mechanical implementation invariants for frontend design: token architecture, typography hierarchy, loading order, FOUT prevention, chrome stability, motion timing, color semantics. Use with design when building components, pages, or design systems.",
+      "skill_md": "skills/design-system/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-system/SKILL.md"
+    },
+    {
+      "name": "design-taste-frontend",
+      "aliases": [
+        "taste-skill"
+      ],
+      "category": "界面设计与审美打磨",
+      "description": "tasteskill 2.5.1, the anti-slop frontend skill. Builds professional company websites at the level of figma.com and x.ai: plain copy in a voice of its own, one system, one section per screen, equal edges, real photographs and real product UI (licensed stand-in photographs when the client has none; a product render only when the brief asks for 3D), a hero entrance and one or two dealt moments on every page, shader effects and scenes only on tech, gaming and software pages, quiet micro-interactions, and a checker and finish gate that enforce it in a real browser. Use this whenever you build, design, redesign, restyle, polish or review a landing page, company, product, shop, cafe, hotel, studio, SaaS, AI, developer-tool or game site, as static HTML/CSS or inside an existing React, Next.js, Vue, Svelte, Astro or Tailwind project, or when the user says a page looks generic, templated or \"AI-made\".",
+      "skill_md": "skills/design-taste-frontend/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-taste-frontend/SKILL.md"
+    },
+    {
+      "name": "design-theme-guide",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Design-token register: colour, typography, spacing and radius tokens with light and dark values, contrast ratio and WCAG level. Use for design system documentation.",
+      "skill_md": "skills/design-theme-guide/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-theme-guide/SKILL.md"
+    },
+    {
+      "name": "design-thinking",
+      "aliases": [],
+      "category": "创意发散与产品构思",
+      "description": "Direction and intent for frontend design. Use with design when defining purpose, tone, domain, color world, and review bar; includes cross-domain lens from cinema, architecture, marketing, UX, automotive, industrial design.",
+      "skill_md": "skills/design-thinking/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-thinking/SKILL.md"
+    },
+    {
+      "name": "design-ux",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "UX / usability audit — heuristic evaluation of INTERACTIVE UIs (not just visual polish). Load with design when a UI \"feels off\", \"sucks to use\", is hard to learn, needs an instruction wall, or before shipping an interactive tool/editor/app.",
+      "skill_md": "skills/design-ux/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/design-ux/SKILL.md"
+    },
+    {
+      "name": "dialogue-systems",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Builds engine-neutral branching dialogue with Ink, Yarn Spinner or a small JSON graph runner: lines, choices, conditions, variables and localization IDs. Use for NPC conversations, dialogue trees, barks, .ink or .yarn files, or dialogue that dead-ends. Not for visual-novel backlog and skip (`visual-novel`), quests (`rpg`) or text box widgets (`godot-ui-control`, `game-ui-ux`).",
+      "skill_md": "skills/dialogue-systems/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/dialogue-systems/SKILL.md"
+    },
+    {
+      "name": "emil-design-eng",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Emil Kowalski's design-engineering philosophy for UI polish, component design, animation decisions, and the invisible details that make software feel great. Use when building or reviewing a UI component's interactions and polish (press and hover states, popover origin, tooltip timing, transitions vs keyframes, clip-path techniques, drag details) and no narrower skill fits.",
+      "skill_md": "skills/emil-design-eng/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/emil-design-eng/SKILL.md"
+    },
+    {
+      "name": "emotional-arc-designer",
+      "aliases": [],
+      "category": "创意发散与产品构思",
+      "description": "Map the emotional progression of a narrative, page, or campaign when content needs a coherent path from attention to action.",
+      "skill_md": "skills/emotional-arc-designer/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/emotional-arc-designer/SKILL.md"
+    },
+    {
+      "name": "figma-designer",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Create structured Figma screens and libraries with ELAYA spacing, radius, semantic color variables, text styles, auto layout, and component states.",
+      "skill_md": "skills/figma-designer/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/figma-designer/SKILL.md"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "aliases": [],
+      "category": "动效、手势与空间叙事",
+      "description": "Propose purposeful motion opportunities from a read-only codebase review, with evidence and explicit exclusions.",
+      "skill_md": "skills/find-animation-opportunities/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/find-animation-opportunities/SKILL.md"
+    },
+    {
+      "name": "frontend-design",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "skill_md": "skills/frontend-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/frontend-design/SKILL.md"
+    },
+    {
+      "name": "game-brainstorm",
+      "aliases": [],
+      "category": "创意发散与产品构思",
+      "description": "Guides the user through finding and choosing a game concept. Use when the user wants game ideas, a new concept, a game jam idea, or to explore other directions, including dropping the current idea and starting over.",
+      "skill_md": "skills/game-brainstorm/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/game-brainstorm/SKILL.md"
+    },
+    {
+      "name": "game-development",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Game development orchestrator. Routes by platform, dimension, and engine fit (web 2D/3D, hybrid DOM+canvas, narrative tools). Use when starting or structuring a game project, choosing frameworks, or picking among Phaser, PixiJS, Kaplay, Canvas/WebGL, Three.js, Babylon.js, Godot, Unity, or Ink/Twine.",
+      "skill_md": "skills/game-development/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/game-development/SKILL.md"
+    },
+    {
+      "name": "game-feel",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Adds engine-neutral juice to a working mechanic: trauma-based screen shake, hit-stop, eased tweens, squash and stretch, and knockback. Use when the game feels flat, weightless or not punchy, or hits and jumps should feel satisfying. Not for coyote time (`platformer`), input buffering (`input-systems`), camera follow (`camera-systems`) or HUD layout (`game-ui-ux`).",
+      "skill_md": "skills/game-feel/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/game-feel/SKILL.md"
+    },
+    {
+      "name": "game-quick-design",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Lightweight spec for small changes — tuning adjustments, minor mechanics. Embeds directly into stories; skips full GDD.",
+      "skill_md": "skills/game-quick-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/game-quick-design/SKILL.md"
+    },
+    {
+      "name": "game-ui-ux",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Engine-neutral design rules for game HUDs and menus: anchors and containers, scaling, safe areas, gamepad focus, HUDs driven by events instead of polling, and accessibility minimums. Use for menus, health bars or inventory screens that break on ultrawide or phones. Pair with `godot-ui-control` or `roblox-ui`. Not for button juice (`game-feel`) or rebinding (`input-systems`).",
+      "skill_md": "skills/game-ui-ux/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/game-ui-ux/SKILL.md"
+    },
+    {
+      "name": "generate-image",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Generates or edits images with AI models through the OpenRouter Image API (Gemini, Seedream, Recraft, GPT-Image, Riverflow). Use for photos, illustrations, artwork, concept art, visual assets, logos, and image editing or compositing from reference images. For flowcharts, circuits, pathways, and other technical diagrams, use the scientific-schematics skill instead.",
+      "skill_md": "skills/generate-image/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/generate-image/SKILL.md"
+    },
+    {
+      "name": "gestures",
+      "aliases": [],
+      "category": "动效、手势与空间叙事",
+      "description": "Build drag, swipe, and sheet interactions that track the finger 1:1 and stay interruptible. Use when building or fixing anything the user drags, swipes, flings, holds, or dismisses with a gesture — drawers, sheets, swipe-to-dismiss toasts and cards, drag-to-reorder, pull-to-refresh, hold-to-confirm — or when a gesture feels laggy, disconnected from the finger, jumps on release, or can't be caught mid-animation. Triggers on — gesture, drag, swipe, fling, sheet, snap points, Vaul, Motion drag props, rubber-band, pull to refresh, hold to delete, touch-action, \"doesn't follow my finger\", \"jumps when I let go\", \"can't grab it mid-animation\".",
+      "skill_md": "skills/gestures/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/gestures/SKILL.md"
+    },
+    {
+      "name": "high-end-visual-design",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions.",
+      "skill_md": "skills/high-end-visual-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/high-end-visual-design/SKILL.md"
+    },
+    {
+      "name": "impeccable",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md).",
+      "skill_md": "skills/impeccable/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/impeccable/SKILL.md"
+    },
+    {
+      "name": "improve-animations",
+      "aliases": [],
+      "category": "动效、手势与空间叙事",
+      "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather than a review of a single diff.",
+      "skill_md": "skills/improve-animations/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/improve-animations/SKILL.md"
+    },
+    {
+      "name": "input-systems",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Engine-neutral input architecture with Godot InputMap code: named actions, stick deadzones, buffered presses and rebinding with conflict checks. Use for controller support or a rebind menu, or a drifting stick, WASD on AZERTY, or a dropped press. Not for coyote time (`platformer`) or Unity and Unreal input assets (`unity-input-system`, `unreal-enhanced-input`).",
+      "skill_md": "skills/input-systems/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/input-systems/SKILL.md"
+    },
+    {
+      "name": "interactive-portfolio",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, designer portfolios, creative portfolios, and portfolios that convert visitors into opportunities.",
+      "skill_md": "skills/interactive-portfolio/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/interactive-portfolio/SKILL.md"
+    },
+    {
+      "name": "interface-design",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Craft-first interface design for dashboards, admin panels, SaaS apps, tools, settings pages, data interfaces, and interactive products. Use when designing, building, reviewing, auditing, or refining product UI where visual craft, layout hierarchy, tokens, states, visual direction, or design-system consistency matter. Not for marketing pages, landing pages, campaigns, or brand-only work.",
+      "skill_md": "skills/interface-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/interface-design/SKILL.md"
+    },
+    {
+      "name": "landing-page-design",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Plan and build conversion-focused landing pages with intake, proof-based copy, explicit page structure, and the ELAYA visual system.",
+      "skill_md": "skills/landing-page-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/landing-page-design/SKILL.md"
+    },
+    {
+      "name": "latex-posters",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Creates research posters in LaTeX using beamerposter, tikzposter, or baposter. Use for conference posters, academic presentations, multi-column scientific layouts, figure integration, typography, compilation, and PDF preflight.",
+      "skill_md": "skills/latex-posters/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/latex-posters/SKILL.md"
+    },
+    {
+      "name": "learn-taste",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Turn a session's design corrections into rules, with their why, in DESIGN.md, a project skill, or a lint check.",
+      "skill_md": "skills/learn-taste/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/learn-taste/SKILL.md"
+    },
+    {
+      "name": "level-design",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Engine-neutral level design with Godot checks: player metrics from the real controller, key and ability gating with a soft-lock check, and pacing. Use when laying out a level or metroidvania gates, or players get lost or a key sits behind its own door. Not for generation (`procedural-gen`), painting tiles (`godot-tilemap`, `unity-tilemap-2d`) or jump tuning (`platformer`).",
+      "skill_md": "skills/level-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/level-design/SKILL.md"
+    },
+    {
+      "name": "logo-to-stickers",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Turn a brand mark or existing IP into consistent, playful paper stickers with small visual stories and separate transparent images. Use for brand characters and website sticker sets.",
+      "skill_md": "skills/logo-to-stickers/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/logo-to-stickers/SKILL.md"
+    },
+    {
+      "name": "mobile-design",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Design and review iOS, Android, React Native or Flutter interfaces for touch, accessibility, navigation, offline behavior and measured performance. Use for mobile app UI work; not a mobile compliance certification.",
+      "skill_md": "skills/mobile-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/mobile-design/SKILL.md"
+    },
+    {
+      "name": "mobile-native",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Make a web app feel native on a phone — the small CSS and meta-tag fixes that separate \"a website in a browser\" from something that feels installed. Covers sticky hover states, tap highlight flashes, the 100vh bug, inputs that zoom the page, laggy taps, pull-to-refresh hijacking scroll, content under the notch, long-press selecting button text, carousels that scroll the wrong way, mismatched status bars, and the rule that you test on real hardware. Use when a web app is being built for or reviewed on mobile, when something \"works in Chrome but feels wrong on my phone\", when building a PWA, a bottom sheet, a carousel, a full-screen layout, or any touch interaction. For motion itself use animate; for React Native use animate-expo.",
+      "skill_md": "skills/mobile-native/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/mobile-native/SKILL.md"
+    },
+    {
+      "name": "multi-agent-brainstorming",
+      "aliases": [],
+      "category": "创意发散与产品构思",
+      "description": "Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation.",
+      "skill_md": "skills/multi-agent-brainstorming/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/multi-agent-brainstorming/SKILL.md"
+    },
+    {
+      "name": "phaser-core",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Sets up and debugs Phaser 4 games (and pinned Phaser 3.90): Game config, Scene lifecycle, the loader, scene transitions and Phaser 3 to 4 migration. Use when code imports phaser, or on a black screen, assets undefined in create, or a HUD scene behind the game. Not for colliders (`phaser-arcade-physics`), HUD layout (`game-ui-ux`) or PixiJS (`pixijs-rendering`).",
+      "skill_md": "skills/phaser-core/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/phaser-core/SKILL.md"
+    },
+    {
+      "name": "pptx-posters",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Creates and audits editable scientific posters in macro-free PowerPoint (.pptx) from author-approved local content and assets. Used when the requested deliverable is a PowerPoint research/conference poster and exact physical, printer, accessibility, provenance, and package-security checks are required.",
+      "skill_md": "skills/pptx-posters/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/pptx-posters/SKILL.md"
+    },
+    {
+      "name": "premium-3d-website",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interactions, smooth animations, preloaders, and device optimization.",
+      "skill_md": "skills/premium-3d-website/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/premium-3d-website/SKILL.md"
+    },
+    {
+      "name": "product-design",
+      "aliases": [],
+      "category": "创意发散与产品构思",
+      "description": "Design de produto nivel Apple — sistemas visuais, UX flows, acessibilidade, linguagem visual proprietaria, design tokens, prototipagem e handoff. Cobre Figma, design systems, tipografia, cor, espacamento, motion design e principios de design cognitivo.",
+      "skill_md": "skills/product-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/product-design/SKILL.md"
+    },
+    {
+      "name": "product-design-harness",
+      "aliases": [],
+      "category": "创意发散与产品构思",
+      "description": "Use when a product direction, feature, workflow, experiment, launch, feedback signal, automation, or scale decision needs judgment before execution or the next iteration.",
+      "skill_md": "skills/product-design-harness/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/product-design-harness/SKILL.md"
+    },
+    {
+      "name": "product-inventor",
+      "aliases": [],
+      "category": "创意发散与产品构思",
+      "description": "Product Inventor e Design Alchemist de nivel maximo — combina Product Thinking, Design Systems, UI Engineering, Psicologia Cognitiva, Storytelling e execucao impecavel nivel Jobs/Apple.",
+      "skill_md": "skills/product-inventor/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/product-inventor/SKILL.md"
+    },
+    {
+      "name": "redesign-existing-projects",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.",
+      "skill_md": "skills/redesign-existing-projects/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/redesign-existing-projects/SKILL.md"
+    },
+    {
+      "name": "review-animations",
+      "aliases": [],
+      "category": "动效、手势与空间叙事",
+      "description": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned.",
+      "skill_md": "skills/review-animations/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/review-animations/SKILL.md"
+    },
+    {
+      "name": "scientific-schematics",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Generates scientific diagram drafts using Nano Banana 2 AI with smart iterative refinement. Uses Gemini 3.7 Flash for quality review. Refines when the review requests improvement, with at most two generations. Specialized in neural network architectures, system diagrams, flowcharts, biological pathways, and complex scientific visualizations.",
+      "skill_md": "skills/scientific-schematics/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/scientific-schematics/SKILL.md"
+    },
+    {
+      "name": "scientific-slides",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Builds slide decks and presentations for research talks. Used for making PowerPoint slides, conference presentations, seminar talks, research presentations, thesis defense slides, or any scientific talk. Provides slide structure, design templates, timing guidance, and visual validation. Works with PowerPoint and LaTeX Beamer.",
+      "skill_md": "skills/scientific-slides/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/scientific-slides/SKILL.md"
+    },
+    {
+      "name": "scroll-3d-world",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Build a scroll-scrubbed Three.js fly-through landing page: one continuous camera path through diorama scenes, with no AI video, no seams and no render credits.",
+      "skill_md": "skills/scroll-3d-world/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/scroll-3d-world/SKILL.md"
+    },
+    {
+      "name": "scroll-experience",
+      "aliases": [],
+      "category": "动效、手势与空间叙事",
+      "description": "Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product pages, and award-winning web experiences.",
+      "skill_md": "skills/scroll-experience/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/scroll-experience/SKILL.md"
+    },
+    {
+      "name": "slack-gif-creator",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "skill_md": "skills/slack-gif-creator/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/slack-gif-creator/SKILL.md"
+    },
+    {
+      "name": "spline-3d-integration",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API.",
+      "skill_md": "skills/spline-3d-integration/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/spline-3d-integration/SKILL.md"
+    },
+    {
+      "name": "stitch-design-taste",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.",
+      "skill_md": "skills/stitch-design-taste/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/stitch-design-taste/SKILL.md"
+    },
+    {
+      "name": "stitch-ui-design",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for web and mobile applications.",
+      "skill_md": "skills/stitch-ui-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/stitch-ui-design/SKILL.md"
+    },
+    {
+      "name": "styleseed-design-review",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Reviews UI/frontend code and tells you exactly why it \"looks AI-generated\" — then how to fix it.",
+      "skill_md": "skills/styleseed-design-review/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/styleseed-design-review/SKILL.md"
+    },
+    {
+      "name": "theme-factory",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "skill_md": "skills/theme-factory/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/theme-factory/SKILL.md"
+    },
+    {
+      "name": "threejs-3d-generator",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Generate, texture, rig, animate, stylize, convert, and download 3D assets for Three.js games via the Tripo API. Use for text-to-3D, image-to-3D, game-ready GLB/FBX, characters, creatures, buildings, props, weapons, terrain, auto-rigging, animation retargeting, model texturing, voxel/LEGO stylization, and low-poly conversion. Pair with threejs-image-generator for concept and texture references first.",
+      "skill_md": "skills/threejs-3d-generator/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-3d-generator/SKILL.md"
+    },
+    {
+      "name": "threejs-aaa-graphics-builder",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Upgrade Three.js games from prototype visuals to premium browser graphics: art-direction critique, procedural model building, material and texture libraries, world prop kits, shaders, VFX, lighting and render pipeline, LOD and instancing, render budgets, and a 10-category visual scorecard. Use when screenshots still look basic or the user asks for premium, AAA, high-fidelity, showcase, or less-basic graphics.",
+      "skill_md": "skills/threejs-aaa-graphics-builder/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-aaa-graphics-builder/SKILL.md"
+    },
+    {
+      "name": "threejs-animation",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Keyframe, skeletal and morph-target animation, procedural motion and clip blending, on WebGL or with WebGPU and TSL. Use when animating objects, playing glTF animations, posing bones, driving morph targets, or mixing and crossfading clips.",
+      "skill_md": "skills/threejs-animation/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-animation/SKILL.md"
+    },
+    {
+      "name": "threejs-asset-pipeline",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Shrinking glTF assets for three.js with gltf-transform: inspect, validate and optimize commands, Draco, meshopt and quantization, KTX2, WebP and AVIF textures, the loader setup each output needs, and gltfjsx for React. Use when compressing, optimizing or validating 3D models before loading them.",
+      "skill_md": "skills/threejs-asset-pipeline/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-asset-pipeline/SKILL.md"
+    },
+    {
+      "name": "threejs-audio-generator",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Generate, convert, clean, and integrate audio for Three.js browser games with ElevenLabs: sound effects, looping ambience, music tracks and loops (menu, gameplay, boss, victory/defeat stingers), UI sounds, impact/weapon/vehicle audio, creature and boss stingers, announcer and dialogue TTS, voice conversion from a scratch performance, voice cleanup, audio manifests, and Web Audio integration.",
+      "skill_md": "skills/threejs-audio-generator/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-audio-generator/SKILL.md"
+    },
+    {
+      "name": "threejs-debug-profiler",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Debug and profile Three.js browser games: blank canvases, render and runtime bugs, asset and audio loading, animation, resize, mobile input, plus performance profiling of draw calls, triangles, textures, memory, shader and post-processing cost, and bundle size.",
+      "skill_md": "skills/threejs-debug-profiler/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-debug-profiler/SKILL.md"
+    },
+    {
+      "name": "threejs-fundamentals",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Three.js scene setup: scenes and fog, cameras, the renderer and tone mapping, the animation loop, object hierarchies, transforms, core math and cleanup, on WebGL or with WebGPU and TSL. Use when creating a scene from scratch, configuring a camera or renderer, handling resize, or arranging objects.",
+      "skill_md": "skills/threejs-fundamentals/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-fundamentals/SKILL.md"
+    },
+    {
+      "name": "threejs-game-director",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Entrypoint for building, upgrading, and finishing Three.js browser games. Routes work across the sibling threejs-* skills for gameplay, graphics, UI, 3D/image/audio asset generation, debugging, and release. Use for any request to build, upgrade, polish, or ship a Three.js game as a whole, at any scope from a small arcade prototype to a premium release.",
+      "skill_md": "skills/threejs-game-director/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-game-director/SKILL.md"
+    },
+    {
+      "name": "threejs-game-ui-designer",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Design premium Three.js game UI: HUDs, menus, overlays, pause/win/lose screens, settings, icon controls, touch UI, typography, responsive layout, safe areas, text fit, and UI/world cohesion.",
+      "skill_md": "skills/threejs-game-ui-designer/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-game-ui-designer/SKILL.md"
+    },
+    {
+      "name": "threejs-gameplay-systems",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Build and iterate playable Three.js game systems: starter scaffold, architecture, design briefs, core loops, level and encounter design, entities, input, camera, collision and physics, scoring, objectives, and game feel. Use for first playable slices, new Vite/TypeScript/Three.js setups, level/arena/track/wave/hole/puzzle design, combat encounters, difficulty tuning, and juice.",
+      "skill_md": "skills/threejs-gameplay-systems/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-gameplay-systems/SKILL.md"
+    },
+    {
+      "name": "threejs-geometry",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Creating and shaping three.js geometry: built-in shapes, 3D text, vertex buffers and attributes, merging, instancing, batching, point clouds and lines, on WebGL or with WebGPU and TSL. Use when building 3D shapes or text, custom vertex data, custom meshes, instanced meshes, or point clouds.",
+      "skill_md": "skills/threejs-geometry/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-geometry/SKILL.md"
+    },
+    {
+      "name": "threejs-image-generator",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Generate and edit 2D image assets for Three.js games with Google's Gemini image API: concept sheets, image-to-3D inputs, texture and material references, sky and background plates, decals, logos, icons, GUI art, title and menu art, and marketing stills. Also use for direct image editing when the user supplies an image path.",
+      "skill_md": "skills/threejs-image-generator/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-image-generator/SKILL.md"
+    },
+    {
+      "name": "threejs-interaction",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Picking with raycasting, camera controls, transform gizmos, drag, hover and box selection for three.js, identical under WebGL and WebGPU. Use when handling mouse, touch or keyboard input, detecting clicks on 3D objects, adding camera controls, or making scene objects interactive.",
+      "skill_md": "skills/threejs-interaction/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-interaction/SKILL.md"
+    },
+    {
+      "name": "threejs-lighting",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Light types and physical units, shadow maps, HDR environment lighting, light probes, and lighting performance, on WebGL or with WebGPU and TSL. Use when adding or tuning lights, fixing shadow acne, setting up image-based lighting, or dimming an environment map.",
+      "skill_md": "skills/threejs-lighting/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-lighting/SKILL.md"
+    },
+    {
+      "name": "threejs-loaders",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Loading three.js assets: glTF with Draco, meshopt and KTX2 compression, other model formats, textures, HDR and EXR environments, progress, caching, cloning and disposal. Use when loading 3D models, textures or environment maps, or managing loading progress, on WebGL or with WebGPU and TSL.",
+      "skill_md": "skills/threejs-loaders/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-loaders/SKILL.md"
+    },
+    {
+      "name": "threejs-materials",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Choosing and configuring three.js materials - unlit, diffuse, specular, PBR, toon, point and line materials - shared properties like blending and stencil, environment response, and the WebGPU node-material and TSL equivalents. Use when styling meshes or tuning material behavior.",
+      "skill_md": "skills/threejs-materials/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-materials/SKILL.md"
+    },
+    {
+      "name": "threejs-performance",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Measuring and optimizing three.js speed: render statistics, memory counters, fewer draw calls via merging, instancing, batching and LOD, fill rate, shadows, CPU work per frame, shader stalls and GPU compute for particles, WebGL or WebGPU with TSL. Use when a scene is slow, janks or exceeds memory.",
+      "skill_md": "skills/threejs-performance/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-performance/SKILL.md"
+    },
+    {
+      "name": "threejs-postprocessing",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Three.js post-processing: composer pass chains, built-in renderer effects, and the WebGPU/TSL node pipeline — bloom, depth of field, ambient occlusion, custom screen effects. Use when adding visual effects, color grading, blur, glow, or screen-space shaders, on WebGL or with WebGPU and TSL.",
+      "skill_md": "skills/threejs-postprocessing/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-postprocessing/SKILL.md"
+    },
+    {
+      "name": "threejs-qa-release",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Verify and release Three.js browser games: playtest QA, automated bot playtests, mobile and responsive checks, production builds, static-hosting base paths, debug gating, bundle review, screenshots, visual regression baselines, canvas-pixel inspection with measured metrics, and release risk reports.",
+      "skill_md": "skills/threejs-qa-release/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-qa-release/SKILL.md"
+    },
+    {
+      "name": "threejs-shaders",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Custom GLSL vertex and fragment shaders: uniforms, varyings, shader chunks, extending built-in materials, instanced attributes, plus the same effects as node materials with TSL on WebGPU. Use when writing a shader, a custom material or effect, moving vertices in a shader, or porting GLSL to TSL.",
+      "skill_md": "skills/threejs-shaders/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-shaders/SKILL.md"
+    },
+    {
+      "name": "threejs-skills",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Create 3D scenes, interactive experiences, and visual effects using Three.js. Use when user requests 3D graphics, WebGL experiences, 3D visualizations, animations, or interactive 3D elements.",
+      "skill_md": "skills/threejs-skills/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-skills/SKILL.md"
+    },
+    {
+      "name": "threejs-textures",
+      "aliases": [],
+      "category": "3D、材质与交互场景",
+      "description": "Three.js textures: image loading, color spaces, UV channels and transforms, texture types from canvas to HDR and KTX2, render targets, texture memory. Use when working with images on materials, UV coordinates, cubemaps, render targets or texture optimization; on WebGL or with WebGPU and TSL.",
+      "skill_md": "skills/threejs-textures/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/threejs-textures/SKILL.md"
+    },
+    {
+      "name": "ui-design",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Mandatory for any product's screens, a builder's too, and any mock, prototype or artifact that shows them: its design system, colour, type, components; judging the look.",
+      "skill_md": "skills/ui-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/ui-design/SKILL.md"
+    },
+    {
+      "name": "ui-from-screenshot",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Turn a screenshot or mockup into matching UI with the project's own components, then compare the result side by side with the image and fix the differences.",
+      "skill_md": "skills/ui-from-screenshot/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/ui-from-screenshot/SKILL.md"
+    },
+    {
+      "name": "ui-states",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Design and build the UI states agents forget: first use, empty, loading, error, offline, no results, long content, permission denied and success.",
+      "skill_md": "skills/ui-states/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/ui-states/SKILL.md"
+    },
+    {
+      "name": "ui-ux-designer",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools.",
+      "skill_md": "skills/ui-ux-designer/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/ui-ux-designer/SKILL.md"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 80 searchable styles (51 active), 194 product palettes and reasoning profiles, 74 font pairings, 141 UX guidelines, 105 icons, 17 GSAP presets, 25 chart types, and 22 stacks.",
+      "skill_md": "skills/ui-ux-pro-max/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/ui-ux-pro-max/SKILL.md"
+    },
+    {
+      "name": "unity-ai-game-creator",
+      "aliases": [],
+      "category": "游戏玩法、镜头与声效",
+      "description": "Transform raw game ideas into complete Unity projects with AI-powered asset generation, scene blueprints, music/SFX prompts, and step-by-step development procedures using Unity 6+ and modern AI tools.",
+      "skill_md": "skills/unity-ai-game-creator/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/unity-ai-game-creator/SKILL.md"
+    },
+    {
+      "name": "visual-emotion-engineer",
+      "aliases": [],
+      "category": "创意发散与产品构思",
+      "description": "Create a visual direction brief for color, typography, imagery, and hierarchy when design must support a defined emotion, culture, and accessibility needs.",
+      "skill_md": "skills/visual-emotion-engineer/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/visual-emotion-engineer/SKILL.md"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "aliases": [],
+      "category": "视觉艺术、品牌与演示",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "skill_md": "skills/web-artifacts-builder/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/web-artifacts-builder/SKILL.md"
+    },
+    {
+      "name": "web-design-system",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Choose a design direction for a website from real sites and write it down as a DESIGN.md: colors with roles, type, spacing, radius, shadows and components, in light and dark.",
+      "skill_md": "skills/web-design-system/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/web-design-system/SKILL.md"
+    },
+    {
+      "name": "web-project-brainstorming",
+      "aliases": [],
+      "category": "创意发散与产品构思",
+      "description": "Masterclass framework for brainstorming web development projects and page designs. Outlines structural phases for concept, UX flow, styling aesthetics, technical architecture, and SEO.",
+      "skill_md": "skills/web-project-brainstorming/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/web-project-brainstorming/SKILL.md"
+    },
+    {
+      "name": "write-design-md",
+      "aliases": [],
+      "category": "界面设计与审美打磨",
+      "description": "Write or update a project's DESIGN.md from the colors, type, spacing and components it really uses, with rules agents follow so new screens match.",
+      "skill_md": "skills/write-design-md/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/write-design-md/SKILL.md"
+    }
+  ]
+}

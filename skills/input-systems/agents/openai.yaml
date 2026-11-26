@@ -1,0 +1,4 @@
+interface:
+  display_name: "input-systems"
+  short_description: "Input Systems creative workflow guidance"
+  default_prompt: "Use $input-systems for the requested task, following the current project rules."

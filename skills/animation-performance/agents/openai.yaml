@@ -1,0 +1,4 @@
+interface:
+  display_name: "animation-performance"
+  short_description: "Animation Performance creative workflow guidance"
+  default_prompt: "Use $animation-performance for the requested task, following the current project rules."

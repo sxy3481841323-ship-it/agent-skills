@@ -1,0 +1,4 @@
+interface:
+  display_name: "brand-perception-psychologist"
+  short_description: "Brand Perception Psychologist creative workflow guidance"
+  default_prompt: "Use $brand-perception-psychologist for the requested task, following the current project rules."

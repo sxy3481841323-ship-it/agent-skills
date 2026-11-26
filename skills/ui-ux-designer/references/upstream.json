@@ -1,0 +1,23 @@
+{
+  "name": "ui-ux-designer",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/ui-ux-designer",
+  "original_frontmatter": {
+    "name": "ui-ux-designer",
+    "description": "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "a31e507e6ad729b5924611a631af64fc4b476c97"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

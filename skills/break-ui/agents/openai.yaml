@@ -1,0 +1,4 @@
+interface:
+  display_name: "break-ui"
+  short_description: "Break Ui creative workflow guidance"
+  default_prompt: "Use $break-ui for the requested task, following the current project rules."

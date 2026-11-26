@@ -1,0 +1,4 @@
+interface:
+  display_name: "audio-design"
+  short_description: "Audio Design creative workflow guidance"
+  default_prompt: "Use $audio-design for the requested task, following the current project rules."

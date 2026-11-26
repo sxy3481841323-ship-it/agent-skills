@@ -1,0 +1,79 @@
+{
+  "name": "mobile-design",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/mobile-design",
+  "original_frontmatter": {
+    "name": "mobile-design",
+    "description": "Design and review iOS, Android, React Native or Flutter interfaces for touch, accessibility, navigation, offline behavior and measured performance. Use for mobile app UI work; not a mobile compliance certification.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "b3c8aa744cea4faa35b496418c2d56f0a0bd6661"
+    },
+    {
+      "path": "decision-trees.md",
+      "git_blob_sha": "de1f8c5baa2d9242c98be39597e2e7462c166d4b"
+    },
+    {
+      "path": "mobile-backend.md",
+      "git_blob_sha": "02b051b10290329aee753928e89d86ed04ab2fc2"
+    },
+    {
+      "path": "mobile-color-system.md",
+      "git_blob_sha": "2bf4eb207012541de8cbc783c1d18141f1318f5a"
+    },
+    {
+      "path": "mobile-debugging.md",
+      "git_blob_sha": "04173574103523848b7159960031c892784b73d3"
+    },
+    {
+      "path": "mobile-design-thinking.md",
+      "git_blob_sha": "a1305ed92af335b1131a1a5f6f943c96c268f498"
+    },
+    {
+      "path": "mobile-navigation.md",
+      "git_blob_sha": "bfe6a0b030f05d35877256f8b5f80d3e59b39407"
+    },
+    {
+      "path": "mobile-performance.md",
+      "git_blob_sha": "86441df9113ab42246ef3768e67b67b8a27fb587"
+    },
+    {
+      "path": "mobile-testing.md",
+      "git_blob_sha": "f68546c81c8ee5eb0e9a4bf272f37d07c8134b33"
+    },
+    {
+      "path": "mobile-typography.md",
+      "git_blob_sha": "e4f3de57f22f27ec8c862dfa1981b09859402f9b"
+    },
+    {
+      "path": "platform-android.md",
+      "git_blob_sha": "3f6ca02dd70f6958f2c827a2717832280e22eecd"
+    },
+    {
+      "path": "platform-ios.md",
+      "git_blob_sha": "a5c432962c4c91238dd0f563f88db8e650e8bb0b"
+    },
+    {
+      "path": "scripts/mobile_audit.py",
+      "git_blob_sha": "c5174d83d1bb37d5a234fc27980be01042ba184c"
+    },
+    {
+      "path": "scripts/test_mobile_audit_review.py",
+      "git_blob_sha": "dde1cb462f6b09f1ad5ae6e3b60e96b1dd8c06ca"
+    },
+    {
+      "path": "touch-psychology.md",
+      "git_blob_sha": "7d5ae431df9c1d75e091ef6fbfbb3160e8128fb0"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

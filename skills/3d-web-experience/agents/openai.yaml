@@ -1,0 +1,4 @@
+interface:
+  display_name: "3d-web-experience"
+  short_description: "3D Web Experience creative workflow guidance"
+  default_prompt: "Use $3d-web-experience for the requested task, following the current project rules."

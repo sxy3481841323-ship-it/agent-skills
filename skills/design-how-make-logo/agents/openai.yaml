@@ -1,0 +1,4 @@
+interface:
+  display_name: "design-how-make-logo"
+  short_description: "Design How Make Logo creative workflow guidance"
+  default_prompt: "Use $design-how-make-logo for the requested task, following the current project rules."

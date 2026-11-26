@@ -1,0 +1,67 @@
+{
+  "name": "game-development",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/game-development",
+  "original_frontmatter": {
+    "name": "game-development",
+    "description": "Game development orchestrator. Routes by platform, dimension, and engine fit (web 2D/3D, hybrid DOM+canvas, narrative tools). Use when starting or structuring a game project, choosing frameworks, or picking among Phaser, PixiJS, Kaplay, Canvas/WebGL, Three.js, Babylon.js, Godot, Unity, or Ink/Twine.",
+    "risk": "none",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  "files": [
+    {
+      "path": "2d-games/SKILL.md",
+      "git_blob_sha": "e82549afde0348b3a35b7ba586ccdef04346e24c"
+    },
+    {
+      "path": "3d-games/SKILL.md",
+      "git_blob_sha": "c9db83c64c8ea31ecd8975c9c56379882cc7617c"
+    },
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "542550308f6b7261cf78c872b1406d54a199d1a3"
+    },
+    {
+      "path": "engine-selection/SKILL.md",
+      "git_blob_sha": "428b50b650b0c65ee94fb08685015a51cbfaa8dc"
+    },
+    {
+      "path": "game-art/SKILL.md",
+      "git_blob_sha": "5246d6a9bb6ac00d5a837e614f413f728dcbb758"
+    },
+    {
+      "path": "game-audio/SKILL.md",
+      "git_blob_sha": "e735c5eeb49f9c4778f886554cea59e4366e7e2d"
+    },
+    {
+      "path": "game-design/SKILL.md",
+      "git_blob_sha": "a0f441b1730504d30b0fde4af98a47ead08da02e"
+    },
+    {
+      "path": "mobile-games/SKILL.md",
+      "git_blob_sha": "0cbfcb81edc5369aa16da8d87f94d73674460508"
+    },
+    {
+      "path": "multiplayer/SKILL.md",
+      "git_blob_sha": "678bf0edcad4e640676da66dd52e8d63479355d3"
+    },
+    {
+      "path": "pc-games/SKILL.md",
+      "git_blob_sha": "3d83587078909cd8487b512280ff675ac17da407"
+    },
+    {
+      "path": "vr-ar/SKILL.md",
+      "git_blob_sha": "fc05a7cc72cef4401a0768a356b5d0b1068a424c"
+    },
+    {
+      "path": "web-games/SKILL.md",
+      "git_blob_sha": "f35d8c7c18584a612a58975965fa5c6f9e773b6a"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

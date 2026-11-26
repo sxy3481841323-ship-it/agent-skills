@@ -1,0 +1,4 @@
+interface:
+  display_name: "logo-to-stickers"
+  short_description: "Logo To Stickers creative workflow guidance"
+  default_prompt: "Use $logo-to-stickers for the requested task, following the current project rules."

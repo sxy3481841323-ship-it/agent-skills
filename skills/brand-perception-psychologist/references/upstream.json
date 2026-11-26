@@ -1,0 +1,23 @@
+{
+  "name": "brand-perception-psychologist",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/brand-perception-psychologist",
+  "original_frontmatter": {
+    "name": "brand-perception-psychologist",
+    "description": "Audit visual, verbal, and behavioral brand signals and propose alignment changes when market perception differs from the intended position.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "b42661b34bff9253325b4ba231c281140e6ed196"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

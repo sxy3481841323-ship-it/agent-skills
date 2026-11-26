@@ -1,0 +1,36 @@
+{
+  "name": "landing-page-design",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/landing-page-design",
+  "original_frontmatter": {
+    "name": "landing-page-design",
+    "description": "Plan and build conversion-focused landing pages with intake, proof-based copy, explicit page structure, and the ELAYA visual system.",
+    "risk": "critical",
+    "source": "community",
+    "source_repo": "ELAYADESIGN/AI-DESIGN-SKILLS",
+    "source_type": "community",
+    "author": "Elaya",
+    "license": "MIT",
+    "license_source": "https://github.com/ELAYADESIGN/AI-DESIGN-SKILLS/blob/456d9e0d3e2d84c748bb143c6ca3d90c45e16213/LICENSE",
+    "date_added": "2026-11-03"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "9ff21c8c5b2e713c357d3e15e641172a211eac21"
+    },
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "817f480fbcc834ce963df0071b8d9549af9785ce"
+    },
+    {
+      "path": "references/visual-system.md",
+      "git_blob_sha": "96ab51110755ffb66d8fff565f3ce2f0143329f2"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "generate-image",
+  "source_repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "source_commit": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+  "source_path": "skills/generate-image",
+  "original_frontmatter": {
+    "name": "generate-image",
+    "description": "Generates or edits images with AI models through the OpenRouter Image API (Gemini, Seedream, Recraft, GPT-Image, Riverflow). Use for photos, illustrations, artwork, concept art, visual assets, logos, and image editing or compositing from reference images. For flowcharts, circuits, pathways, and other technical diagrams, use the scientific-schematics skill instead.",
+    "license": "MIT",
+    "compatibility": "Requires Python 3.9+ and network access to openrouter.ai. The bundled script uses only the standard library. Image generation requires the OPENROUTER_API_KEY credential and bills per request; listing models, inspecting a model, and --dry-run do not. Targets the OpenRouter Image API (POST /api/v1/images) documentation and public discovery reviewed on 2026-09-30.",
+    "allowed-tools": "Read Write Edit Bash",
+    "metadata": {
+      "version": "3.3",
+      "skill-author": "K-Dense Inc.",
+      "last-reviewed": "2026-09-30",
+      "openclaw": {
+        "primaryEnv": "OPENROUTER_API_KEY",
+        "envVars": [
+          {
+            "name": "OPENROUTER_API_KEY",
+            "required": true,
+            "description": "OpenRouter API key used for image generation."
+          }
+        ]
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "7389c55a049c9dd6ef62fccbe89f23786a3d11ef"
+    },
+    {
+      "path": "references/models.md",
+      "git_blob_sha": "40abae0036005529c72c7e6b1a26eb5d1041fef4"
+    },
+    {
+      "path": "scripts/generate_image.py",
+      "git_blob_sha": "03567a8d261a7de4bb8e7fb4e8fee3f2bb179506"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

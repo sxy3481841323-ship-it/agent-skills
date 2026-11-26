@@ -1,0 +1,4 @@
+interface:
+  display_name: "learn-taste"
+  short_description: "Learn Taste creative workflow guidance"
+  default_prompt: "Use $learn-taste for the requested task, following the current project rules."

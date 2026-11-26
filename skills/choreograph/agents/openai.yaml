@@ -1,0 +1,4 @@
+interface:
+  display_name: "choreograph"
+  short_description: "Choreograph creative workflow guidance"
+  default_prompt: "Use $choreograph for the requested task, following the current project rules."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "design-thinking"
+  short_description: "Design Thinking creative workflow guidance"
+  default_prompt: "Use $design-thinking for the requested task, following the current project rules."

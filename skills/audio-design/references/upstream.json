@@ -1,0 +1,22 @@
+{
+  "name": "audio-design",
+  "source_repository": "https://github.com/sxy3481841323-ship-it/bruce-happiness-club",
+  "source_commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+  "source_path": ".agents/skills/audio-design",
+  "original_frontmatter": {
+    "name": "audio-design",
+    "description": "Engine-neutral game audio technique: bus layout, volume sliders in decibels, loudness, ducking music under dialogue, adaptive music and SFX variation, with Godot, Unity and FMOD/Wwise mappings. Use when mixing a game, making music react to combat, fixing repetitive footsteps or beat sync, or a mix that clips or pumps. Not for the Godot audio API (`godot-audio`)."
+  },
+  "project_snapshots": [
+    {
+      "project": "bruce-happiness-club",
+      "commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+      "metadata_name": "audio-design",
+      "sha256": "ad31e41ac14d10a4dfa89403dc96632fcda21bd1710017210846afcd7b52fd5d"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

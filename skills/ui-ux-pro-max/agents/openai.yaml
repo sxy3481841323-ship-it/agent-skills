@@ -1,0 +1,4 @@
+interface:
+  display_name: "ui-ux-pro-max"
+  short_description: "Ui Ux Pro Max creative workflow guidance"
+  default_prompt: "Use $ui-ux-pro-max for the requested task, following the current project rules."

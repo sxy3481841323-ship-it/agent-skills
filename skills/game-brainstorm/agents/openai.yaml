@@ -1,0 +1,4 @@
+interface:
+  display_name: "game-brainstorm"
+  short_description: "Game Brainstorm creative workflow guidance"
+  default_prompt: "Use $game-brainstorm for the requested task, following the current project rules."

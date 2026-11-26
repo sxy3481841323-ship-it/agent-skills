@@ -1,0 +1,108 @@
+{
+  "name": "pptx-posters",
+  "source_repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "source_commit": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+  "source_path": "skills/pptx-posters",
+  "original_frontmatter": {
+    "name": "pptx-posters",
+    "description": "Creates and audits editable scientific posters in macro-free PowerPoint (.pptx) from author-approved local content and assets. Used when the requested deliverable is a PowerPoint research/conference poster and exact physical, printer, accessibility, provenance, and package-security checks are required.",
+    "license": "MIT",
+    "compatibility": "Requires Python 3.10+, uv, and exact generation pins python-pptx 1.0.2, Pillow 12.3.0, and lxml 6.1.3. Validation and PPTX ZIP/XML inspection are local and network-free; final PowerPoint, accessibility, PDF, printer, and author review are manual.",
+    "allowed-tools": "Read Write Bash Glob Grep Python",
+    "metadata": {
+      "version": "2.4",
+      "last-reviewed": "2026-10-01",
+      "skill-author": "K-Dense Inc."
+    }
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "04a323b515537dcbcbea248b6d4c23aba36aa4f3"
+    },
+    {
+      "path": "assets/generation_dependencies.json",
+      "git_blob_sha": "57d6065b0583ccbef100f5c055cd8058dcbe8769"
+    },
+    {
+      "path": "assets/poster_manifest_template.json",
+      "git_blob_sha": "2212887c53d06c6b412587fe9da8477b02775e60"
+    },
+    {
+      "path": "assets/poster_quality_checklist.md",
+      "git_blob_sha": "eadb92664929ed803ef81c93d2790aa50cc9545c"
+    },
+    {
+      "path": "references/manifest_spec.md",
+      "git_blob_sha": "233c33ac5468aefc005d4ff846c87389ac775d43"
+    },
+    {
+      "path": "references/poster_content_guide.md",
+      "git_blob_sha": "bf08b8c25ce007522db199875272222515221ee0"
+    },
+    {
+      "path": "references/poster_design_principles.md",
+      "git_blob_sha": "90ac1ca031e6992d157bdafa8d24cc78d92c9a85"
+    },
+    {
+      "path": "references/poster_layout_design.md",
+      "git_blob_sha": "bb0975e1fcc4bb7a55494da3e1eb3115667100fb"
+    },
+    {
+      "path": "references/pptx_security.md",
+      "git_blob_sha": "b556f26f0eb0bb7e888a01a45b85949ace22a45c"
+    },
+    {
+      "path": "references/security_validation.md",
+      "git_blob_sha": "e25b6f5b52a131f8a9d86e9ab0e574379afc36a3"
+    },
+    {
+      "path": "references/source_ledger.md",
+      "git_blob_sha": "94f2ba378ce62adea331d22dbec346e540934808"
+    },
+    {
+      "path": "scripts/_common.py",
+      "git_blob_sha": "3b13801133c1bad22d4fdbeff0dcc0963b87d210"
+    },
+    {
+      "path": "scripts/_manifest.py",
+      "git_blob_sha": "bbb82da57970b44d694ff434647e6f1adac7f73f"
+    },
+    {
+      "path": "scripts/_pptx.py",
+      "git_blob_sha": "40808a26b1baa950e50eb11f069261e5d08eb26d"
+    },
+    {
+      "path": "scripts/check_layout.py",
+      "git_blob_sha": "121074801bb608fe1fc267a69760d7b6b3c765d0"
+    },
+    {
+      "path": "scripts/check_palette.py",
+      "git_blob_sha": "a9ffc2f7c5bd12db71d487ce211630f51e85d721"
+    },
+    {
+      "path": "scripts/generate_poster.py",
+      "git_blob_sha": "812c0b9cd4fed19658e48a047f7f7dbcd9d82608"
+    },
+    {
+      "path": "scripts/inspect_pptx.py",
+      "git_blob_sha": "376f4c84a1ddccfb0d6e1e548393fd9a9865d525"
+    },
+    {
+      "path": "scripts/inventory_images.py",
+      "git_blob_sha": "afc279d4067665ddb8120b68f2730ea1e44b311b"
+    },
+    {
+      "path": "scripts/plan_export.py",
+      "git_blob_sha": "82a357ac6a6acd254b92c96e19c587fed1dab978"
+    },
+    {
+      "path": "scripts/validate_manifest.py",
+      "git_blob_sha": "2be547b67f5226f3ed4d0b00e204bf4e5c711be0"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

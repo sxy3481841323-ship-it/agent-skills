@@ -1,0 +1,22 @@
+{
+  "name": "threejs-textures",
+  "source_repository": "https://github.com/sxy3481841323-ship-it/bruce-happiness-club",
+  "source_commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+  "source_path": ".agents/skills/threejs-textures",
+  "original_frontmatter": {
+    "name": "threejs-textures",
+    "description": "Three.js textures: image loading, color spaces, UV channels and transforms, texture types from canvas to HDR and KTX2, render targets, texture memory. Use when working with images on materials, UV coordinates, cubemaps, render targets or texture optimization; on WebGL or with WebGPU and TSL."
+  },
+  "project_snapshots": [
+    {
+      "project": "bruce-happiness-club",
+      "commit": "4d065972665cd2b8c8217f6d6ee898dd9c72db44",
+      "metadata_name": "threejs-textures",
+      "sha256": "43b4fde95cf9fe42b05f38fe6a6c6d5f36eb062cb15b3fd21a0eed376a5d1d9b"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

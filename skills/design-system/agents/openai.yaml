@@ -1,0 +1,4 @@
+interface:
+  display_name: "design-system"
+  short_description: "Design System creative workflow guidance"
+  default_prompt: "Use $design-system for the requested task, following the current project rules."

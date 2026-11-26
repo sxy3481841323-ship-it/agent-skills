@@ -1,0 +1,4 @@
+interface:
+  display_name: "design-spatial"
+  short_description: "Design Spatial creative workflow guidance"
+  default_prompt: "Use $design-spatial for the requested task, following the current project rules."

@@ -1,0 +1,33 @@
+{
+  "name": "find-animation-opportunities",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/find-animation-opportunities",
+  "original_frontmatter": {
+    "name": "find-animation-opportunities",
+    "description": "Propose purposeful motion opportunities from a read-only codebase review, with evidence and explicit exclusions.",
+    "category": "frontend",
+    "risk": "safe",
+    "source": "community",
+    "source_repo": "emilkowalski/skills",
+    "source_type": "community",
+    "date_added": "2026-11-01",
+    "author": "Emil Kowalski",
+    "license": "MIT",
+    "license_source": "https://github.com/emilkowalski/skills/blob/a81dbca07f2217b7103e510c0f13f8d5b017afc9/LICENSE"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "57b46f1fd11dc62351ea548104a88aa3f659c11b"
+    },
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "903a774e61a382cae8b4d70b2101e7bcd78f4a53"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

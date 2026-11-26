@@ -1,0 +1,46 @@
+{
+  "name": "logo-to-stickers",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/logo-to-stickers",
+  "original_frontmatter": {
+    "name": "logo-to-stickers",
+    "description": "Turn a brand mark or existing IP into consistent, playful paper stickers with small visual stories and separate transparent images. Use for brand characters and website sticker sets.",
+    "category": "design",
+    "risk": "safe",
+    "source": "community",
+    "source_repo": "huyanxius/logo-to-stickers",
+    "source_type": "community",
+    "date_added": "2026-10-16",
+    "author": "huyanxius",
+    "tags": [
+      "branding",
+      "stickers",
+      "illustration",
+      "image-generation"
+    ],
+    "tools": [
+      "codex"
+    ],
+    "license": "MIT",
+    "license_source": "https://github.com/huyanxius/logo-to-stickers/blob/main/LICENSE"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "0857d744a95e315506561ede8428dcd476461e1a"
+    },
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "104d099af08bf1c45665a3a890831e316d7624ab"
+    },
+    {
+      "path": "references/walkthrough.md",
+      "git_blob_sha": "228f6f08c93fd364f46bc969bc0df55bfd56cc33"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

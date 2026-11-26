@@ -1,0 +1,4 @@
+interface:
+  display_name: "visual-emotion-engineer"
+  short_description: "Visual Emotion Engineer creative workflow guidance"
+  default_prompt: "Use $visual-emotion-engineer for the requested task, following the current project rules."

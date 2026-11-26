@@ -1,0 +1,4 @@
+interface:
+  display_name: "interactive-portfolio"
+  short_description: "Interactive Portfolio creative workflow guidance"
+  default_prompt: "Use $interactive-portfolio for the requested task, following the current project rules."

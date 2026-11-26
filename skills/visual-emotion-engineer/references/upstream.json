@@ -1,0 +1,23 @@
+{
+  "name": "visual-emotion-engineer",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/visual-emotion-engineer",
+  "original_frontmatter": {
+    "name": "visual-emotion-engineer",
+    "description": "Create a visual direction brief for color, typography, imagery, and hierarchy when design must support a defined emotion, culture, and accessibility needs.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-04"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "1d78e1949e60073757057cb1e3007a1dfeddcdc1"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

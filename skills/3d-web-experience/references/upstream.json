@@ -1,0 +1,23 @@
+{
+  "name": "3d-web-experience",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/3d-web-experience",
+  "original_frontmatter": {
+    "name": "3d-web-experience",
+    "description": "Use when building or debugging web 3D scenes, product configurators or portfolios with Three.js, React Three Fiber or Spline; review assets, loading, controls, fallbacks and performance.",
+    "risk": "critical",
+    "source": "vibeship-spawner-skills (Apache 2.0)",
+    "date_added": "2026-02-27"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "508dc5235a9b75ef829d7f8339e36dcbbde3933b"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

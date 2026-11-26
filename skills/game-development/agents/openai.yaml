@@ -1,0 +1,4 @@
+interface:
+  display_name: "game-development"
+  short_description: "Game Development creative workflow guidance"
+  default_prompt: "Use $game-development for the requested task, following the current project rules."

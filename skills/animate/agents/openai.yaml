@@ -1,0 +1,4 @@
+interface:
+  display_name: "animate"
+  short_description: "Animate creative workflow guidance"
+  default_prompt: "Use $animate for the requested task, following the current project rules."

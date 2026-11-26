@@ -1,0 +1,4 @@
+interface:
+  display_name: "threejs-interaction"
+  short_description: "Threejs Interaction creative workflow guidance"
+  default_prompt: "Use $threejs-interaction for the requested task, following the current project rules."

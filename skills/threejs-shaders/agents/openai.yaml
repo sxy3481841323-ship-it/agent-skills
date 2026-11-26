@@ -1,0 +1,4 @@
+interface:
+  display_name: "threejs-shaders"
+  short_description: "Threejs Shaders creative workflow guidance"
+  default_prompt: "Use $threejs-shaders for the requested task, following the current project rules."

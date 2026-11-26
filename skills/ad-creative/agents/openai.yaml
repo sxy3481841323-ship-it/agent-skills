@@ -1,0 +1,4 @@
+interface:
+  display_name: "ad-creative"
+  short_description: "Ad Creative creative workflow guidance"
+  default_prompt: "Use $ad-creative for the requested task, following the current project rules."

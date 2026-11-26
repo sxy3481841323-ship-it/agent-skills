@@ -1,0 +1,4 @@
+interface:
+  display_name: "threejs-postprocessing"
+  short_description: "Threejs Postprocessing creative workflow guidance"
+  default_prompt: "Use $threejs-postprocessing for the requested task, following the current project rules."

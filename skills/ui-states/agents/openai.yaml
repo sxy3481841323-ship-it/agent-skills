@@ -1,0 +1,4 @@
+interface:
+  display_name: "ui-states"
+  short_description: "Ui States creative workflow guidance"
+  default_prompt: "Use $ui-states for the requested task, following the current project rules."

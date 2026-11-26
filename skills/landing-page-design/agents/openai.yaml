@@ -1,0 +1,4 @@
+interface:
+  display_name: "landing-page-design"
+  short_description: "Landing Page Design creative workflow guidance"
+  default_prompt: "Use $landing-page-design for the requested task, following the current project rules."

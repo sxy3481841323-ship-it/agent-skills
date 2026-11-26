@@ -1,0 +1,23 @@
+{
+  "name": "design-spells",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/design-spells",
+  "original_frontmatter": {
+    "name": "design-spells",
+    "description": "Curated micro-interactions and design details that add \"magic\" and personality to websites and apps.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-07"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "edfa787bc594da57f4619a99123932f72ca8fa1b"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

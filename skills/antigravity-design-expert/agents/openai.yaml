@@ -1,0 +1,4 @@
+interface:
+  display_name: "antigravity-design-expert"
+  short_description: "Antigravity Design Expert creative workflow guidance"
+  default_prompt: "Use $antigravity-design-expert for the requested task, following the current project rules."

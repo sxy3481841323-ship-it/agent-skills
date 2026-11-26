@@ -1,0 +1,41 @@
+{
+  "name": "anti-slop-design",
+  "source_repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "source_commit": "f6f686855a672e3868d648cef056312392e3a417",
+  "source_path": "skills/anti-slop-design",
+  "original_frontmatter": {
+    "name": "anti-slop-design",
+    "description": "Autonomous Principal Design Technologist. Cures vibe-coded software from AI frontend slop using curated token archetypes and 7-axis quality gating.",
+    "category": "frontend",
+    "risk": "critical",
+    "source": "community",
+    "source_repo": "wwewtech/anti-slop-design",
+    "source_type": "community",
+    "date_added": "2026-04-20",
+    "author": "wwewtech",
+    "tags": [
+      "ui-ux",
+      "design-systems",
+      "anti-slop",
+      "frontend",
+      "tailwind"
+    ],
+    "tools": [
+      "claude",
+      "cursor",
+      "gemini"
+    ],
+    "license": "MIT",
+    "license_source": "https://github.com/wwewtech/anti-slop-design/blob/main/LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha": "7917222a0a92b00821af15660bb6b70be4d35a1f"
+    }
+  ],
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy and invocation metadata; kept bundled resources"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "共享创意技能库"
+  short_description: "统一调用跨项目创意、设计、动效与三维技能，按任务读取所需方法和资源"
+  default_prompt: "使用 $shared-creative-skills，按我的任务选择合适的创意或设计技能，并遵守当前项目规则。"

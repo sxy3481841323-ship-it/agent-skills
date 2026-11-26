@@ -1,0 +1,4 @@
+interface:
+  display_name: "threejs-skills"
+  short_description: "Threejs Skills creative workflow guidance"
+  default_prompt: "Use $threejs-skills for the requested task, following the current project rules."

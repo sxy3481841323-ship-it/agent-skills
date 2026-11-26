@@ -1,0 +1,4 @@
+interface:
+  display_name: "scroll-3d-world"
+  short_description: "Scroll 3D World creative workflow guidance"
+  default_prompt: "Use $scroll-3d-world for the requested task, following the current project rules."

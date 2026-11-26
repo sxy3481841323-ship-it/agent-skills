@@ -1,0 +1,4 @@
+interface:
+  display_name: "stitch-design-taste"
+  short_description: "Stitch Design Taste creative workflow guidance"
+  default_prompt: "Use $stitch-design-taste for the requested task, following the current project rules."

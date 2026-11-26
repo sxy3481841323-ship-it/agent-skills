@@ -1,0 +1,4 @@
+interface:
+  display_name: "gestures"
+  short_description: "Gestures creative workflow guidance"
+  default_prompt: "Use $gestures for the requested task, following the current project rules."
