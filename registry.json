@@ -4015,7 +4015,7 @@
     {
       "name": "shared-creative-skills",
       "aliases": [],
-      "description": "跨项目共享创意技能库的统一调用入口。用于创意发散、产品构思、网页视觉、排版品牌、生成艺术、3D/Three.js、动效手势、游戏玩法、镜头与声效；也用于用户点名共享库中的某个技能。按任务查索引并加载完整说明和必要资源，优先遵守当前项目规则；新装通用技能须回传统一 GitHub 技能库。",
+      "description": "共享创意技能库的只读导航。用于为创意发散、产品构思、视觉设计、生成艺术、动效、3D 和游戏任务查找合适技能，解释各技能用途，并按当前请求参考其设计方法。此目录不负责安装、同步、发布、账号授权或外部服务调用。",
       "category": "创意发散与产品构思",
       "path": "skills/shared-creative-skills",
       "skill_md": "skills/shared-creative-skills/SKILL.md",
@@ -4028,8 +4028,8 @@
       "external_credentials_mentioned": [],
       "file_count": 3,
       "files": {
-        "SKILL.md": "6099ad55c6ac0b7ea1f0d7c3f90fc3eb222a797bd0a52589a76c0d70e5aed4cc",
-        "agents/openai.yaml": "84ae9551a74b8c96a0657591d7a7b153912916033d3ac1dffc5e14ac1bac2d9f",
+        "SKILL.md": "e09e1421466c63802844d85b758632ea557117e6923a306a5a4968404d91e5e8",
+        "agents/openai.yaml": "7d6b10fc475947820c8d7ff45461539901d0af558df4e9d72dca037856090b25",
         "references/catalog.json": "ff9350c2ac58525fdaa72c421d4e142ce8c8aa560f80fda1e9c3a496626971c6"
       }
     },

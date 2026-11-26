@@ -28,6 +28,8 @@ python3 sync_skills.py --agent antigravity
 
 ChatGPT 的账号级 Skills 需要通过 ChatGPT 自己的安装流程。GitHub 上存在文件或 CLI 复制成功，均不代表已经安装到 ChatGPT 账号。
 
+在 Mac 上补齐 Antigravity、Codex 与自定义 harness 的完整执行清单见 [MAC_SETUP.md](MAC_SETUP.md)，可直接交给本机 Agent 执行并逐项验收。
+
 全局目录按 `vercel-labs/skills` 的客户端定义核对；不同版本的客户端发现规则可能变化，自定义路径始终可用。
 
 ## 项目之前的统一规则
