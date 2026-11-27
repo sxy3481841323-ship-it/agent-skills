@@ -2,18 +2,135 @@
   "schema_version": 1,
   "repository": "https://github.com/sxy3481841323-ship-it/agent-skills",
   "skills_root": "skills",
-  "total": 119,
+  "total": 134,
   "categories": {
-    "3D、材质与交互场景": 23,
+    "3D、材质与交互场景": 28,
     "创意发散与产品构思": 13,
     "视觉艺术、品牌与演示": 19,
-    "动效、手势与空间叙事": 11,
-    "界面设计与审美打磨": 39,
-    "游戏玩法、镜头与声效": 14
+    "动效、手势与空间叙事": 12,
+    "界面设计与审美打磨": 46,
+    "游戏玩法、镜头与声效": 16
   },
   "download_zip": "https://github.com/sxy3481841323-ship-it/agent-skills/archive/refs/heads/main.zip",
   "usage_rule": "Read a SKILL.md remotely for instructions; install the complete skill directory for scripts/assets and automatic discovery. External service availability is separate from installation.",
   "skills": [
+    {
+      "name": "3d-cloth-material",
+      "aliases": [],
+      "description": "Build convincing woven cloth in Three.js, with a thread-level weave normal map, sheen and anisotropic highlights, folds that never stretch the texture, hems with thickness, stitches, seams, frayed edges, fold occlusion, dye and wear variation, and light passing through thin fabric. Use for linen, silk, wool, canvas, curtains, banners, cloaks, tablecloths, tapestries or any 3D drape that currently looks like a plastic sheet, a stretched texture, or a flat coloured plane.",
+      "category": "3D、材质与交互场景",
+      "path": "skills/3d-cloth-material",
+      "skill_md": "skills/3d-cloth-material/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/3d-cloth-material/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/3d-cloth-material/SKILL.md",
+      "invoke": "$3d-cloth-material",
+      "source_repository": "https://github.com/mengto/skills",
+      "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+      "source_path": "agent-skills/3d/3d-cloth-material",
+      "external_credentials_mentioned": [],
+      "file_count": 8,
+      "files": {
+        "LICENSE": "b2a071ba22fefd803f4e9d1f5c777dd79c62d191695586a1a73fd4d0ebd051c6",
+        "PROMPT.md": "8c5be7f31d282ca1f223a823c53c21a408220057ec468db400f3df4acf70859f",
+        "SKILL.md": "38016011ef8c8eceeb252f5dc47417d055663e00c17c184af838f50ad64f212f",
+        "agents/openai.yaml": "6c673a31a92dc3bfff53717e8ba60e1efa240322aae9101c10f78528b28c27fe",
+        "demo.html": "2497d50d371ee16c8b99cbc25f3798aaf8fc8f2d481d2f45a6437a947ccd5612",
+        "preview.jpg": "e2220e64f3544f8d35baee5f3254c5218681893e82927fe36125307c90a0998f",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "609b7fb385a6783b6af0f0b27284f6ff19a0a9aa90db4953fc1cd6a6243ed8ad"
+      }
+    },
+    {
+      "name": "3d-harbour-water",
+      "aliases": [],
+      "description": "Build sheltered waterfronts in Three.js with depth-aware reflections of docks and signs, rain rings, boats that ride the swell, and wakes that follow turns. Use for night harbours, canals, urban quays, or a game boat whose reflection slides away from the hull.",
+      "category": "3D、材质与交互场景",
+      "path": "skills/3d-harbour-water",
+      "skill_md": "skills/3d-harbour-water/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/3d-harbour-water/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/3d-harbour-water/SKILL.md",
+      "invoke": "$3d-harbour-water",
+      "source_repository": "https://github.com/mengto/skills",
+      "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+      "source_path": "agent-skills/3d/3d-harbour-water",
+      "external_credentials_mentioned": [],
+      "file_count": 12,
+      "files": {
+        "LICENSE": "b2a071ba22fefd803f4e9d1f5c777dd79c62d191695586a1a73fd4d0ebd051c6",
+        "SKILL.md": "c7e448cf11853b7173ef8f966ba9fcdffe242cf09c45b7eb8800e3d681959b85",
+        "agents/openai.yaml": "cc2dcf81fc1c8bcb39d92ed9a16263e88a38e465889d66b921a780d7f5de4226",
+        "demo/PROMPT.md": "f0a56d7ac7443104cf2c709ec5813792c878f7b78be056fc537cc4f765dd3463",
+        "demo/assets/LICENSE-three.txt": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+        "demo/assets/harbour-water.js": "59d06b61210756d012700ca36301f3c8f637230c64f1ce291c173def432d6565",
+        "demo/assets/quay.js": "6b32d2554b7b69afe88c19fba29523fb7a349a71b568db891250ac98ce9a2ee7",
+        "demo/assets/three-reflector.min.js": "8f50df65e23cbe01bf687b8b74573fcdf1a1195d1ee8e6f98ddedbaf989dd64d",
+        "demo/index.html": "1da467f58c9ec9419eca09b15014b4b92684978e5c493c508766b9001aec9a4e",
+        "demo/preview.jpg": "6cc2964f8d2904b82d985ed4cfd84b58578f1435844fddc71815177e27eacae9",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "8cabce04f7c006db1f339b1712479376ae923411058d645bb40de89adc09a8fe"
+      }
+    },
+    {
+      "name": "3d-metal-material",
+      "aliases": [],
+      "description": "Build hyperrealistic PBR metal in Three.js: steel, brass, gold, copper and iron as true conductors (metalness 1, measured F0 tint, no albedo) with roughness-varied finishes (polished, brushed anisotropic, aged with patina and worn edges) lit by a dark HDR studio of real bright window cards prefiltered with PMREM. Use when metal looks like grey plastic, a dull blur, or a black hole; when blades, tools, rings, ingots, hardware or product metal need reflections with edges and structure; or when a finish needs scratches, streaks, fingerprints and bevels that catch light.",
+      "category": "3D、材质与交互场景",
+      "path": "skills/3d-metal-material",
+      "skill_md": "skills/3d-metal-material/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/3d-metal-material/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/3d-metal-material/SKILL.md",
+      "invoke": "$3d-metal-material",
+      "source_repository": "https://github.com/mengto/skills",
+      "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+      "source_path": "agent-skills/3d/3d-metal-material",
+      "external_credentials_mentioned": [],
+      "file_count": 8,
+      "files": {
+        "LICENSE": "b2a071ba22fefd803f4e9d1f5c777dd79c62d191695586a1a73fd4d0ebd051c6",
+        "PROMPT.md": "4742a8f351f54c538c2678c8afd99eaf5a88c39985890995b75d61d564f32397",
+        "SKILL.md": "8aae12c068b4a756ca7ffda3d0cc6ae0b03b54e337fae2f3e9c31d9fdc4883a9",
+        "agents/openai.yaml": "9e8c5915b0339e41d401dea51f8a92c1eef3d9b2ffb58e1abf5eeb2d3b009687",
+        "demo.html": "a81dec0a76030f69359c5c4c73f53600682a03d7e96dadc8414b2c060c6cc677",
+        "preview.jpg": "4721688c190d67cad42a06227dea5c4a87aa8cdfa83686ba5dab1c56fc451c0b",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "cd64ecfdf20d9395f21ab71cb0c781113f2c20a6a160d12be6f4e186909ad73d"
+      }
+    },
+    {
+      "name": "3d-ultra-realistic-water",
+      "aliases": [],
+      "description": "Build an ultra-realistic open ocean in Three.js with a deep-water Gerstner spectrum shaded per pixel from analytic derivatives, each wave faded at its own pixel footprint, plus Fresnel sky-cube and planar reflections, subsurface light through the crests, HDR sun glitter, Jacobian lace foam, a Kelvin wake, hull foam, buoyancy queries and aerial perspective into the sky's horizon haze. Use for shallow creeks, water around rocks, seas, oceans, sunset or daylight water, sun glitter paths, ship or boat scenes, wakes, coastal flyovers and any 3D scene with a moving camera and a water horizon. Includes the approved water from Pirate Ship Sunset as a reusable module and demo.",
+      "category": "3D、材质与交互场景",
+      "path": "skills/3d-ultra-realistic-water",
+      "skill_md": "skills/3d-ultra-realistic-water/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/3d-ultra-realistic-water/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/3d-ultra-realistic-water/SKILL.md",
+      "invoke": "$3d-ultra-realistic-water",
+      "source_repository": "https://github.com/mengto/skills",
+      "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+      "source_path": "agent-skills/3d/3d-ultra-realistic-water",
+      "external_credentials_mentioned": [],
+      "file_count": 17,
+      "files": {
+        "LICENSE": "b2a071ba22fefd803f4e9d1f5c777dd79c62d191695586a1a73fd4d0ebd051c6",
+        "SKILL.md": "8d8e2e28d6e88c3101fe8272f37214a487613e4de702829a49e64048d4973a23",
+        "agents/openai.yaml": "c12ba972785c5ea7bd1fa76dd9ec82ec781851362848c97d0e3ff1e296df28ff",
+        "assets/creek-optics.mjs": "71a51017811f169bb89331bcae8a2dd79fd45043111c0ce2681be39d9209d34f",
+        "assets/ocean.mjs": "45f3f57dd224bd4f97e8b0e20370a9860e2355bcda9d0b71993f1440e19cdf62",
+        "demo/PROMPT.md": "8841eb6a22f1debd319ddcd95ef73285d29debfddac9521df656ab6798ab11fc",
+        "demo/build.mjs": "4a497e2a7d2400a84fc1ef47c9bd97ae940cfda36424d82840520e03c389d5ff",
+        "demo/index.html": "d2c531919a57c028b40f4396fc882c6c68386b4aef2297d2323feefab54d7fe9",
+        "demo/preview.jpg": "d39a6aaedeebf83981c1c632145c303747f9cb4559d4e156f84e54162a567e5a",
+        "demo/src/ui.css": "56d25b45cee074db6c23590a4f614ef10621479f9ff5607ab4a058b132a0a4d7",
+        "demo/src/ui.html": "6b5524e6b1416d725f7ca5ab90ecc5eacaf53e1a50ab8a7df4a2f276afb70226",
+        "demo/src/ui.js": "a028ad9ed99a980ffcbe6666fe991dc6e984595abd050ace3daf225f7e4675b3",
+        "references/check-creek.mjs": "25b5ea719966b9e2f2c2e6f1bd128243b7ea19b18d6acf8764ce942adb707c49",
+        "references/creek.md": "6db590eeb4aaff1837db6f2bcf0ffdd2769690500219b6072fe2187ed413b095",
+        "references/ocean.md": "1afea44a18ecfac8de8ba129ca1d13556b9d015077a64595c4ac89873642f227",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "4ab43790efa6456bec4240e848316f3c980c6d10578e24bf564ed5e8af165c16"
+      }
+    },
     {
       "name": "3d-web-experience",
       "aliases": [],
@@ -36,6 +153,32 @@
         "agents/openai.yaml": "c934677bc2a9e7330ad238aa1e5c16322ba91290de4f5ed02909bb21a2787496",
         "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
         "references/upstream.json": "eccec6375a6756a4e88958bf0e9fa36228af7240494b0ecc00ae239ccfabfb49"
+      }
+    },
+    {
+      "name": "3d-wood-material",
+      "aliases": [],
+      "description": "Build convincing timber for Three.js as one procedural MeshPhysicalMaterial with growth rings, cathedral figure, pores, medullary rays, checks, tool marks, end grain, and oil, wax, or lacquer finishes, so the grain follows the form and survives macro close-ups without image textures. Use for wood boards, benches, carved panels, tool handles, joinery, floors, and any request to make 3D wood look real, detailed, or less like a tiled photo or plastic.",
+      "category": "3D、材质与交互场景",
+      "path": "skills/3d-wood-material",
+      "skill_md": "skills/3d-wood-material/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/3d-wood-material/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/3d-wood-material/SKILL.md",
+      "invoke": "$3d-wood-material",
+      "source_repository": "https://github.com/mengto/skills",
+      "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+      "source_path": "agent-skills/3d/3d-wood-material",
+      "external_credentials_mentioned": [],
+      "file_count": 8,
+      "files": {
+        "LICENSE": "b2a071ba22fefd803f4e9d1f5c777dd79c62d191695586a1a73fd4d0ebd051c6",
+        "PROMPT.md": "ff58e6c92b7905a7fc85ddd071eea955e8eba49d38df6c42f27287ddd4e9f49b",
+        "SKILL.md": "9a8f04a8c29659be2d5fc26f8b1c4bebd3e28e057de7b6df0fa5a87ece403a1a",
+        "agents/openai.yaml": "116191a0dcd9cee1d346fc7a7570f29221d6d0e4af7bc08f1ca21c0bd6dbfd40",
+        "demo.html": "cca1b7f393cc81686ff9853d3213052c937c555d2ee860505e4a7b8be675b110",
+        "preview.jpg": "187c0a13a48b34dd4ac344bfce83f421755c8028a6b295a91fd1e1a00a1a5bd0",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "b4ce5e88da1d08313d4bb2a21d1ce37ff3d17b9cbf232d1559b72f3182f81150"
       }
     },
     {
@@ -111,6 +254,37 @@
         "agents/openai.yaml": "95b35a1c842712442ec532fbd3f526d41dd6a746b7870e3f1e3e0748d5cb1a04",
         "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
         "references/upstream.json": "d6d99aa2b1d2fb86c387ca5f0af314044f7c781ecaf27bcc4fb4f62e090b2c15"
+      }
+    },
+    {
+      "name": "animate-procedural-birds",
+      "aliases": [],
+      "description": "Build and animate a small bird in Three.js with a recognizable species silhouette, folding wings, independent head and tail motion, grounded toes and a shadow that holds up in close shots. Use for perching, takeoff, flight and landing in wildlife scenes.",
+      "category": "动效、手势与空间叙事",
+      "path": "skills/animate-procedural-birds",
+      "skill_md": "skills/animate-procedural-birds/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/animate-procedural-birds/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/animate-procedural-birds/SKILL.md",
+      "invoke": "$animate-procedural-birds",
+      "source_repository": "https://github.com/mengto/skills",
+      "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+      "source_path": "agent-skills/3d/animate-procedural-birds",
+      "external_credentials_mentioned": [],
+      "file_count": 13,
+      "files": {
+        "LICENSE": "b2a071ba22fefd803f4e9d1f5c777dd79c62d191695586a1a73fd4d0ebd051c6",
+        "SKILL.md": "2eff46c6339c54b91ab72f90ab0c55503a71081b3ebd62d9c23c33a5b204a4f4",
+        "agents/openai.yaml": "865388b0914613f7134ce8ab004d1f800e4e0cd5d5a374b85ab481da03e5b274",
+        "demo/PROMPT.md": "5752cd67d98b32cb3415c9942fa6ac9ff5a23b44130d5b780c886daffbfb4ba5",
+        "demo/assets/THREE-LICENSE.txt": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+        "demo/assets/three.min.js": "8a5f7249903b54d30f79f708699d2fed2d6a1d0741a4cd41377d1f01bb5a2271",
+        "demo/assets/wagtail.js": "1ffc4ed73ab282cbc06979714ea15945fd6fb284671c3fdd1c70ab3dea350e6c",
+        "demo/index.html": "18dd61f2d1056eacbee89e1d3c61061c2826dedda834a260b9ce2a29905be433",
+        "demo/preview.jpg": "2539e21aa3b440dced6fdc058ccfefd0e9381144916e6daef8accd9a39b2bd1c",
+        "demo/study.js": "c897a0555fe000a8647a588b4d8d612b7b60c5ee71d11ccfe2d8dd5d0a9c0f8a",
+        "references/check-perch.cjs": "c0fe73d6c23ed481729b0366c307718d0b9060d80e1e92da661a0a2553888a54",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "d9ac01feae24a61d0ae2840ac00bc203159bca206bc8c6b7b2cdb9ed8990ead1"
       }
     },
     {
@@ -273,6 +447,29 @@
         "agents/openai.yaml": "4f18d24ff69f61f5dcd1bb16f574cd073424037c49cee66f480c4ad3d94b8583",
         "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
         "references/upstream.json": "b680a9986a6ad43f6c2848ff0b16c76caf6c29950d4e2fde7dd62e321572fa6b"
+      }
+    },
+    {
+      "name": "antislop-copywriting",
+      "aliases": [],
+      "description": "Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns. Load with the core.",
+      "category": "界面设计与审美打磨",
+      "path": "skills/antislop-copywriting",
+      "skill_md": "skills/antislop-copywriting/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/antislop-copywriting/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/antislop-copywriting/SKILL.md",
+      "invoke": "$antislop-copywriting",
+      "source_repository": "https://github.com/miqdadbadjuber/anti-slop",
+      "source_commit": "f07c57244fdb1bda0727bee49614cfc159899a09",
+      "source_path": "skills/antislop-copywriting",
+      "external_credentials_mentioned": [],
+      "file_count": 5,
+      "files": {
+        "LICENSE": "9fd83fb1fda52ca0094b96e2ed5a3d6c42a81b95a6c6326553f5bbe570f443de",
+        "SKILL.md": "b9999c50c065dfcb39974482f065e1c7f818acbe1228a5ee2286669a825ae262",
+        "references/antislop.md": "de81b64ce94bba2bd84b7cc3a17f5a593cc1b8a50a86237623530141eeaa2692",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "2b673329f0bf403f6e9d390b8fae467f795a97694ca047360fbbedbdc41e76e5"
       }
     },
     {
@@ -552,6 +749,56 @@
         "figma.md": "998359b07687762f0d4a7dc320b76fb6e985ff1e468f91ef1a14e4bcaac18942",
         "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
         "references/upstream.json": "b99b57d2ac535a949228141e70241bab2e329d1d50f1d3d04499c302c2617a0f"
+      }
+    },
+    {
+      "name": "build-game-audio-feedback",
+      "aliases": [],
+      "description": "Design or implement responsive audio feedback for a Three.js or web game. Use for action sounds, combat layers, music states, spatial audio, mix priorities, mute controls, accessibility, mobile audio unlock, and audio performance.",
+      "category": "游戏玩法、镜头与声效",
+      "path": "skills/build-game-audio-feedback",
+      "skill_md": "skills/build-game-audio-feedback/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/build-game-audio-feedback/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/build-game-audio-feedback/SKILL.md",
+      "invoke": "$build-game-audio-feedback",
+      "source_repository": "https://github.com/mengto/skills",
+      "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+      "source_path": "agent-skills/game-development/build-game-audio-feedback",
+      "external_credentials_mentioned": [],
+      "file_count": 5,
+      "files": {
+        "LICENSE": "b2a071ba22fefd803f4e9d1f5c777dd79c62d191695586a1a73fd4d0ebd051c6",
+        "SKILL.md": "94ac56344f1e4b5f602be7637f0c04143c23edfa943944b5ac368f50c70361a6",
+        "agents/openai.yaml": "4c5ef3cec3c705df2dfb66d2e010f195f1ecb6d2758042c536e827ed2238e337",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "df72db7e34b7d9c3476fb576531d0edeede1fbf60dbf640ffccd4d99d21a2d67"
+      }
+    },
+    {
+      "name": "build-ultra-realistic-game-interiors",
+      "aliases": [],
+      "description": "Build or refine photoreal, walkable first-person interiors in Three.js. Use for the worn cyberpunk look of Nocturne Hotel, for rooms that lose realism when the camera moves, or for a reference-matched 9/10 pass on room lighting, materials and in-game interactions.",
+      "category": "游戏玩法、镜头与声效",
+      "path": "skills/build-ultra-realistic-game-interiors",
+      "skill_md": "skills/build-ultra-realistic-game-interiors/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/build-ultra-realistic-game-interiors/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/build-ultra-realistic-game-interiors/SKILL.md",
+      "invoke": "$build-ultra-realistic-game-interiors",
+      "source_repository": "https://github.com/mengto/skills",
+      "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+      "source_path": "agent-skills/game-development/build-ultra-realistic-game-interiors",
+      "external_credentials_mentioned": [],
+      "file_count": 9,
+      "files": {
+        "LICENSE": "b2a071ba22fefd803f4e9d1f5c777dd79c62d191695586a1a73fd4d0ebd051c6",
+        "SKILL.md": "19c0769d33ecd84176767531d79f8cbb27d7b8b541afb078a89395d20505c71e",
+        "agents/openai.yaml": "0e78e870e5348df62e5b55a2711f63e60c7802a6eb2fbb01e52ff2cfed5b1709",
+        "assets/four-room-look.jpg": "50afc1603e51a5e30a16a8296d45c595e37eba26414cb01e0d01fd4ac5cfd836",
+        "references/gameplay.md": "629ad34b7d1f220c76f22b80b4965a0504ceb3f404e48dced5e1ab6976007982",
+        "references/prompts-and-review.md": "f5685b34246d436215def811f0d9321cad25000e60c852f58fdc485c85c71807",
+        "references/rendering.md": "1b71ecd45adc10187e09654104eaa59be7b6ef4800cd646d46cfc2986592072a",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "89e67cb5e923a6d044b58bfa52638c0f82e0b16c92445d2d3aa9ab78e74e21ee"
       }
     },
     {
@@ -3187,6 +3434,75 @@
       }
     },
     {
+      "name": "illustration-ink-sketch",
+      "aliases": [],
+      "description": "Draws hand-inked cartoon critters and living objects as SVG cards (480x360), each acting out a coding or design idea. Identified by thick black brush-pen outlines that swell and taper and break into separate strokes, loose marker-and-watercolour fills that slip past the line, diagonal hatching instead of solid shadow, huge googly eyes with two specular dots, and stray ink hairs and flecks, in tomato red, leaf green, sunflower yellow, sky blue and teal on white. Covers palette, brush numbers, mascot construction (eyes, blush, mouths, 3-finger hands), props, ground patches and a tested, seeded brush kit. Use when asked for ink sketch, hand-drawn, brush pen, sketchy, doodle, marker or watercolour-cartoon illustrations, googly-eyed mascots or critters, playful empty states, onboarding, 404 or error pages, loading states, blog headers, feature spots or marketing cards.",
+      "category": "界面设计与审美打磨",
+      "path": "skills/illustration-ink-sketch",
+      "skill_md": "skills/illustration-ink-sketch/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/illustration-ink-sketch/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/illustration-ink-sketch/SKILL.md",
+      "invoke": "$illustration-ink-sketch",
+      "source_repository": "https://github.com/mengto/skills",
+      "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+      "source_path": "agent-skills/illustration/illustration-ink-sketch",
+      "external_credentials_mentioned": [],
+      "file_count": 16,
+      "files": {
+        "LICENSE": "b2a071ba22fefd803f4e9d1f5c777dd79c62d191695586a1a73fd4d0ebd051c6",
+        "SKILL.md": "b22e65c45f4a70e4ef05d019ea95e598451996e0d127df8059110da228b2c7a4",
+        "agents/openai.yaml": "e3b4647ca769983cf2ee8588fbefc80549f846fed175a4e5ff77eac00e5f21e8",
+        "demo/PROMPT.md": "c0baec65c16b744e57b9144f518846f011ad4dad9c798d0842b29bab87a273fa",
+        "demo/index.html": "ff36128c61b6d1926fe5d8f5ce8866dad4a17f0c3cdcc851653324958fa777dc",
+        "demo/preview.jpg": "6f0258dddf7d0c9d2c9b6e129f24f42b5689ad8925f221597b080304bc047b98",
+        "examples/hello-world.svg": "47ab9af3acd505e9e0fc19e87de43d4920c2b3f3d9626a6a7b6333ca7c1a7142",
+        "examples/merge-conflict.svg": "44bcea217bb4f5385b496315bc60b378382053c24a795c7952f4f6877c7d0249",
+        "examples/slow-build.svg": "e1f13e6b501a895df0a6eb7b2e56b78f8da1a60506aae2cae9341c696d2a12c4",
+        "references/craft.md": "bfc7480c0ca1228ad265f340727a698704f2df558c69f7e3bebf602000ca3430",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "6731a012c853003d2e452718d633f982b51aca70ed354b604843f6d3fc65fe8b",
+        "scripts/ink-kit.mjs": "f88ae5b0e95ab6e9c4479c050e6c23953b2ea5012fd9c9ee9c82e60b5185dbcc",
+        "scripts/lint.mjs": "c7c0dee90b45a5792ceb638208bdc9012d5c2f315e709323fe28b0f56bfa6909",
+        "scripts/render.mjs": "b750840ebb56b2261a8b78695aef065b51ad17e65653d076e892926165e1075b",
+        "style.json": "a087813ecf2a83213dc302a3f0daf2b7748c8c764a738c72f9651bb5500013f9"
+      }
+    },
+    {
+      "name": "illustration-vintage-emblem",
+      "aliases": [],
+      "description": "Draws original hand-authored SVG badge illustrations in a vintage emblem style for design and coding subjects. Identifying traits: a seven-colour screen-print palette (green-black ink, cream, terracotta, sand, tan, pale, a touch of teal) with no gradients; one chunky hero object in thick 3.6 px ink outlines, shaded with woodcut gouges and lit with pale streaks; a terracotta sun disc behind it, cut free by a 7.5 px cream keyline; a hard horizontal edge slicing the scene into a dark splash band with cream droplets punched out; a heavy condensed wordmark over a letterspaced serif tagline. Covers lockups, hero objects, gulls, splash bands and lettering. Use when someone asks for a vintage emblem, retro badge, crest, logo-style, screen-print, poster, sticker, patch or merch-style illustration, or a badge card for a team, event, release, empty state, 404 page, blog header or marketing card.",
+      "category": "界面设计与审美打磨",
+      "path": "skills/illustration-vintage-emblem",
+      "skill_md": "skills/illustration-vintage-emblem/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/illustration-vintage-emblem/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/illustration-vintage-emblem/SKILL.md",
+      "invoke": "$illustration-vintage-emblem",
+      "source_repository": "https://github.com/mengto/skills",
+      "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+      "source_path": "agent-skills/illustration/illustration-vintage-emblem",
+      "external_credentials_mentioned": [],
+      "file_count": 17,
+      "files": {
+        "LICENSE": "b2a071ba22fefd803f4e9d1f5c777dd79c62d191695586a1a73fd4d0ebd051c6",
+        "SKILL.md": "5ff68645e87bc566426e6be809f09f504fcab042ae61ad982f889a1a1dd5fabd",
+        "agents/openai.yaml": "11f626ee87739f420304a307068885a7ce4f821eae312c01bcf791ebc8d8f89b",
+        "demo/PROMPT.md": "d531e99bff2c0e993784e1129364b7c0be891958717837b395d6aeaa95dc3768",
+        "demo/index.html": "4f3a7af6b34630862b0d97febbb6fa3f876d2254f6af6986c241dc32b4d60440",
+        "demo/preview.jpg": "0738fddc07e17c62a8e12b3806d2063a3924201fd74522ca5ed2824d268e46d3",
+        "examples/debug-club.svg": "4cb51a827574ae1bc475b0c7dc83a2f0a304ebea131eabfc1591d54e33ce0eb5",
+        "examples/open-source.svg": "2f76066e0baefaa77c06053a6a0365bd013a51c6dfe14edc92ae94aed2ed6692",
+        "examples/ship-it.svg": "b130a6e0008bd9a4349a6bf1e44f6bb24a538fa58051b6df749640607f4da48e",
+        "references/craft.md": "bfc7480c0ca1228ad265f340727a698704f2df558c69f7e3bebf602000ca3430",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "287314d73c333f2f66e3d133b35f5a76852a7317ec03a0e37bcb1aee9b49b4cd",
+        "scripts/emblem-kit.mjs": "c0ba31271061c5bb7729fda754cbb6d43c1c72d54ada38caa25204c8cdd5c4a8",
+        "scripts/lint.mjs": "c7c0dee90b45a5792ceb638208bdc9012d5c2f315e709323fe28b0f56bfa6909",
+        "scripts/render.mjs": "b750840ebb56b2261a8b78695aef065b51ad17e65653d076e892926165e1075b",
+        "scripts/wordmark.mjs": "92f993cbf26d908e86f34660eeee81ef7f333b713c5417b83ef97fbf94af5229",
+        "style.json": "a8b655fa85a664479c477f31ffcfb2d3932ec226ab513e84cefeabced1a8678f"
+      }
+    },
+    {
       "name": "impeccable",
       "aliases": [],
       "description": "Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md).",
@@ -3840,6 +4156,28 @@
       }
     },
     {
+      "name": "quiet-luxury",
+      "aliases": [],
+      "description": "Genre pack: quiet luxury for premium consumer products, private banking, fashion, high-end SaaS, and personal brands. Ivory and deep ink, one metal or oxblood accent, serif display with italic emphasis, thin rules, generous whitespace, restrained motion. The expensive look comes from calm, not decoration. Stack on the design-taste core skill.",
+      "category": "界面设计与审美打磨",
+      "path": "skills/quiet-luxury",
+      "skill_md": "skills/quiet-luxury/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/quiet-luxury/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/quiet-luxury/SKILL.md",
+      "invoke": "$quiet-luxury",
+      "source_repository": "https://github.com/madebymustafa/design-taste",
+      "source_commit": "c4a6bff0871eb4b15371b0e7d2751628b0ed4608",
+      "source_path": "skills/quiet-luxury",
+      "external_credentials_mentioned": [],
+      "file_count": 4,
+      "files": {
+        "LICENSE": "7a0f09be6768f60fd7c01ecab6af369614c224061ffc76792ef06881493bb4a2",
+        "SKILL.md": "ff32305c3a0def86799629fc65a334ee207d93d589343fc117274a3e21e22d7e",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "f751a0ff584b481a00f4d1c7a051ba42e6fdc8647c59fd1a30bc9504b721917b"
+      }
+    },
+    {
       "name": "redesign-existing-projects",
       "aliases": [],
       "description": "Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.",
@@ -4166,6 +4504,28 @@
         "agents/openai.yaml": "967bdd75721dea9878a6c5c2d4ce6922a18acb648bf029a5d3cbd005fa99f567",
         "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
         "references/upstream.json": "77707ae0e96799cc78b787283cae066188882409055685fa117f34b489833558"
+      }
+    },
+    {
+      "name": "taste-ux-copy",
+      "aliases": [],
+      "description": "UX writing for agent-built interfaces: voice and tone, headline formulas, button labels, microcopy, error messages, empty states, loading text, pricing labels, and inclusive language — with before/after pairs and a copy checklist. Use whenever generating any interface text. Stack on the design-taste core skill.",
+      "category": "界面设计与审美打磨",
+      "path": "skills/taste-ux-copy",
+      "skill_md": "skills/taste-ux-copy/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/taste-ux-copy/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/taste-ux-copy/SKILL.md",
+      "invoke": "$taste-ux-copy",
+      "source_repository": "https://github.com/madebymustafa/design-taste",
+      "source_commit": "c4a6bff0871eb4b15371b0e7d2751628b0ed4608",
+      "source_path": "skills/taste-ux-copy",
+      "external_credentials_mentioned": [],
+      "file_count": 4,
+      "files": {
+        "LICENSE": "7a0f09be6768f60fd7c01ecab6af369614c224061ffc76792ef06881493bb4a2",
+        "SKILL.md": "15d52de027d2d84a4fb5f5b85c14529adb83826d6f9ec3000f572362b3338327",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "58432d25c8e51c45ab78d9d684fee0cf003044a947cd456da0f1fafeb012b5b9"
       }
     },
     {
@@ -4807,6 +5167,35 @@
       }
     },
     {
+      "name": "ui-sound-design",
+      "aliases": [],
+      "description": "Programmatic UI sound design using Web Audio API and Tone.js. Use when creating click sounds, notification chimes, toggle feedback, hover sounds, success/error audio, whoosh effects, or building a sound library for UI interactions. Provides an iterative describe-generate-listen-refine workflow with audio engineering knowledge translated into plain English.",
+      "category": "界面设计与审美打磨",
+      "path": "skills/ui-sound-design",
+      "skill_md": "skills/ui-sound-design/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/ui-sound-design/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/ui-sound-design/SKILL.md",
+      "invoke": "$ui-sound-design",
+      "source_repository": "https://github.com/dannyjpwilliams/ui-sound-design-skill",
+      "source_commit": "6cb4be41a19a5556ffd94f04e641e18b623ac483",
+      "source_path": "skills/ui-sound-design",
+      "external_credentials_mentioned": [],
+      "file_count": 11,
+      "files": {
+        "LICENSE": "c7b8d3aecdd771122880487c018c09a84d05625c1e230bdb116903e319193922",
+        "SKILL.md": "8cd35a2476398c73c6a093dd427959e5b4194c4e048ae242cd5aa19126f495ea",
+        "assets/sound-preview.html": "62de5a7319444da5e8137965a45cade4f585d52ee4598d4a2955130d4ab3fa9f",
+        "references/audio-file-references.md": "1268fe58bca7f1d72524520920b87cf72e32ad1ba5f333ee55b9f17794de3c68",
+        "references/audio-rules.md": "fc090af60524aa7a82a5a2f84f4f6147c2d47ff5452f3d3e8a5f03468d27d4cd",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/sound-recipes.md": "ef3f55cd29aa29f2b6a83e1d0ae9d72575ccd7ed2dc1e2d9f4f68269b179cffc",
+        "references/tone-js.md": "db3c162df90cc281567227fc8f85a25404ef17006326468bfe65fc75e747949d",
+        "references/upstream.json": "342f8a123919cab07cfd536f03ddcc2b6dcb0af596cd63239a757146721f3875",
+        "references/web-audio-api.md": "b08037fc58ccdda158676922825a571672e1c0ea82705f36e3376aac8b504510",
+        "tools/analyze-sound.mjs": "5c7f3800981bebb435cb2d5c6849bb18dab975292c3b049c205994e3e1be7576"
+      }
+    },
+    {
       "name": "ui-states",
       "aliases": [],
       "description": "Design and build the UI states agents forget: first use, empty, loading, error, offline, no results, long content, permission denied and success.",
@@ -5077,6 +5466,28 @@
         "agents/openai.yaml": "66ce5fcd440b7af6a00ede621b96d5aa3e41a491de2ae1cd771bb6cb9f680bc4",
         "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
         "references/upstream.json": "85baa47f0a9357791a2e60b5c4b8bbf83036d867ca136358ba39b154ac3a8af1"
+      }
+    },
+    {
+      "name": "webaudio-guide",
+      "aliases": [],
+      "description": "Step-by-step guide for building Web Audio processing pipelines — AudioWorklet processors, custom nodes, parameter automation, and WebMIDI integration. Use when the user asks how to build or wire up Web Audio code from scratch. Trigger on phrases like \"build an AudioWorklet\", \"create a custom Web Audio effect\", \"how do I use WebMIDI\", \"how do I write an AudioWorkletProcessor\", or \"how do I connect AudioNodes\".",
+      "category": "界面设计与审美打磨",
+      "path": "skills/webaudio-guide",
+      "skill_md": "skills/webaudio-guide/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/webaudio-guide/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/webaudio-guide/SKILL.md",
+      "invoke": "$webaudio-guide",
+      "source_repository": "https://github.com/kunitoki/sonic-skills",
+      "source_commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/webaudio-guide",
+      "external_credentials_mentioned": [],
+      "file_count": 4,
+      "files": {
+        "LICENSE": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e",
+        "SKILL.md": "77d00576de8b61607f50dedab6fc8366d111a8b598553c77e4e8917e1db31814",
+        "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
+        "references/upstream.json": "11e30f0ed18aabd3524eb9c6a8be9443fa1ebf633710448a94d6471a607e90d4"
       }
     },
     {

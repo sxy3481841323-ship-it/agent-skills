@@ -1,0 +1,15 @@
+{
+  "name": "animate-procedural-birds",
+  "source_repository": "https://github.com/mengto/skills",
+  "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+  "source_path": "agent-skills/3d/animate-procedural-birds",
+  "license": "MIT",
+  "original_frontmatter": {
+    "name": "animate-procedural-birds",
+    "description": "Build and animate a small bird in Three.js with a recognizable species silhouette, folding wings, independent head and tail motion, grounded toes and a shadow that holds up in close shots. Use for perching, takeoff, flight and landing in wildlife scenes."
+  },
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+  ]
+}

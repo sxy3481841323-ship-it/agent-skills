@@ -1,0 +1,15 @@
+{
+  "name": "3d-wood-material",
+  "source_repository": "https://github.com/mengto/skills",
+  "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+  "source_path": "agent-skills/3d/3d-wood-material",
+  "license": "MIT",
+  "original_frontmatter": {
+    "name": "3d-wood-material",
+    "description": "Build convincing timber for Three.js as one procedural MeshPhysicalMaterial with growth rings, cathedral figure, pores, medullary rays, checks, tool marks, end grain, and oil, wax, or lacquer finishes, so the grain follows the form and survives macro close-ups without image textures. Use for wood boards, benches, carved panels, tool handles, joinery, floors, and any request to make 3D wood look real, detailed, or less like a tiled photo or plastic."
+  },
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+  ]
+}

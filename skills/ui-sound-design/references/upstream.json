@@ -1,0 +1,20 @@
+{
+  "name": "ui-sound-design",
+  "source_repository": "https://github.com/dannyjpwilliams/ui-sound-design-skill",
+  "source_commit": "6cb4be41a19a5556ffd94f04e641e18b623ac483",
+  "source_path": "skills/ui-sound-design",
+  "license": "MIT",
+  "original_frontmatter": {
+    "name": "ui-sound-design",
+    "description": "Programmatic UI sound design using Web Audio API and Tone.js. Use when creating click sounds, notification chimes, toggle feedback, hover sounds, success/error audio, whoosh effects, or building a sound library for UI interactions. Provides an iterative describe-generate-listen-refine workflow with audio engineering knowledge translated into plain English.",
+    "license": "MIT",
+    "metadata": {
+      "author": "dannyjpwilliams",
+      "version": "1.0"
+    }
+  },
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+  ]
+}

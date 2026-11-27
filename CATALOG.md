@@ -1,6 +1,6 @@
 # 共享技能目录
 
-共 119 项；源文件统一位于 `skills/<name>/`。点击名称读取完整说明，所有配套文件均保存在同一目录。
+共 134 项；源文件统一位于 `skills/<name>/`。点击名称读取完整说明，所有配套文件均保存在同一目录。
 
 如技能需要第三方 API、软件或账号，需在实际使用时单独满足；保存或安装本库不会调用这些服务。
 
@@ -8,7 +8,12 @@
 
 | 技能与调用名 | 用途 |
 | --- | --- |
+| [3d-cloth-material](skills/3d-cloth-material/SKILL.md) · `$3d-cloth-material` | Build convincing woven cloth in Three.js, with a thread-level weave normal map, sheen and anisotropic highlights, folds that never stretch the texture, hems with thickness, stitches, seams, frayed edges, fol… |
+| [3d-harbour-water](skills/3d-harbour-water/SKILL.md) · `$3d-harbour-water` | Build sheltered waterfronts in Three.js with depth-aware reflections of docks and signs, rain rings, boats that ride the swell, and wakes that follow turns. Use for night harbours, canals, urban quays, or a … |
+| [3d-metal-material](skills/3d-metal-material/SKILL.md) · `$3d-metal-material` | Build hyperrealistic PBR metal in Three.js: steel, brass, gold, copper and iron as true conductors (metalness 1, measured F0 tint, no albedo) with roughness-varied finishes (polished, brushed anisotropic, ag… |
+| [3d-ultra-realistic-water](skills/3d-ultra-realistic-water/SKILL.md) · `$3d-ultra-realistic-water` | Build an ultra-realistic open ocean in Three.js with a deep-water Gerstner spectrum shaded per pixel from analytic derivatives, each wave faded at its own pixel footprint, plus Fresnel sky-cube and planar re… |
 | [3d-web-experience](skills/3d-web-experience/SKILL.md) · `$3d-web-experience` | Use when building or debugging web 3D scenes, product configurators or portfolios with Three.js, React Three Fiber or Spline; review assets, loading, controls, fallbacks and performance. |
+| [3d-wood-material](skills/3d-wood-material/SKILL.md) · `$3d-wood-material` | Build convincing timber for Three.js as one procedural MeshPhysicalMaterial with growth rings, cathedral figure, pores, medullary rays, checks, tool marks, end grain, and oil, wax, or lacquer finishes, so th… |
 | [premium-3d-website](skills/premium-3d-website/SKILL.md) · `$premium-3d-website` | Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interactions, smooth animations, preloaders, and device optimization. |
 | [scroll-3d-world](skills/scroll-3d-world/SKILL.md) · `$scroll-3d-world` | Build a scroll-scrubbed Three.js fly-through landing page: one continuous camera path through diorama scenes, with no AI video, no seams and no render credits. |
 | [spline-3d-integration](skills/spline-3d-integration/SKILL.md) · `$spline-3d-integration` | Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API. |
@@ -79,6 +84,7 @@
 | 技能与调用名 | 用途 |
 | --- | --- |
 | [animate](skills/animate/SKILL.md) · `$animate` | Build an animation from scratch, making the decisions in the order that determines whether it feels right — should it animate at all, what purpose, which tool, which properties, which curve and duration, how… |
+| [animate-procedural-birds](skills/animate-procedural-birds/SKILL.md) · `$animate-procedural-birds` | Build and animate a small bird in Three.js with a recognizable species silhouette, folding wings, independent head and tail motion, grounded toes and a shadow that holds up in close shots. Use for perching, … |
 | [animation-performance](skills/animation-performance/SKILL.md) · `$animation-performance` | Keep web animations inside the frame budget — animate composite-only properties, keep motion off the main thread when the page is busy, and find the cause when an animation drops frames. Use when an animatio… |
 | [animation-vocabulary](skills/animation-vocabulary/SKILL.md) · `$animation-vocabulary` | Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term ("the bouncy thing when a popover opens" → Pop in; "the iOS rubber-band scroll" → Rubber-banding… |
 | [animejs-animation](skills/animejs-animation/SKILL.md) · `$animejs-animation` | Advanced JavaScript animation library skill for creating complex, high-performance web animations. |
@@ -97,6 +103,7 @@
 | [anti-slop-design](skills/anti-slop-design/SKILL.md) · `$anti-slop-design` | Autonomous Principal Design Technologist. Cures vibe-coded software from AI frontend slop using curated token archetypes and 7-axis quality gating. |
 | [antialgorithm](skills/antialgorithm/SKILL.md) · `$antialgorithm` | Stops the safe, average, comfortable pick that AI reaches for first. Use when a creative choice is left open to the agent: ideas, names, story, game mechanics, visual style, color, poster or page layout, app… |
 | [antigravity-design-expert](skills/antigravity-design-expert/SKILL.md) · `$antigravity-design-expert` | Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
+| [antislop-copywriting](skills/antislop-copywriting/SKILL.md) · `$antislop-copywriting` | Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns. Load with the core. |
 | [apple-design](skills/apple-design/SKILL.md) · `$apple-design` | Apply Apple-inspired interface and motion principles to gestures, typography, depth, feedback, and accessibility on the web. |
 | [break-ui](skills/break-ui/SKILL.md) · `$break-ui` | Try to break a piece of UI by feeding it worst-case data — long names, unbreakable emails, one-letter names, missing fields, huge counts, zero items, long labels, non-Latin text, emoji, extreme numbers — the… |
 | [build-design](skills/build-design/SKILL.md) · `$build-design` | Builds UI from a Figma file or a design image so it matches the design, using the project's existing tokens and components. |
@@ -114,6 +121,8 @@
 | [figma-designer](skills/figma-designer/SKILL.md) · `$figma-designer` | Create structured Figma screens and libraries with ELAYA spacing, radius, semantic color variables, text styles, auto layout, and component states. |
 | [frontend-design](skills/frontend-design/SKILL.md) · `$frontend-design` | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults. |
 | [high-end-visual-design](skills/high-end-visual-design/SKILL.md) · `$high-end-visual-design` | Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions. |
+| [illustration-ink-sketch](skills/illustration-ink-sketch/SKILL.md) · `$illustration-ink-sketch` | Draws hand-inked cartoon critters and living objects as SVG cards (480x360), each acting out a coding or design idea. Identified by thick black brush-pen outlines that swell and taper and break into separate… |
+| [illustration-vintage-emblem](skills/illustration-vintage-emblem/SKILL.md) · `$illustration-vintage-emblem` | Draws original hand-authored SVG badge illustrations in a vintage emblem style for design and coding subjects. Identifying traits: a seven-colour screen-print palette (green-black ink, cream, terracotta, san… |
 | [impeccable](skills/impeccable/SKILL.md) · `$impeccable` | Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md). |
 | [interactive-portfolio](skills/interactive-portfolio/SKILL.md) · `$interactive-portfolio` | Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, designer portfolios, creative portfolios, and portf… |
 | [interface-design](skills/interface-design/SKILL.md) · `$interface-design` | Craft-first interface design for dashboards, admin panels, SaaS apps, tools, settings pages, data interfaces, and interactive products. Use when designing, building, reviewing, auditing, or refining product … |
@@ -121,17 +130,21 @@
 | [learn-taste](skills/learn-taste/SKILL.md) · `$learn-taste` | Turn a session's design corrections into rules, with their why, in DESIGN.md, a project skill, or a lint check. |
 | [mobile-design](skills/mobile-design/SKILL.md) · `$mobile-design` | Design and review iOS, Android, React Native or Flutter interfaces for touch, accessibility, navigation, offline behavior and measured performance. Use for mobile app UI work; not a mobile compliance certifi… |
 | [mobile-native](skills/mobile-native/SKILL.md) · `$mobile-native` | Make a web app feel native on a phone — the small CSS and meta-tag fixes that separate "a website in a browser" from something that feels installed. Covers sticky hover states, tap highlight flashes, the 100… |
+| [quiet-luxury](skills/quiet-luxury/SKILL.md) · `$quiet-luxury` | Genre pack: quiet luxury for premium consumer products, private banking, fashion, high-end SaaS, and personal brands. Ivory and deep ink, one metal or oxblood accent, serif display with italic emphasis, thin… |
 | [redesign-existing-projects](skills/redesign-existing-projects/SKILL.md) · `$redesign-existing-projects` | Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites. |
 | [slack-gif-creator](skills/slack-gif-creator/SKILL.md) · `$slack-gif-creator` | Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like "make me a GIF of X… |
 | [stitch-design-taste](skills/stitch-design-taste/SKILL.md) · `$stitch-design-taste` | Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules. |
 | [stitch-ui-design](skills/stitch-ui-design/SKILL.md) · `$stitch-ui-design` | Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for we… |
 | [styleseed-design-review](skills/styleseed-design-review/SKILL.md) · `$styleseed-design-review` | Reviews UI/frontend code and tells you exactly why it "looks AI-generated" — then how to fix it. |
+| [taste-ux-copy](skills/taste-ux-copy/SKILL.md) · `$taste-ux-copy` | UX writing for agent-built interfaces: voice and tone, headline formulas, button labels, microcopy, error messages, empty states, loading text, pricing labels, and inclusive language — with before/after pair… |
 | [ui-design](skills/ui-design/SKILL.md) · `$ui-design` | Mandatory for any product's screens, a builder's too, and any mock, prototype or artifact that shows them: its design system, colour, type, components; judging the look. |
 | [ui-from-screenshot](skills/ui-from-screenshot/SKILL.md) · `$ui-from-screenshot` | Turn a screenshot or mockup into matching UI with the project's own components, then compare the result side by side with the image and fix the differences. |
+| [ui-sound-design](skills/ui-sound-design/SKILL.md) · `$ui-sound-design` | Programmatic UI sound design using Web Audio API and Tone.js. Use when creating click sounds, notification chimes, toggle feedback, hover sounds, success/error audio, whoosh effects, or building a sound libr… |
 | [ui-states](skills/ui-states/SKILL.md) · `$ui-states` | Design and build the UI states agents forget: first use, empty, loading, error, offline, no results, long content, permission denied and success. |
 | [ui-ux-designer](skills/ui-ux-designer/SKILL.md) · `$ui-ux-designer` | Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools. |
 | [ui-ux-pro-max](skills/ui-ux-pro-max/SKILL.md) · `$ui-ux-pro-max` | UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, intera… |
 | [web-design-system](skills/web-design-system/SKILL.md) · `$web-design-system` | Choose a design direction for a website from real sites and write it down as a DESIGN.md: colors with roles, type, spacing, radius, shadows and components, in light and dark. |
+| [webaudio-guide](skills/webaudio-guide/SKILL.md) · `$webaudio-guide` | Step-by-step guide for building Web Audio processing pipelines — AudioWorklet processors, custom nodes, parameter automation, and WebMIDI integration. Use when the user asks how to build or wire up Web Audio… |
 | [write-design-md](skills/write-design-md/SKILL.md) · `$write-design-md` | Write or update a project's DESIGN.md from the colors, type, spacing and components it really uses, with rules agents follow so new screens match. |
 
 ## 游戏玩法、镜头与声效
@@ -139,6 +152,8 @@
 | 技能与调用名 | 用途 |
 | --- | --- |
 | [audio-design](skills/audio-design/SKILL.md) · `$audio-design` | Engine-neutral game audio technique: bus layout, volume sliders in decibels, loudness, ducking music under dialogue, adaptive music and SFX variation, with Godot, Unity and FMOD/Wwise mappings. Use when mixi… |
+| [build-game-audio-feedback](skills/build-game-audio-feedback/SKILL.md) · `$build-game-audio-feedback` | Design or implement responsive audio feedback for a Three.js or web game. Use for action sounds, combat layers, music states, spatial audio, mix priorities, mute controls, accessibility, mobile audio unlock,… |
+| [build-ultra-realistic-game-interiors](skills/build-ultra-realistic-game-interiors/SKILL.md) · `$build-ultra-realistic-game-interiors` | Build or refine photoreal, walkable first-person interiors in Three.js. Use for the worn cyberpunk look of Nocturne Hotel, for rooms that lose realism when the camera moves, or for a reference-matched 9/10 p… |
 | [camera-systems](skills/camera-systems/SKILL.md) · `$camera-systems` | Builds and tunes game cameras, engine-neutral with Godot and Cinemachine 3 mappings: 2D follow with deadzone and look-ahead, third-person orbit, first-person look and split-screen. Use when the camera lags, … |
 | [dialogue-systems](skills/dialogue-systems/SKILL.md) · `$dialogue-systems` | Builds engine-neutral branching dialogue with Ink, Yarn Spinner or a small JSON graph runner: lines, choices, conditions, variables and localization IDs. Use for NPC conversations, dialogue trees, barks, .in… |
 | [game-development](skills/game-development/SKILL.md) · `$game-development` | Game development orchestrator. Routes by platform, dimension, and engine fit (web 2D/3D, hybrid DOM+canvas, narrative tools). Use when starting or structuring a game project, choosing frameworks, or picking … |

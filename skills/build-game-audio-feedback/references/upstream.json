@@ -1,0 +1,15 @@
+{
+  "name": "build-game-audio-feedback",
+  "source_repository": "https://github.com/mengto/skills",
+  "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+  "source_path": "agent-skills/game-development/build-game-audio-feedback",
+  "license": "MIT",
+  "original_frontmatter": {
+    "name": "build-game-audio-feedback",
+    "description": "Design or implement responsive audio feedback for a Three.js or web game. Use for action sounds, combat layers, music states, spatial audio, mix priorities, mute controls, accessibility, mobile audio unlock, and audio performance."
+  },
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+  ]
+}

@@ -4913,5 +4913,256 @@
     "source_commit": null,
     "source_path": "skills/shared-creative-skills",
     "source_type": "original library router"
+  },
+  {
+    "name": "3d-cloth-material",
+    "source_repository": "https://github.com/mengto/skills",
+    "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+    "source_path": "agent-skills/3d/3d-cloth-material",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "3d-cloth-material",
+      "description": "Build convincing woven cloth in Three.js, with a thread-level weave normal map, sheen and anisotropic highlights, folds that never stretch the texture, hems with thickness, stitches, seams, frayed edges, fold occlusion, dye and wear variation, and light passing through thin fabric. Use for linen, silk, wool, canvas, curtains, banners, cloaks, tablecloths, tapestries or any 3D drape that currently looks like a plastic sheet, a stretched texture, or a flat coloured plane."
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "3d-harbour-water",
+    "source_repository": "https://github.com/mengto/skills",
+    "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+    "source_path": "agent-skills/3d/3d-harbour-water",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "3d-harbour-water",
+      "description": "Build sheltered waterfronts in Three.js with depth-aware reflections of docks and signs, rain rings, boats that ride the swell, and wakes that follow turns. Use for night harbours, canals, urban quays, or a game boat whose reflection slides away from the hull."
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "3d-metal-material",
+    "source_repository": "https://github.com/mengto/skills",
+    "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+    "source_path": "agent-skills/3d/3d-metal-material",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "3d-metal-material",
+      "description": "Build hyperrealistic PBR metal in Three.js: steel, brass, gold, copper and iron as true conductors (metalness 1, measured F0 tint, no albedo) with roughness-varied finishes (polished, brushed anisotropic, aged with patina and worn edges) lit by a dark HDR studio of real bright window cards prefiltered with PMREM. Use when metal looks like grey plastic, a dull blur, or a black hole; when blades, tools, rings, ingots, hardware or product metal need reflections with edges and structure; or when a finish needs scratches, streaks, fingerprints and bevels that catch light."
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "3d-ultra-realistic-water",
+    "source_repository": "https://github.com/mengto/skills",
+    "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+    "source_path": "agent-skills/3d/3d-ultra-realistic-water",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "3d-ultra-realistic-water",
+      "description": "Build an ultra-realistic open ocean in Three.js with a deep-water Gerstner spectrum shaded per pixel from analytic derivatives, each wave faded at its own pixel footprint, plus Fresnel sky-cube and planar reflections, subsurface light through the crests, HDR sun glitter, Jacobian lace foam, a Kelvin wake, hull foam, buoyancy queries and aerial perspective into the sky's horizon haze. Use for shallow creeks, water around rocks, seas, oceans, sunset or daylight water, sun glitter paths, ship or boat scenes, wakes, coastal flyovers and any 3D scene with a moving camera and a water horizon. Includes the approved water from Pirate Ship Sunset as a reusable module and demo."
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "3d-wood-material",
+    "source_repository": "https://github.com/mengto/skills",
+    "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+    "source_path": "agent-skills/3d/3d-wood-material",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "3d-wood-material",
+      "description": "Build convincing timber for Three.js as one procedural MeshPhysicalMaterial with growth rings, cathedral figure, pores, medullary rays, checks, tool marks, end grain, and oil, wax, or lacquer finishes, so the grain follows the form and survives macro close-ups without image textures. Use for wood boards, benches, carved panels, tool handles, joinery, floors, and any request to make 3D wood look real, detailed, or less like a tiled photo or plastic."
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "animate-procedural-birds",
+    "source_repository": "https://github.com/mengto/skills",
+    "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+    "source_path": "agent-skills/3d/animate-procedural-birds",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "animate-procedural-birds",
+      "description": "Build and animate a small bird in Three.js with a recognizable species silhouette, folding wings, independent head and tail motion, grounded toes and a shadow that holds up in close shots. Use for perching, takeoff, flight and landing in wildlife scenes."
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "antislop-copywriting",
+    "source_repository": "https://github.com/miqdadbadjuber/anti-slop",
+    "source_commit": "f07c57244fdb1bda0727bee49614cfc159899a09",
+    "source_path": "skills/antislop-copywriting",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "antislop-copywriting",
+      "description": "Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns. Load with the core.",
+      "allowed-tools": "Read, Write, Edit, Glob, Grep"
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "build-game-audio-feedback",
+    "source_repository": "https://github.com/mengto/skills",
+    "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+    "source_path": "agent-skills/game-development/build-game-audio-feedback",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "build-game-audio-feedback",
+      "description": "Design or implement responsive audio feedback for a Three.js or web game. Use for action sounds, combat layers, music states, spatial audio, mix priorities, mute controls, accessibility, mobile audio unlock, and audio performance."
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "build-ultra-realistic-game-interiors",
+    "source_repository": "https://github.com/mengto/skills",
+    "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+    "source_path": "agent-skills/game-development/build-ultra-realistic-game-interiors",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "build-ultra-realistic-game-interiors",
+      "description": "Build or refine photoreal, walkable first-person interiors in Three.js. Use for the worn cyberpunk look of Nocturne Hotel, for rooms that lose realism when the camera moves, or for a reference-matched 9/10 pass on room lighting, materials and in-game interactions."
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "illustration-ink-sketch",
+    "source_repository": "https://github.com/mengto/skills",
+    "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+    "source_path": "agent-skills/illustration/illustration-ink-sketch",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "illustration-ink-sketch",
+      "description": "Draws hand-inked cartoon critters and living objects as SVG cards (480x360), each acting out a coding or design idea. Identified by thick black brush-pen outlines that swell and taper and break into separate strokes, loose marker-and-watercolour fills that slip past the line, diagonal hatching instead of solid shadow, huge googly eyes with two specular dots, and stray ink hairs and flecks, in tomato red, leaf green, sunflower yellow, sky blue and teal on white. Covers palette, brush numbers, mascot construction (eyes, blush, mouths, 3-finger hands), props, ground patches and a tested, seeded brush kit. Use when asked for ink sketch, hand-drawn, brush pen, sketchy, doodle, marker or watercolour-cartoon illustrations, googly-eyed mascots or critters, playful empty states, onboarding, 404 or error pages, loading states, blog headers, feature spots or marketing cards."
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "illustration-vintage-emblem",
+    "source_repository": "https://github.com/mengto/skills",
+    "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+    "source_path": "agent-skills/illustration/illustration-vintage-emblem",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "illustration-vintage-emblem",
+      "description": "Draws original hand-authored SVG badge illustrations in a vintage emblem style for design and coding subjects. Identifying traits: a seven-colour screen-print palette (green-black ink, cream, terracotta, sand, tan, pale, a touch of teal) with no gradients; one chunky hero object in thick 3.6 px ink outlines, shaded with woodcut gouges and lit with pale streaks; a terracotta sun disc behind it, cut free by a 7.5 px cream keyline; a hard horizontal edge slicing the scene into a dark splash band with cream droplets punched out; a heavy condensed wordmark over a letterspaced serif tagline. Covers lockups, hero objects, gulls, splash bands and lettering. Use when someone asks for a vintage emblem, retro badge, crest, logo-style, screen-print, poster, sticker, patch or merch-style illustration, or a badge card for a team, event, release, empty state, 404 page, blog header or marketing card."
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "quiet-luxury",
+    "source_repository": "https://github.com/madebymustafa/design-taste",
+    "source_commit": "c4a6bff0871eb4b15371b0e7d2751628b0ed4608",
+    "source_path": "skills/quiet-luxury",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "quiet-luxury",
+      "description": "Genre pack: quiet luxury for premium consumer products, private banking, fashion, high-end SaaS, and personal brands. Ivory and deep ink, one metal or oxblood accent, serif display with italic emphasis, thin rules, generous whitespace, restrained motion. The expensive look comes from calm, not decoration. Stack on the design-taste core skill.",
+      "triggers": [
+        "luxury",
+        "premium consumer",
+        "high end",
+        "fashion",
+        "private banking",
+        "expensive",
+        "refined",
+        "elegant"
+      ]
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "taste-ux-copy",
+    "source_repository": "https://github.com/madebymustafa/design-taste",
+    "source_commit": "c4a6bff0871eb4b15371b0e7d2751628b0ed4608",
+    "source_path": "skills/taste-ux-copy",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "taste-ux-copy",
+      "description": "UX writing for agent-built interfaces: voice and tone, headline formulas, button labels, microcopy, error messages, empty states, loading text, pricing labels, and inclusive language — with before/after pairs and a copy checklist. Use whenever generating any interface text. Stack on the design-taste core skill.",
+      "triggers": [
+        "copywriting",
+        "microcopy",
+        "ux writing",
+        "headline",
+        "button text",
+        "error message",
+        "empty state",
+        "voice and tone"
+      ]
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "ui-sound-design",
+    "source_repository": "https://github.com/dannyjpwilliams/ui-sound-design-skill",
+    "source_commit": "6cb4be41a19a5556ffd94f04e641e18b623ac483",
+    "source_path": "skills/ui-sound-design",
+    "license": "MIT",
+    "original_frontmatter": {
+      "name": "ui-sound-design",
+      "description": "Programmatic UI sound design using Web Audio API and Tone.js. Use when creating click sounds, notification chimes, toggle feedback, hover sounds, success/error audio, whoosh effects, or building a sound library for UI interactions. Provides an iterative describe-generate-listen-refine workflow with audio engineering knowledge translated into plain English.",
+      "license": "MIT",
+      "metadata": {
+        "author": "dannyjpwilliams",
+        "version": "1.0"
+      }
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
+  },
+  {
+    "name": "webaudio-guide",
+    "source_repository": "https://github.com/kunitoki/sonic-skills",
+    "source_commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+    "source_path": "skills/webaudio-guide",
+    "license": "Unlicense",
+    "original_frontmatter": {
+      "name": "webaudio-guide",
+      "description": "Step-by-step guide for building Web Audio processing pipelines — AudioWorklet processors, custom nodes, parameter automation, and WebMIDI integration. Use when the user asks how to build or wire up Web Audio code from scratch. Trigger on phrases like \"build an AudioWorklet\", \"create a custom Web Audio effect\", \"how do I use WebMIDI\", \"how do I write an AudioWorkletProcessor\", or \"how do I connect AudioNodes\"."
+    },
+    "collection_adaptations": [
+      "Normalized portable frontmatter; retained original metadata here",
+      "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+    ]
   }
 ]

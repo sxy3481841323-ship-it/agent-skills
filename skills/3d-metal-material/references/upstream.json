@@ -1,0 +1,15 @@
+{
+  "name": "3d-metal-material",
+  "source_repository": "https://github.com/mengto/skills",
+  "source_commit": "3a8517e09e9a258a8b8a1dfdb71579abe75f1c22",
+  "source_path": "agent-skills/3d/3d-metal-material",
+  "license": "MIT",
+  "original_frontmatter": {
+    "name": "3d-metal-material",
+    "description": "Build hyperrealistic PBR metal in Three.js: steel, brass, gold, copper and iron as true conductors (metalness 1, measured F0 tint, no albedo) with roughness-varied finishes (polished, brushed anisotropic, aged with patina and worn edges) lit by a dark HDR studio of real bright window cards prefiltered with PMREM. Use when metal looks like grey plastic, a dull blur, or a black hole; when blades, tools, rings, ingots, hardware or product metal need reflections with edges and structure; or when a finish needs scratches, streaks, fingerprints and bevels that catch light."
+  },
+  "collection_adaptations": [
+    "Normalized portable frontmatter; retained original metadata here",
+    "Added shared client policy, upstream license, and invocation metadata; kept bundled resources"
+  ]
+}
