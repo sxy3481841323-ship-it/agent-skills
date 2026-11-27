@@ -1,6 +1,6 @@
 # 共享技能目录
 
-共 134 项；源文件统一位于 `skills/<name>/`。点击名称读取完整说明，所有配套文件均保存在同一目录。
+共 137 项；源文件统一位于 `skills/<name>/`。点击名称读取完整说明，所有配套文件均保存在同一目录。
 
 如技能需要第三方 API、软件或账号，需在实际使用时单独满足；保存或安装本库不会调用这些服务。
 
@@ -105,9 +105,11 @@
 | [antigravity-design-expert](skills/antigravity-design-expert/SKILL.md) · `$antigravity-design-expert` | Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS. |
 | [antislop-copywriting](skills/antislop-copywriting/SKILL.md) · `$antislop-copywriting` | Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns. Load with the core. |
 | [apple-design](skills/apple-design/SKILL.md) · `$apple-design` | Apply Apple-inspired interface and motion principles to gestures, typography, depth, feedback, and accessibility on the web. |
+| [apple-oldmoney-dual-style](skills/apple-oldmoney-dual-style/SKILL.md) · `$apple-oldmoney-dual-style` | Dual-aesthetic UI & 3D spatial standard combining Old-Money architectural quiet luxury (tactile limewash/limestone boiserie, fluted walnut, Roman travertine, hand-knotted bordered silk-wool rugs, warm brass … |
 | [break-ui](skills/break-ui/SKILL.md) · `$break-ui` | Try to break a piece of UI by feeding it worst-case data — long names, unbreakable emails, one-letter names, missing fields, huge counts, zero items, long labels, non-Latin text, emoji, extreme numbers — the… |
 | [build-design](skills/build-design/SKILL.md) · `$build-design` | Builds UI from a Figma file or a design image so it matches the design, using the project's existing tokens and components. |
 | [ckw-design](skills/ckw-design/SKILL.md) · `$ckw-design` | Frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says "m… |
+| [deepseek-collab](skills/deepseek-collab/SKILL.md) · `$deepseek-collab` | High-leverage dual-brain orchestration pattern for pairing Antigravity/Codex with DeepSeek ('与ds合作', '调用ds', '和ds思考', '用DeepSeek并发'). Never underestimate DeepSeek's 3D/math/texture/copy capability: reserve t… |
 | [design-it](skills/design-it/SKILL.md) · `$design-it` | Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI components requesting a specific aesthetic. |
 | [design-md](skills/design-md/SKILL.md) · `$design-md` | Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files |
 | [design-orchestration](skills/design-orchestration/SKILL.md) · `$design-orchestration` | Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order. |
@@ -133,6 +135,7 @@
 | [quiet-luxury](skills/quiet-luxury/SKILL.md) · `$quiet-luxury` | Genre pack: quiet luxury for premium consumer products, private banking, fashion, high-end SaaS, and personal brands. Ivory and deep ink, one metal or oxblood accent, serif display with italic emphasis, thin… |
 | [redesign-existing-projects](skills/redesign-existing-projects/SKILL.md) · `$redesign-existing-projects` | Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites. |
 | [slack-gif-creator](skills/slack-gif-creator/SKILL.md) · `$slack-gif-creator` | Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like "make me a GIF of X… |
+| [sleep-shift-autopilot](skills/sleep-shift-autopilot/SKILL.md) · `$sleep-shift-autopilot` | Autonomous overnight & away-from-keyboard execution workflow. Trigger immediately whenever the user says they are going to sleep ('我睡觉了', '去睡了', '先睡了', '睡醒汇报', 'going to sleep') alongside pre-sleep requests.… |
 | [stitch-design-taste](skills/stitch-design-taste/SKILL.md) · `$stitch-design-taste` | Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules. |
 | [stitch-ui-design](skills/stitch-ui-design/SKILL.md) · `$stitch-ui-design` | Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for we… |
 | [styleseed-design-review](skills/styleseed-design-review/SKILL.md) · `$styleseed-design-review` | Reviews UI/frontend code and tells you exactly why it "looks AI-generated" — then how to fix it. |

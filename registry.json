@@ -2,13 +2,13 @@
   "schema_version": 1,
   "repository": "https://github.com/sxy3481841323-ship-it/agent-skills",
   "skills_root": "skills",
-  "total": 134,
+  "total": 137,
   "categories": {
     "3D、材质与交互场景": 28,
     "创意发散与产品构思": 13,
     "视觉艺术、品牌与演示": 19,
     "动效、手势与空间叙事": 12,
-    "界面设计与审美打磨": 46,
+    "界面设计与审美打磨": 49,
     "游戏玩法、镜头与声效": 16
   },
   "download_zip": "https://github.com/sxy3481841323-ship-it/agent-skills/archive/refs/heads/main.zip",
@@ -495,6 +495,25 @@
         "agents/openai.yaml": "74de4152aebb70a8e48048f065a40ab7eb39e5748a8f5bdbdf3d3be810e8e7cf",
         "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
         "references/upstream.json": "5e40b61fe89e89fdd4c195c877d0fac8591a4fe86f9e524a66c94471137ac6f0"
+      }
+    },
+    {
+      "name": "apple-oldmoney-dual-style",
+      "aliases": [],
+      "description": "Dual-aesthetic UI & 3D spatial standard combining Old-Money architectural quiet luxury (tactile limewash/limestone boiserie, fluted walnut, Roman travertine, hand-knotted bordered silk-wool rugs, warm brass hardware—ZERO blank white walls) with Apple fluid minimalism (smoked/warm translucent vibrancy, tabular numerals, tactile spring feedback, clean typography, quiet hardware chrome). Use when designing or upgrading 3D interiors, foyers, HUDs, or flagship web apps that forbid generic white-box minimalism.",
+      "category": "界面设计与审美打磨",
+      "path": "skills/apple-oldmoney-dual-style",
+      "skill_md": "skills/apple-oldmoney-dual-style/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/apple-oldmoney-dual-style/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/apple-oldmoney-dual-style/SKILL.md",
+      "invoke": "$apple-oldmoney-dual-style",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "external_credentials_mentioned": [],
+      "file_count": 1,
+      "files": {
+        "SKILL.md": "46537bcb11424cb4b19bb92455ab9a7c0526602169c78388c1164a1c17052db8"
       }
     },
     {
@@ -998,6 +1017,26 @@
         "agents/openai.yaml": "5c11c98e3f4dd4fc2215e152de21a578ac808c5a6288e910c8257f636e9acdf3",
         "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
         "references/upstream.json": "b2f834f324b655205e56f59192dac9dc0c9f181898ff9a6c5aab78b3522585ff"
+      }
+    },
+    {
+      "name": "deepseek-collab",
+      "aliases": [],
+      "description": "High-leverage dual-brain orchestration pattern for pairing Antigravity/Codex with DeepSeek ('与ds合作', '调用ds', '和ds思考', '用DeepSeek并发'). Never underestimate DeepSeek's 3D/math/texture/copy capability: reserve the main model (~20%) for spatial architecture, contracts, integration, and real visual inspection, while dispatching ~80% of parallel heavy procedural textures, 3D modules, GLSL shaders, splines, CSS, and copywriting to DeepSeek via automated retry verification.",
+      "category": "界面设计与审美打磨",
+      "path": "skills/deepseek-collab",
+      "skill_md": "skills/deepseek-collab/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/deepseek-collab/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/deepseek-collab/SKILL.md",
+      "invoke": "$deepseek-collab",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "external_credentials_mentioned": [],
+      "file_count": 2,
+      "files": {
+        "SKILL.md": "823f931a76018ac5cbb55e5d8c00ed4baaeb59b16ce7f3eb13a2661c02b2b53b",
+        "references/prompt-contract-checklist.md": "2ec076656f9bbce7fcf0219146d01c0709430fe8dcbe2a990e2a56166489f27f"
       }
     },
     {
@@ -4397,6 +4436,26 @@
         "references/shared-policy.md": "9724307cf38b53808d022e6dfbba2bc3f733e06b5a01c26359ed57017d3b6a34",
         "references/upstream.json": "67aaeac7be6026906805bd252574f623fc4619ddebc8206d26a034bc066e18ff",
         "requirements.txt": "989220df528da3904d7122b6865592e655e53bf5bb8a6c1646797819a4420475"
+      }
+    },
+    {
+      "name": "sleep-shift-autopilot",
+      "aliases": [],
+      "description": "Autonomous overnight & away-from-keyboard execution workflow. Trigger immediately whenever the user says they are going to sleep ('我睡觉了', '去睡了', '先睡了', '睡醒汇报', 'going to sleep') alongside pre-sleep requests. Enforces: zero blocking questions while the user sleeps, immediate execution of all unambiguous tasks, deferral of genuine product/destructive forks to a morning sign-off section, proactive execution of 2-3 self-assigned style-aligned polish & delight tasks after assigned work completes, full technical + visual verification, clean Git commits, and a structured morning wake-up report.",
+      "category": "界面设计与审美打磨",
+      "path": "skills/sleep-shift-autopilot",
+      "skill_md": "skills/sleep-shift-autopilot/SKILL.md",
+      "read_url": "https://github.com/sxy3481841323-ship-it/agent-skills/blob/main/skills/sleep-shift-autopilot/SKILL.md",
+      "raw_url": "https://raw.githubusercontent.com/sxy3481841323-ship-it/agent-skills/main/skills/sleep-shift-autopilot/SKILL.md",
+      "invoke": "$sleep-shift-autopilot",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "external_credentials_mentioned": [],
+      "file_count": 2,
+      "files": {
+        "SKILL.md": "e56095266378988144da59bade0ceb3e55f3aa240d25f464a28717fc88fbc372",
+        "references/morning-report-template.md": "4fb2df62ce25c030f9625b14cea887dbcac91c125289bbee4b3a31bfe5fed670"
       }
     },
     {
